@@ -1,0 +1,895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>[Le blog de Théo Makarios]  Liste des derniers articles parus sur theo-makarios</title>
+
+
+
+    		<meta name="description" content="L'actualité de l'Histoire vue par Théo Makarios, historien médiéviste et épigraphiste." />
+  
+
+  	<meta name="keywords" content="professeur histoire, moyen age, renaissance, antiquite, medieval, medieviste, epigraphiste"  />
+
+
+  <meta name="robots" content="index,follow" />
+  <meta http-equiv="language" content="fr" />
+  <link rel="alternate" type="application/rdf+xml" title="[Le blog de Théo Makarios]  Liste des derniers articles parus sur theo-makarios RSS" href="http://www.theo-makarios.info/index.rdf" />
+  <link rel="alternate" type="application/atom+xml" title="[Le blog de Théo Makarios]  Liste des derniers articles parus sur theo-makarios ATOM" href="http://www.theo-makarios.info/atom.php" />
+  <link rel="alternate" type="application/rss+xml" title="[Le blog de Théo Makarios]  Liste des derniers articles parus sur theo-makarios RSS2" href="http://www.theo-makarios.info/rss2.php" />
+  <link rel="stylesheet" type="text/css" href="http://fdata.over-blog.com/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="http://fdata.over-blog.com/0/04/08/20/css/custom.css" />
+
+<script src="http://fdata.over-blog.com/script/form-inc.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--<div style="margin:0px; width:100%; background-color:#FFCC99; display:block; ">
+				<img src="pics/share/bulle_petit.gif" alt="" style="position:absolute; top:0px; left:0px;" />
+				<a href="inscription.php?nomDomaine2=&idP=" style="float:right; margin-right:5px; background-color:transparent; display:inline; text-decoration:none;">Créez votre blog gratuit</a>
+				<a href="http://www./index.php" style="margin-top:3px; margin-left:20px; display:inline; background-color:transparent; text-decoration:none;">www.</a>
+</div>-->
+
+<script type="text/javascript">
+var tetra;
+var staticItemCount=0;
+function StartTetra() {
+   var doc;
+   var url='sms-1200555440.xml';
+   if (document.getElementById) {
+      var doc=document.getElementById('tetracase');
+      if ((browser<1)||(!doc.innerHTML)) url='';
+      if (url.length||staticItemCount) {
+         tetra=TetraMakeConf('tetra',url,1,staticItemCount,699,699,22,'R2L',5,5,10,25);
+         TetraStart('tetra');
+      }
+   }
+}
+</script>
+
+
+<div id="centrePage">
+	<div id="global">
+		<div id="header"><div id="top"><script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA-JbMqOD-pmY3adzc-520UxQD-xtCgZ_UdKt-ExHy5raXsnlHwxTxq43PaFoh7rhP7PZQDSJq9QrXeQ"></script> <script type="text/javascript" src="http://ddata.over-blog.com/xxxyyy/0/04/08/20/gmlightbox.js"></script> <script type="text/javascript" src="http://ddata.over-blog.com/xxxyyy/0/04/08/20/lightbox.js"></script> <script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;option=invisible"></script> <script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;data=today&amp;option=invisible"></script> <script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;data=live&amp;option=invisible"></script> <script type="text/javascript">
+<!--
+	time=new Date();
+	var Mois=time.getMonth() + 1;
+	var Jour=time.getDate();
+	var An=time.getFullYear();
+	TabMois = new Array("Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre");
+	message = Jour + " " + TabMois[Mois - 1] + " " + An;
+function Ephemeride() {
+	Mois += ""
+ 	Jour += ""
+	if (Mois.length != 2) Mois = "0" + Mois
+	if (Jour.length != 2) Jour = "0" + Jour
+	window.open("http://www.france-pittoresque.com/almanach/almanach2/" + Jour + Mois + ".htm", "", "scrollbars,resizable,width=340,height=400")
+}
+//-->
+</script>
+<div id="travaux">&nbsp;</div>
+<div align="center">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tbody>
+        <tr>
+            <td width="218" style="border-style: solid; border-color: rgb(255, 255, 255) rgb(242, 233, 222) rgb(242, 233, 222) rgb(255, 255, 255); border-width: 2px; background-color: rgb(255, 255, 255); background-image: url(http://idata.over-blog.com/0/04/08/20/blog/fondd.gif); vertical-align: top;">
+            <div style="padding: 0px; text-align: center; font-variant: small-caps;">
+            <h2 style="margin: 10px;">L'&eacute;ph&eacute;m&eacute;ride</h2>
+            <h3 style="border: 1px solid rgb(242, 233, 222); margin: 3px 15px; padding: 2px; letter-spacing: 2px; background-color: rgb(255, 255, 255);">               <script type="text/javascript">
+              <!--
+                document.write(message);
+              //-->
+              </script><noscript>[Javascript]</noscript>               </h3>
+            </div>
+            <div class="box-content" style="text-align: left;">
+            <ul>
+                <li><a href="#" onclick="javascript:Ephemeride();">&Eacute;v&egrave;nements du jour (pop-up)</a></li>
+            </ul>
+            </div>
+            <div style="text-align: center; color: rgb(166, 121, 55);"><a href="http://www.france-pittoresque.com/"><img width="18" height="18" alt="La France pittoresque" src="http://idata.over-blog.com/0/04/08/20/blog/carte.gif" /></a></div>
+            </td>
+            <td id="cellule">             <object width="360" height="42" type="application/x-shockwave-flash" data="http://ddata.over-blog.com/xxxyyy/0/04/08/20/titre.swf">
+            <param name="movie" value="http://ddata.over-blog.com/xxxyyy/0/04/08/20/titre.swf" />
+            <param name="wmode" value="transparent" />
+            <p style="color: rgb(255, 0, 0); font-weight: bold; margin-bottom: 10px;">[Flash]</p>
+            </object>
+            <ul>
+                <li class="boutonTitre"><a href="http://theo-makarios.over-blog.com/"><span>Accueil</span></a></li>
+                <li class="boutonTitre"><a href="http://www.theo-makarios.info/liste-article-blog.php"><span>Articles</span></a></li>
+                <li class="boutonTitre"><a href="http://www.theo-makarios.info/article-370397-6.html"><span>Livre&nbsp;d'or</span></a></li>
+                <li class="boutonTitre"><a href="mailto:theo.makarios@wanadoo.fr"><span>Contact</span></a></li>
+                <li class="boutonTitre"><a href="http://www.theo-makarios.info/article-7287058.html"><span>Aide</span></a></li>
+            </ul>
+            </td>
+            <td width="218" id="cellule2"><img width="82" height="81" alt="Théo" src="http://idata.over-blog.com/0/04/08/20/blog/theo.png" /><br /> <script type="text/javascript">
+<!--
+
+var ad1 = "http://translate.google.com/translate?u=";
+var URL = location.href;
+var ad2 = "&langpair=fr|";
+var ad3 = "&hl=fr&ie=UTF-8";
+
+document.write( "<a href='"+ad1+URL+ad2+"en"+ad3+"' target=_top>" );
+document.write( "<img src='http://idata.over-blog.com/0/04/08/20/blog/uk1.png' width=32 height=21 alt=English title=English></a>" );
+document.write( "<a href='"+ad1+URL+ad2+"de"+ad3+"' target=_top>" );
+document.write( "<img src='http://idata.over-blog.com/0/04/08/20/blog/de2.png' width=32 height=21 alt=Deutsch title=Deutsch></a>" );
+
+//-->
+</script>  <noscript>[Javascript]</noscript></td>
+        </tr>
+    </tbody>
+</table>
+<script language="javascript" type="text/javascript">
+//<!--
+document.title = "Le blog de Théo Makarios : un certain regard sur l'actualité de l'Histoire";
+//-->
+</script></div><div class="clear"></div></div>
+</div>
+
+						    <div id="troisCol">
+					<div id="leftnav">
+												
+								<div class="box" id="Calendrier">
+												<div class="box-titre"><h2>Le calendrier</h2></div>
+												<div class="box-content"><style type="text/css">
+<!--
+-->
+</style>
+<table border="0" class="calendarTable1" cellpadding="2" cellspacing="1">
+<tr>
+	<td colspan="7" align="center" class="calendarTop1">
+		Janvier 2008
+	</td>
+</tr>
+<tr align="center">
+	<td class="calendarHeader1"><b>L</b></td>
+	<td class="calendarHeader1"><b>M</b></td>
+	<td class="calendarHeader1"><b>M</b></td>
+	<td class="calendarHeader1"><b>J</b></td>
+	<td class="calendarHeader1"><b>V</b></td>
+	<td class="calendarHeader1"><b>S</b></td>
+	<td class="calendarHeader1"><b>D</b></td>
+</tr>
+<tr align="center"><td class="calendarDays1">&nbsp;</td>
+<td class="calendarDays1">1</td>
+<td class="calendarDays1">2</td>
+<td class="calendarDays1">3</td>
+<td class="calendarDays1">4</td>
+<td class="calendarDays1">5</td>
+<td class="calendarDays1">6</td>
+</tr>
+<tr align="center">
+<td class="calendarDays1">7</td>
+<td class="calendarDays1">8</td>
+<td class="calendarDays1">9</td>
+<td class="calendarDays1">10</td>
+<td class="calendarDays1"><a href="archive-01-11-2008.html">11</a></td>
+<td class="calendarDays1">12</td>
+<td class="calendarDays1">13</td>
+</tr>
+<tr align="center">
+<td class="calendarDays1">14</td>
+<td class="calendarDays1">15</td>
+<td class="calendarDays1">16</td>
+<td class="calendarToday1" align="center">17</td>
+<td class="calendarDays1">18</td>
+<td class="calendarDays1">19</td>
+<td class="calendarDays1">20</td>
+</tr>
+<tr align="center">
+<td class="calendarDays1">21</td>
+<td class="calendarDays1">22</td>
+<td class="calendarDays1">23</td>
+<td class="calendarDays1">24</td>
+<td class="calendarDays1">25</td>
+<td class="calendarDays1">26</td>
+<td class="calendarDays1">27</td>
+</tr>
+<tr align="center">
+<td class="calendarDays1">28</td>
+<td class="calendarDays1">29</td>
+<td class="calendarDays1">30</td>
+<td class="calendarDays1">31</td>
+<td class="calendarDays1">&nbsp;</td>
+<td class="calendarDays1">&nbsp;</td>
+<td class="calendarDays1">&nbsp;</td>
+</tr>
+<tr>
+	<td align="center" colspan="7" class="calendarDays1">
+		<table width="173" border="0">		<tr>
+			<td width="25%" align="left" class="calendarDays1">
+<a href="archive-12-24-2007.html" title="Article Mois précédent">&lt;&lt;</a>
+			</td>
+			<td width="25%" align="center" class="calendarDays1">
+<a href="archive-01-11-2008.html" title="Article précédent">&lt;</a>
+			</td>
+			<td width="25%" align="center" class="calendarDays1">
+&gt;			</td>
+			<td width="25%" align="right" class="calendarDays1">
+&gt;&gt;			</td>
+		</tr>		</table>	</td>
+</tr>
+</table>
+</div>
+								</div>
+									
+								<div class="box" id="Categorie">
+												<div class="box-titre"><h2>Les dossiers</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/categorie-134336.html">Petites histoires (13)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-71793.html">Livres & BD (27)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-94277.html">Foires & Festivals (6)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-71792.html">Actualités & Formations (12)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-94280.html">Expositions & Conférences (14)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-87601.html">Logiciels & Internet (4)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-95387.html">Entretiens (7)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-102498.html">Cinéma, Musique & Vidéos (6)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-104839.html">Médias & Multimédia (10)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-118017.html">Tourisme (9)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-117409.html">A propos du blog... (4)</a></li>
+</ul>
+</div>
+								</div>
+									
+								<div class="box" id="ArticleRecent">
+												<div class="box-titre"><h2>Les articles</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/article-7346439.html">Meilleurs vœux !</a></li>
+<li><a href="http://www.theo-makarios.info/article-7321964.html">Le sapin de Noël</a></li>
+<li><a href="http://www.theo-makarios.info/article-7310140.html">Phœnix, détective du temps</a></li>
+<li><a href="http://www.theo-makarios.info/article-7308847.html">Elizabeth, l'âge d'or</a></li>
+<li><a href="http://www.theo-makarios.info/article-7306145.html">Les croisades</a></li>
+<li><a href="http://www.theo-makarios.info/article-7303273.html">Le château de Suscinio (56)</a></li>
+<li><a href="http://www.theo-makarios.info/article-7290006.html">Qu'il soit maudit !</a></li>
+<li><a href="http://www.theo-makarios.info/article-7288177.html">L'Histoire contemporaine à la carte</a></li>
+<li><a href="http://www.theo-makarios.info/article-7284469.html">Le royaume de Monsieur Colbert</a></li>
+<li><a href="http://www.theo-makarios.info/article-7284280.html">Songs From The Labyrinth</a></li>
+<li style="list-style-type: none;text-align:right"><a style="text-decoration:none;font-weight:bold" href="http://www.theo-makarios.info/liste-article-blog.php"><em>Liste complète</em></a></li>
+</ul>
+</div>
+								</div>
+									
+								<div class="box" id="CommentRecent">
+												<div class="box-titre"><h2>Les avis</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/article-370397-6.html">Livre d'or</a> - 11/01/2008</li>
+<li><a href="http://www.theo-makarios.info/article-3176202-6.html">Les chevaliers du Portugal</a> - 30/12/2007</li>
+<li><a href="http://www.theo-makarios.info/article-7321964-6.html">Le sapin de Noël</a> - 25/12/2007</li>
+<li><a href="http://www.theo-makarios.info/article-7321964-6.html">Le sapin de Noël</a> - 25/12/2007</li>
+<li><a href="http://www.theo-makarios.info/article-3040853-6.html">L'alchimie</a> - 21/12/2007</li>
+</ul>
+</div>
+								</div>
+									
+								<div class="box" id="RightPart">
+												<div class="box-titre"><h2>Le nuage</h2></div>
+												<div class="box-content"><div style="text-align: justify;"> <script type="text/javascript" src="http://www.zoomclouds.com/tc/current_rss/30/10.26/"></script> <noscript>[Javascript]</noscript> </div><div class="clear"></div></div>
+								</div>
+									
+								<div class="box" id="Archive">
+												<div class="box-titre"><h2>Les archives</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/archive-01-2008.html">Janvier 2008</a></li>
+<li><a href="http://www.theo-makarios.info/archive-12-2007.html">Décembre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-11-2007.html">Novembre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2007.html">Octobre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2007.html">Septembre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2007.html">Août 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2007.html">Juillet 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2007.html">Juin 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2007.html">Mai 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2007.html">Avril 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2007.html">Mars 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-2-2007.html">Février 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-1-2007.html">Janvier 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-12-2006.html">Décembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-11-2006.html">Novembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2006.html">Octobre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2006.html">Septembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2006.html">Août 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2006.html">Juillet 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2006.html">Juin 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2006.html">Mai 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2006.html">Avril 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2006.html">Mars 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-2-2006.html">Février 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-1-2006.html">Janvier 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-12-2005.html">Décembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-11-2005.html">Novembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2005.html">Octobre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2005.html">Septembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2005.html">Août 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2005.html">Juillet 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2005.html">Juin 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2005.html">Mai 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2005.html">Avril 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2005.html">Mars 2005</a></li>
+</ul>
+</div>
+								</div>
+									
+					</div>	<!--fin leftnav-->
+			 
+				  <div id="main">
+				  			<div align="center"></div>
+							<div id="content">	
+										<div style="margin-top:10px; margin-bottom:4px;" class="pagination" ><center>Page <a href="/liste-article-blog.php?&page=0">1</a> 
+<a href="/liste-article-blog.php?&page=40">2</a> 
+<b>3</b> 
+</center></div><ul style="margin:10px 5px 10px 5px; padding:0px;"><li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-353549.html">Les cathares devant l'Histoire</a> (<span class="DateListe">13/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Martin Aurell, Anne Brenon et Christine Dieulafait
+
+Genre
+Essai
+
+Commentaire
+Jean Duvernoy est incontestablement le fondateur et l'initiateur de la recherche actuelle sur le catharisme. Il a ainsi très largement contribué à rendre à la grande hérésie médiévale son authenticité chrétienne et à la débarrasser ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-349486.html">Secrets et légendes du pays cathare</a> (<span class="DateListe">12/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-102498.html" title="">Cinéma, Musique & Vidéos</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;&nbsp;
+
+De l'émergence de la "civilisation occitane" jusqu'aux actions menées actuellement en faveur d'une meilleure connaissance de l'Histoire du "pays cathare" en passant par le patrimoine monumental, cette production de Christian Salès met en exergue et revendique une identité commune aux régions du sud de la France, dont ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-347065.html">Le Moyen Age dans les kiosques</a> (<span class="DateListe">12/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-104839.html" title="">Médias & Multimédia</a></span>)<br /><div class="resumeArticle"> 
+    
+        
+            
+            Parmi la soixantaine de revues consacr&eacute;es &agrave; l'Histoire, 4 bimensuels nous aident &agrave; mieux comprendre le Moyen Age.
+            &nbsp;
+            D&eacute;but avril 2005, paraissait le premier num&eacute;ro de la nouvelle formule du magazine HISTOIRE M&Eacute;DI&Eacute;VALE ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-343460.html">Stages d'artisanat médiéval</a> (<span class="DateListe">10/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> 
+    
+        
+            &nbsp;&nbsp;
+            
+            ARSIMED (Animation et Restauration de SItes MEDi&eacute;vaux) est une association cr&eacute;&eacute;e en 1995 par un groupe de passionn&eacute;s d'Histoire m&eacute;di&eacute;vale. Son but est de mettre en valeur des sites m&eacute;di&eacute;vaux et de faire conna&icirc;tre ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-341478.html">L'animal au Moyen Age</a> (<span class="DateListe">10/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-94280.html" title="">Expositions & Conférences</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Exposition à la Tour Jean sans Peur de Paris, du 1er avril au 6 novembre 2005.
+&nbsp;
+En s'appuyant sur de nombreuses représentations et sur des documents d'archives, plusieurs thèmes ont été choisis pour présenter les animaux dans le quotidien des XIVe et XVe siècles&nbsp;: la faune dans le milieu sauvage (animaux dangereux et animaux ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-340532.html">Les Templiers, une chevalerie chrétienne au Moyen Age</a> (<span class="DateListe">10/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Alain Demurger
+
+Genre
+Étude
+
+Commentaire
+Après le Da Vinci Code qui semble avoir parfaitement comblé l'aspiration des lecteurs à ce qu'Alain Demurger nomme «&nbsp;leur ration de mystères et de secrets&nbsp;», il est heureux que nous puissions désormais disposer d'une édition entièrement revue et mise ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-330172.html">L'imaginaire médiéval dans le cinéma occidental</a> (<span class="DateListe">06/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+François Amy de la Bretèque
+
+Genre
+Étude
+
+Commentaire
+Au lendemain de la sortie de Kingdom Of Heaven, on s'aperçoit que le cinéma a contribué pour beaucoup à fabriquer les représentations que les hommes du XXe siècle se sont faites du Moyen Age. Comment imaginer le Moyen Age russe autrement qu'à travers ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-326872.html">L'Histoire sur les ondes radiophoniques</a> (<span class="DateListe">05/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-104839.html" title="">Médias & Multimédia</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Quotidiennement, Franck Ferrand sur Europe 1 et Patrice Gélinet sur France Inter nous racontent l'Histoire.
+&nbsp;
+&nbsp;
+
+&nbsp;&nbsp;
+
+Les histoires de l'Histoire
+Une émission de Franck Ferrand, du lundi au jeudi, de 13h15 à 14h, sur Europe 1.
+&nbsp;
+Franck Ferrand communique sa passion de l'Histoire, racontant chaque jour ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-323188.html">Vie et miracles de saint Maur</a> (<span class="DateListe">04/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-104839.html" title="">Médias & Multimédia</a></span>)<br /><div class="resumeArticle"> 
+    
+        
+            &nbsp;&nbsp;
+            
+            Ce c&eacute;d&eacute;rom &eacute;dit&eacute; par la R&eacute;union des mus&eacute;es de France propose le fac-simil&eacute; int&eacute;gral du manuscrit en latin et dans sa graphie d'origine Vie et miracles de saint Maur, v&eacute;ritable joyaux de l'enluminure romane du ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-319778.html">Kingdom Of Heaven</a> (<span class="DateListe">02/05/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-102498.html" title="">Cinéma, Musique & Vidéos</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Pour les fans du genre, la dernière épopée historique de Ridley Scott sera en salles le 4 mai.
+&nbsp;
+Synopsis&nbsp;:En perdant sa femme et son fils, Balian, un jeune forgeron, a presque perdu la foi. Alors qu'il pleure leur disparition, un chevalier vient le trouver. Godefroy d'Ibelin est un croisé, un baron du roi de Jérusalem ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-296975.html">L'Occident chrétien face au monde arabo-musulman</a> (<span class="DateListe">25/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-95387.html" title="">Entretiens</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Professeur d’histoire médiévale à l’Université de Poitiers et ancien membre de la Casa de Velàsquez, Philippe Sénac dissèque et dissipe les confusions entretenues sur les relations entre l’Occident et l’Islam au Moyen Age.
+&nbsp;
+
+
+
+&nbsp;
+Philippe Sénac dirige l’équipe «&nbsp;Aquitaine-Espagne-Mondes méditerranéens&nbsp;» du ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-296964.html">L'Occident médiéval face à l'Islam</a> (<span class="DateListe">25/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Philippe Sénac
+
+Genre
+Étude
+
+Commentaire
+Dès le VIIe siècle, aux portes d'un Occident encore barbare se dresse une civilisation très élaborée : celle que l'Islam a bâtie. Comment cet "Autre" fut-il perçu par nos lointains ancêtres&nbsp;? Pour le savoir, Philippe Sénac a scruté les images qu'en donnent ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-293330.html">Sur la route des croisades</a> (<span class="DateListe">23/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-104839.html" title="">Médias & Multimédia</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+L'Histoire, en nous invitant à analyser le passé, nous aide à comprendre le présent. Cela se vérifie encore dans le très bon dossier consacré aux croisades du n°2111 du Nouvel Observateur (semaine du 21 au 27 avril 2005).
+&nbsp;
+Dans ce dossier, Jean-Claude Guillebaud nous entraîne sur les traces des premiers croisés, ces "illuminés ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-281612.html">La France Romane au temps des premiers Capétiens (987-1152)</a> (<span class="DateListe">19/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-94280.html" title="">Expositions & Conférences</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Exposition organisée du 10 mars au 6 juin 2005 par le musée du Louvre et la Réunion des Musées nationaux, avec le concours exceptionnel de la Bibliothèque nationale de France.
+&nbsp;
+Quelques 300 oeuvres, sculptures, objets quotidiens objets de culte, fragments de chapiteaux, manuscrits, sont rassemblés dans cette remarquable exposition ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-281605.html">La France Romane</a> (<span class="DateListe">19/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Danielle Gaborit-Chopin, Robert Fossier, Quitterie Cazes, Jean-René Gaborit, Collectif
+
+Genre
+Beau Livre
+
+Commentaire
+Malgré l'importance et la diversité des monuments et des témoins de l'époque romane conservés sur le territoire français ou qui en proviennent, aucune exposition d'ensemble n'avait été ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-272040.html">Un atrium où il fait bon lire</a> (<span class="DateListe">15/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-87601.html" title="">Logiciels & Internet</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Créé en janvier 2002, le site Atrium propose une série de dossiers sur des sujets aussi divers que l'Histoire, la Mythologie, la Géographie, la Philosophie et la Psychologie. Il constitue un recueil impressionnant de notes de cours, de résumés d'ouvrages, d'extraits de textes célèbres et de travaux inédits ou repris de grands ouvrages, ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-267194.html">Histoire d'avenir 2005</a> (<span class="DateListe">10/04/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-94277.html" title="">Foires & Festivals</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+Du lundi 11 au dimanche 24 avril, la 4e édition du festival Histoire d’avenir, organisé par l’association Métisse à Nantes et son collectif, reste fidèle à ses principes&nbsp;: “Se regarder en face, dire plus jamais ça, créer un pont entre le passé et l’avenir, faire en sorte que les jeunes soient acteurs de l’histoire de leur ville, ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-280028.html">Semaines d'études médiévales 2005</a> (<span class="DateListe">24/03/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> 
+    
+        
+            &nbsp;
+            
+            Avec le soutien du Minist&egrave;re de la Recherche, le concours de la Mairie de Poitiers et celui du Conseil G&eacute;n&eacute;ral de la R&eacute;gion Poitou-Charentes, le Centre d'Etudes Sup&eacute;rieures de Civilisation M&eacute;di&eacute;vale (CESCM) de Poitiers organise ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-281269.html">Le Testament des Siècles</a> (<span class="DateListe">20/03/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Henri Loevenbruck
+
+Genre
+Roman
+
+Commentaire
+
+Installé aux États-Unis depuis la mort de sa mère, Damien Louvel, scénariste d'une série télévisée à succès, doit rentrer en France à la suite du décès tragique de son père. Il découvre que celui-ci menait des recherches autour d'un mystérieux objet - la pierre ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-221747.html">Journées de l'Antiquité 2005</a> (<span class="DateListe">13/03/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-94277.html" title="">Foires & Festivals</a></span>)<br /><div class="resumeArticle"> 
+
+    
+        
+            &nbsp;
+            
+            Les Journ&eacute;es de l'Antiquit&eacute; 2005 sont organis&eacute;es du 14 mars au 16 avril dans la R&eacute;gion des Pays de la Loire sous le haut patronnage de l'Acad&eacute;mie des Inscriptions et des Belles-Lettres.
+            Conf&eacute;rences, expositions, visites ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-226961.html">Festival du Latin et du Grec</a> (<span class="DateListe">02/03/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-94277.html" title="">Foires & Festivals</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+
+Dans le cadre du "Printemps des Poètes" 2005, la ville de Bécherel, entre Rennes et Saint-Malo, organise le premier Festival du Latin et du Grec, du 4 au 6 mars.
+Pour toute information sur le programme des festivités, rendez-vous sur cette page&nbsp;:perso.wanadoo.fr/yves.touchefeu/festival_becherel.htm
+D'autres informations sont ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-224416.html">Le projet Rosette : un cyber Champollion ?</a> (<span class="DateListe">20/02/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-87601.html" title="">Logiciels & Internet</a></span>)<br /><div class="resumeArticle"> Au hasard de mes recherches sur Internet, j'ai découvert ce site personnel sur l'Égypte ancienne&nbsp;:vincent.euverte.free.fr
+Si je vous en parle, c'est parce que son auteur a un projet novateur et ambitieux&nbsp;: le projet Rosette.Pour faire simple, il envisage de créer un outil informatique d'assistance aux différentes étapes du déchiffrage ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-247481.html">Semaine d'ecdotique* 2005</a> (<span class="DateListe">13/02/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> Depuis 1996, l'&eacute;quipe des Sources Chr&eacute;tiennes organise une session de formation dite &quot;semaine ecdotique&quot; en association avec l'Universit&eacute; Lyon 2, l'IRHT, la Biblioth&egrave;que Municipale de Lyon et le GDR 2135.Cette ann&eacute;e, le stage aura lieu du 4 au 8 avril 2005, dans les locaux de l&rsquo;Institut des ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-224669.html">Le Moyen Age en lumière : un partenariat exemplaire</a> (<span class="DateListe">06/02/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-104839.html" title="">Médias & Multimédia</a></span>)<br /><div class="resumeArticle"> 
+Un &eacute;diteur traditionnel, Fayard, un&nbsp;&eacute;diteur sp&eacute;cialiste du num&eacute;rique, Nouveau Monde, la Direction du livre et de la lecture (Minist&egrave;re de la culture et de la communication), le CNRS (Minist&egrave;re d&eacute;l&eacute;gu&eacute; &agrave; la recherche et aux nouvelles technologies) et un m&eacute;c&egrave;ne, ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-224627.html">Le Moyen Age en lumière</a> (<span class="DateListe">05/02/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Jacques Dalarun
+
+Genre
+Beau Livre
+
+Commentaire
+Sensationnelle et somptueuse révélation de la peinture du Moyen Âge. Un voyage à la découverte d’un continent englouti.
+
+Éditeur
+Éditions Fayard
+
+Date de parution
+09/10/2002
+
+ISBN
+2213613974
+
+Commander sur
+&nbsp;&nbsp;&nbsp; ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-222327.html">Aux origines de la très catholique Espagne</a> (<span class="DateListe">31/01/2005</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> La p&eacute;ninsule ib&eacute;rique au Moyen-&Acirc;ge du Ve au XVe si&egrave;cle
+
+
+    
+        
+            &nbsp;Jour/Heure
+            &nbsp;Mardi, 16h30 &agrave; 18h00 (12 cours cons&eacute;cutifs)
+        
+        
+            &nbsp;D&eacute;but cours
+            &nbsp;8 f&eacute;vrier
+        
+        
+            &nbsp;Lieu
+ ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-222902.html">L'Italie au Moyen-Age</a> (<span class="DateListe">19/12/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Isabelle Heullant-Donat - Jean-Pierre Delumeau
+
+Genre
+Essai
+
+Commentaire
+Même si quelques noms ou épisodes fameux sont familiers à beaucoup, entre les temps forts de l'Antiquité romaine et de la Renaissance, le Moyen-Age fait parfois figure d'âge disgracié dans l'histoire de l'Italie. La très grande diversité ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-222670.html">Réouverture de la galerie Apollon</a> (<span class="DateListe">05/12/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> 
+
+
+
+
+
+Premier exemple de galerie royale, conçue pour Louis XIV par l'architecte Louis Le Vau et le peintre Charles Le Brun, la galerie Apollon a servi de modèle à la galerie des Glaces du château de Versailles. Décorée par les plus grands artistes français, elle abrite les Diamants de la Couronne. Agée de près de trois cent cinquante ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-223154.html">Louis XI</a> (<span class="DateListe">21/11/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71793.html" title="">Livres & BD</a></span>)<br /><div class="resumeArticle"> 
+
+
+&nbsp;
+
+
+
+
+Auteur(s)
+Jean Favier
+
+Genre
+Biographie
+
+Commentaire
+On a souvent écrit sur Louis XI. Mais, depuis cinquante ans, de nouveaux documents sont apparus et les travaux se sont multipliés, souvent liés à l'élargissement du regard des historiens sur les struc-tures politiques, juridiques et financières comme sur les ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-222111.html">Jérusalem et les Croisades</a> (<span class="DateListe">06/11/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-71792.html" title="">Actualités & Formations</a></span>)<br /><div class="resumeArticle"> L'occident chr&eacute;tien contre l'Islam (XIe au XIIIe si&egrave;cle)
+
+
+    
+        
+            &nbsp;Jour/Heure
+            &nbsp;Mercredi, 13h45 &agrave; 15h15 (24 cours cons&eacute;cutifs)
+        
+        
+            &nbsp;D&eacute;but cours
+            &nbsp;10 novembre
+        
+        
+            &nbsp;Lieu
+      ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-7287058.html">Aide et informations</a> (<span class="DateListe">04/11/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-117409.html" title="">A propos du blog...</a></span>)<br /><div class="resumeArticle"> &nbsp;
+ 	JavascriptPour s'afficher correctement et compl&egrave;tement, ce blog n&eacute;cessite l'activation du Javascript dans votre navigateur. Cette option est indispensable pour la pr&eacute;sentation des modules &quot;Les images&quot;, &quot;Les blogs&quot; et &quot;Le d&eacute;nicheur&quot;, pour l'affichage des &eacute;v&egrave;nements ...</div></li>
+<li style="margin-top:4px" class="listArticles" ><a href="http://www.theo-makarios.info/article-370397.html">Livre d'or</a> (<span class="DateListe">04/11/2004</span><span class="categorieArticle"> catégorie: <a href="http://www.theo-makarios.info/categorie-117409.html" title="">A propos du blog...</a></span>)<br /><div class="resumeArticle"> 
+    
+        
+            
+            Ce premier article un peu particulier vous permet de commenter globalement ce blog. Il suffit de cliquer sur le lien ci-dessous pour laisser votre message et vos coordonn&eacute;es (nom, e-mail, URL)&nbsp;:
+            Signer ce livre d'or (pop-up)        
+            
+        
+        
+    ...</div></li>
+</ul><div style="margin-top:10px; margin-bottom:4px;" class="pagination"><center>Page <a href="/liste-article-blog.php?&page=0">1</a> 
+<a href="/liste-article-blog.php?&page=40">2</a> 
+<b>3</b> 
+</center></div>
+							</div> <!--fin content-->
+				  </div><!--fin main-->
+
+
+			
+							<div id="rightnav">
+												
+									<div class="box" id="Newsletter">
+													<div class="box-titre"><h2>L'abonnement</h2></div>
+													<div class="box-content">Inscription à la newsletter
+<form name="Form" action="http://adminv1.over-blog.com/newsletter.php?nomBlog2=theo-makarios&nomDomaine2=over-blog.com" method="post" target="_blank" class="cleansize">
+<input type="text" name="email" id="email#NOTNULL#EMAIL" value="Email" onclick="this.value='';" />
+<input type="submit" value="Ok" id="email" onclick="return controle(this,'#D8D7D7','red','Adresse e-mail incorrecte')" />
+</form>
+</div>
+									</div>
+										
+									<div class="box" id="Lien">
+													<div class="box-titre"><h2>Les sites</h2></div>
+													<div class="box-content"><ul>
+<li><a href="http://www.ecoledulouvre.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'École du Louvre</a></li>
+<li><a href="http://www.histoiredefrance.net/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Histoire de France</a></li>
+<li><a href="http://www.fiecnet.org/fr/index.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La F. I. E. C.</a></li>
+<li><a href="http://hypo.ge-dip.etat-ge.ch/www/cliotexte/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Cliotexte</a></li>
+<li><a href="http://www.college-de-france.fr/site/general/index.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Le Collège de France</a></li>
+<li><a href="http://www.bnf.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La BNF</a></li>
+<li><a href="http://gallica.bnf.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Gallica</a></li>
+<li><a href="http://www.histoire-image.org/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Histoire par l'image</a></li>
+<li><a href="http://www.moyenageenlumiere.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">le Moyen Âge en lumière</a></li>
+<li><a href="http://htw.free.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoweb, l'Histoire en ligne</a></li>
+<li><a href="http://www.histoire.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La chaîne TV Histoire</a></li>
+<li><a href="http://www.yrub.com/histoire/histoire.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Atrium : Section Histoire</a></li>
+<li><a href="http://lemo.irht.cnrs.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Le médiéviste et l'ordinateur</a></li>
+<li><a href="http://www.rmn.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Réunion des Musées Nationaux</a></li>
+<li><a href="http://www.ccr.jussieu.fr/urfist/mediev.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Ménestrel</a></li>
+<li><a href="http://www.histoire-en-ligne.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoire en Ligne</a></li>
+<li><a href="http://www.citadelle.org/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Citadelle</a></li>
+<li><a href="http://www.musee-moyenage.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Musée National du Moyen Age</a></li>
+<li><a href="http://perso.wanadoo.fr/pecia/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Pecia</a></li>
+<li><a href="http://www.herodote.net/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Jours d'Histoire</a></li>
+<li><a href="http://www.bibliorare.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Bibliorare.com</a></li>
+<li><a href="http://www.histoire-france.info/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoire-France.info</a></li>
+<li><a href="http://societearcheotouraine.eu/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Société archéologique de Touraine</a></li>
+<li><a href="http://www.histoire-et-secrets.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoire et secrets</a></li>
+<li><a href="http://www.atlas-historique.net/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Atlas historique</a></li>
+<li><a href="http://www.histoirealacarte.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Histoire à la Carte</a></li>
+</ul>
+</div>
+									</div>
+										
+									<div class="box" id="LeftPart">
+													<div class="box-titre"><h2>Les flux externes</h2></div>
+													<div class="box-content"><script type="text/javascript" src="http://www.cap-sizun.com/rss-js.php?flux=http://www.france-pittoresque.com/fp.xml&nb_items=5&desc=0&nb_car=50&photos=0" charset="ISO-8859-15"></script>
+<div style="text-align: center;"><noscript>[Javascript]</noscript></div>
+<div style="text-align: center; color: rgb(166, 121, 55);"><a href="http://www.france-pittoresque.com/" title="La France pittoresque" target="_blank"><img width="18" height="18" src="http://idata.over-blog.com/0/04/08/20/blog/carte.gif" alt="La France pittoresque" /></a></div>
+<img alt="" src="http://idata.over-blog.com/0/04/08/20/blog/barre.png" style="margin: 10px 0pt 6px 4px;" />  <script type="text/javascript" src="http://www.cap-sizun.com/rss-js.php?flux=http://histoire.typepad.fr/le_blog_de_lhistoire/rss.xml&nb_items=5&desc=0&nb_car=50&photos=0" charset="UTF-8"></script>
+<div style="text-align: center;"><noscript>[Javascript]</noscript></div>
+<div style="text-align: center; color: rgb(166, 121, 55);"><a title="L'Histoire" target="_blank" href="http://histoire.typepad.fr/"><img src="http://idata.over-blog.com/0/04/08/20/blog/lhistoire1.png" alt="L'Histoire" style="margin: 5px 0pt 0px 0px;" /></a></div>
+<img alt="" src="http://idata.over-blog.com/0/04/08/20/blog/barre.png" style="margin: 10px 0pt 0px 4px;" />  <script type="text/javascript" src="http://www.cap-sizun.com/rss-js.php?flux=http://calenda.revues.org/backend.php?cat=33&type=0&nb_items=5&desc=0&nb_car=50&photos=0" charset="UTF-8"></script>
+<div style="text-align: center;"><noscript>[Javascript]</noscript></div>
+<div style="text-align: center; color: rgb(166, 121, 55);"><a title="Calenda" target="_blank" href="http://calenda.revues.org/"><img src="http://idata.over-blog.com/0/04/08/20/blog/logo-calenda-425x65.png" alt="Calenda" style="margin: 5px 0pt 0px 0px;" /></a></div>
+<img alt="" src="http://idata.over-blog.com/0/04/08/20/blog/barre.png" style="margin: 10px 0pt 0px 4px;" />
+<div style="margin-bottom: 20px;" class="box-titre">
+<h2>Les flux internes</h2>
+</div>
+<ul>
+    <li><a href="http://www.theo-makarios.info/index.rdf"><img align="top" src="http://accel0.fdata.over-blog.com/pics/share/picto_rss10.png" alt="Feed RDF 1.0" /></a></li>
+    <li><a href="http://www.theo-makarios.info/atom.php"><img align="top" src="http://accel0.fdata.over-blog.com/pics/share/picto_atom.png" alt="Feed ATOM 0.3" /></a></li>
+    <li><a href="http://www.theo-makarios.info/rss2.php"><img align="top" src="http://accel2.fdata.over-blog.com/pics/share/picto_rss20.png" alt="Feed RSS 2.0" /></a></li>
+</ul>
+<img alt="" src="http://idata.over-blog.com/0/04/08/20/blog/barre.png" style="margin: 10px 0pt 0px 4px;" />
+<div style="margin-bottom: 12px;" class="box-titre">
+<h2>Les lecteurs de flux</h2>
+</div>
+<div style="text-align: center;"> <script type="text/javascript" src="http://ddata.over-blog.com/xxxyyy/0/04/08/20/addfeedrss.js"></script> <noscript>[Javascript]</noscript> </div><div class="clear"></div></div>
+									</div>
+										
+
+				</div>	<!--fin rightnav-->
+				
+					</div><!--fin info structure-->
+		<div class="clear"></div>
+		<div id="footer"><div id="basdepage">&nbsp;</div>
+<div align="center">
+<p><strong><a href="http://theo-makarios.over-blog.com/">Accueil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.theo-makarios.info/liste-article-blog.php">Articles</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.theo-makarios.info/article-370397-6.html">Livre&nbsp;d'or</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:theo.makarios@wanadoo.fr">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.theo-makarios.info/article-7287058.html">Aide</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:scroll(0,0)">Haut de page</a></strong><br />&nbsp;</p>
+<table cellspacing="2" cellpadding="0" border="0" style="border: 1px solid rgb(165, 130, 95); font-size: 10px; background-color: rgb(255, 255, 255);">
+    <tbody>
+        <tr>
+            <td style="background-color: rgb(242, 233, 222);" rowspan="3"><img width="64" height="64" border="0" alt="Cercle Médiéval Francophone" src="http://idata.over-blog.com/0/04/08/20/logomedieval.gif" /></td>
+            <td align="center" style="vertical-align: middle; background-color: rgb(242, 233, 222);">&nbsp;Le <a href="http://www.lecarreaumedieval.com/ring.htm" target="_TOP">Cercle&nbsp;M&eacute;di&eacute;val&nbsp;Francophone</a> est pr&eacute;sent&eacute; par <a href="mailto:theo.makarios@wanadoo.fr">Th&eacute;o&nbsp;Makarios</a>&nbsp;</td>
+            <td style="background-color: rgb(242, 233, 222);" rowspan="3"><img width="64" height="64" border="0" alt="Cercle Médiéval Francophone" src="http://idata.over-blog.com/0/04/08/20/logomedieval.gif" /></td>
+        </tr>
+        <tr>
+            <td align="center" style="vertical-align: middle;"><strong><a href="http://www.ringsurf.com/netring?ring=LGDL;id=181;action=prev" target="_TOP">Site pr&eacute;c&eacute;dent</a>&nbsp;|&nbsp;<a href="http://www.ringsurf.com/netring?ring=LGDL;action=rand" target="_TOP">Site al&eacute;atoire</a>&nbsp;|&nbsp;<a href="http://www.ringsurf.com/netring?ring=LGDL;id=181;action=next" target="_TOP">Site suivant</a></strong></td>
+        </tr>
+        <tr>
+            <td align="center" style="vertical-align: middle; background-color: rgb(242, 233, 222);">Vous voulez rejoindre <a href="http://www.ringsurf.com/netring?ring=LGDL;action=list" target="_TOP">les&nbsp;membres&nbsp;de&nbsp;ce&nbsp;cercle</a>&nbsp;? <a href="http://www.ringsurf.com/netring?ring=LGDL;action=addform" target="_TOP">Informations</a></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<p><a target="_blank" href="http://www.alapage.com/mx/?donnee_appel=AXZIR&amp;x=28&amp;y=6" class=""><img width="80" height="15" border="0" src="http://idata.over-blog.com/0/04/08/20/alapage.png" alt="" /></a>&nbsp;<a target="_blank" href="http://www.fnac.com/default.asp?NID=0&amp;RNID=0&amp;Origin=THEOMAKARIOS&amp;OriginClick=yes" class=""><img width="80" height="15" border="0" src="http://idata.over-blog.com/0/04/08/20/fnac.png" alt="" /></a>&nbsp;<a target="_blank" href="http://www.amazon.fr/exec/obidos/redirect-home?site=amazon&amp;tag=leblogdetheom-21" class=""><img width="80" height="15" border="0" src="http://idata.over-blog.com/0/04/08/20/amazon.png" alt="" /></a>&nbsp;<a target="_blank" href="http://www.cibleclick.com/cibles/clicks/symp.cfm?site_id=450437547&amp;friend_id=234905493&amp;banniere_id=8500" class=""><img width="80" height="15" border="0" src="http://idata.over-blog.com/0/04/08/20/chapitre.png" alt="" /></a></p>
+<p>&nbsp; Pour s'afficher correctement, ce site n&eacute;cessite l'activation du Javascript.</p>
+<script type="text/javascript" src="http://ddata.over-blog.com/xxxyyy/0/04/08/20/popup.js"></script> <script type="text/javascript" src="http://ddata.over-blog.com/xxxyyy/0/00/18/51/tools/newmodule.js"></script> <noscript>[Javascript]</noscript> </div>
+<link rel="icon" type="image/png" href="http://idata.over-blog.com/0/04/08/20/favicon.png" />  <script type="text/javascript">
+//<--
+// (c) 2005-2007 www.francisek.com
+// Générateur Revision 1.3
+
+// Identifiant CSS du module: #chercher
+placeModule("Categorie",0 , Module("chercher", "Le dénicheur",
+"<"
++"form method='get' target='_blank' action='http://www.google.com/search'><"
++"input type='hidden' value='theo-makarios.info' name='domains' /><"
++"div style='text-align:center;'> <"
++"input type='text' class='motcles' maxlength='255' size='' value='Mots-clés' name='q' onclick='this.value=\"\";' /><"
++"input type='submit' value='Ok' class='go' name='sa' /> <"
++"br /> <"
++"br /> <"
++"input type='radio' value='' class='radio' name='sitesearch' /> sur le web &nbsp;&nbsp;&nbsp; <"
++"input type='radio' checked='' class='radio' value='theo-makarios.info' name='sitesearch' /> sur ce blog <"
++"br /> <"
++"br /> <a href='http://www.google.fr/'> <"
++"img width='45' height='15' alt='Google' src='http://idata.over-blog.com/0/04/08/20/blog/google.gif' /> </a> <"
++"/div><"
++"/form>"));
+
+// Identifiant CSS du module: #lesimages
+placeModule("Newsletter",0 , Module("lesimages", "Les images",
+"<"
++"ul> <"
++"li><"
++"a href=\"http://www.theo-makarios.info/album-214930.html\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\">Couronnements<"
++"/a><"
++"/li> <"
++"li><"
++"a href=\"http://www.theo-makarios.info/album-16433.html\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\">Ch&acirc;teaux<"
++"/a><"
++"/li><"
++"/ul><"
++"br /><"
++"div align=\"center\"><"
++"object width=\"181\" height=\"150\" type=\"application/x-shockwave-flash\" data=\"http://ddata.over-blog.com/xxxyyy/0/04/08/20/sepia.swf\"><"
++"param name=\"movie\" value=\"http://ddata.over-blog.com/xxxyyy/0/04/08/20/sepia.swf\" /><"
++"param name=\"wmode\" value=\"transparent\" /><"
++"p class=\"noscript\">[Flash]<"
++"/p><"
++"/object><"
++"/div>"));
+// Identifiant CSS du module: #lesblogs
+placeModule("LeftPart",0 , Module("lesblogs", "Les blogs",
+"<"
++"ul> <"
++"li><"
++"a href=\"http://spaces.msn.com/members/enluminure/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Le Moyen Age<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://antiquite-tardive.hautetfort.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">L'ATP<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://historymedren.about.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Medieval History<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://www.20six.fr/blitztoire/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Blitztoire<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://bouquiniste.hautetfort.com/histoire_du_livre/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Bouquiniste<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://francoistonic.tooblog.fr/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Fran&ccedil;ois Tonic<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://medieval.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Place de la chevalerie<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://geneahist-goupil.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Geneahist-Goupil<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://flambeauxallan.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Les Flambeaux de l'Allan<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://egypte.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Dieux et D&eacute;esses d'Egypte<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://histoirefr.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Histoire de France<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://cham.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">CHAM<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://www.francegenweb.org/blog/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">FranceGenWeb<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://gillesdubois.blogspot.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Carnet Web de G&eacute;n&eacute;alogie<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://pecia.tooblog.fr/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Le manuscrit m&eacute;di&eacute;val<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://lir73.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Les Ind&eacute;pendants R&eacute;unis<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://histoire.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">L'Histoire<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://www.histohebdo.fr.tc/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Histohebdo<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://chateau-espinasse.over-blog.com/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Ch&acirc;teau Espinasse<"
++"/a> <"
++"/li> <"
++"li><"
++"a href=\"http://historia.unblog.fr/\" onclick=\"window.open(this.href); return false;\" onkeypress=\"window.open(this.href); return false;\" class=\"lien\">Historia<"
++"/a> <"
++"/li><"
++"/ul>"));
+//-->
+</script><div class="clear"></div></div>
+	</div><!--fin global-->
+		<div align="center"><a href="http://www.over-blog.com/blog-annuaire-1-Actualite.html">blog d'actualité</a> sur over-blog.com - <a href="contact.php" onclick="window.open(this.href,'','width=500, height=550,scrollbars,resizable'); return false;" onkeypress="window.open(this.href,'','width=500, height=550, scrollbars,resizable'); return false;">Contact</a> -
+		<a href="reglement-blog.php">C.G.U.</a>  - <a href="http://adminv1.over-blog.com/abuse.php?nomBlog2=theo-makarios&nomDomaine2=over-blog.com" onclick="window.open(this.href,'','width=700, height=500,resizable=yes, scrollbars=yes'); return false;" onkeypress="window.open(this.href,'','width=700, height=200,resizable=yes, scrollbars=yes'); return false;">Signaler un abus</a></div><!--up1-->
+<!-- yo  --></div>
+
+<script type="text/javascript"><!--
+	CM_RUBRIQUE = "other";
+	CM_CLIENT = "overblog";
+	CM_SECTION1 = "hit-liste-article";
+	// --></script>
+	<script type="text/javascript" src="http://js.cybermonitor.com/overblog.js">
+	</script>
+	<noscript>
+	<img src="http://stat3.cybermonitor.com/overblog_v?R=other&S=total;hit-liste-article" alt=""/>
+	</noscript></body>
+</html>

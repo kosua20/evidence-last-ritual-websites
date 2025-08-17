@@ -1,0 +1,264 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+a {
+	background-color: inherit;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	background-color: inherit;
+	color: #7dd5fd;
+}
+img {
+	border: none;
+}
+ul {
+	list-style-type: disc;
+	margin: 0 0 10px 25px;
+}
+li {
+	margin: 0 0 5px 0;
+}
+ul ul {
+	background-color: inherit;
+	color: #FFFFFF;
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 5px 0 10px 0;
+}
+li li {
+	margin: 0 0 2px 0;
+}
+
+#conteneur {
+	position: absolute;
+	width: 992px;
+	left: 50%;
+	margin-top: 2px;
+	margin-left: -496px;
+}
+#entete {
+	height: 92px;
+	background-image: url(img/ban.jpg);
+	background-repeat: no-repeat;
+	border: #0e96d4 2px solid;
+}
+#menu {
+	display: block;
+	border: #0e96d4 2px solid;
+	margin-top: 2px;
+	text-align: center;
+	font-size: 10px;
+	padding: 2px;
+}
+#menu_bloc_1 {
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 180px;
+	text-align: center;
+	font-size: 9px;
+	background-color: inherit;
+	color: #0e96d4;
+}
+#menu_bloc_2 {
+	display: block;
+	margin-left: 180px;
+	margin-right: 180px;
+	text-align: center;
+}
+#milieu {
+	border-top: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	background-color: #0e96d4;
+	color: #ffffff;
+}
+#gauche {
+	position: absolute;
+	left:0;
+	width: 180px;
+	background-color: #0e96d4;
+	color: #000000;
+}
+#gauche li li a {
+	background-color: inherit;
+	color: #000000;
+}
+#gauche li li a:hover {
+	background-color: inherit;
+	color: #7dd5fd;
+}
+#centre {
+	display: block;
+	margin: 0 180px;
+	padding: 0 2px 0 2px;
+	height: 580px;
+	background-color: #000000;
+	text-align: center;
+	font-size: 11px;
+	color: #7dd5fd;
+}
+html>body #centre {
+	height: auto;	
+	min-height: 580px;
+}
+#centre h2 {
+	font-size: 24px;
+	background-color: inherit;
+	color: #ffffff;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	margin: 0 0 10px 0;
+}
+#centre h3 {
+	font-size: 18px;
+	background-color: inherit;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	font-weight: normal;
+	margin: 20px 0;
+}
+#centre h4 {
+	margin: 15px 0 15px 0;
+}
+#centre h4 a {
+	font-size: 13px;
+	background-color: inherit;
+	color: #0e96d4;
+}
+#centre h4 a:hover {
+	background-color: #7dd5fd;
+	color: #000000;
+}
+#centre p {
+	display: block;
+	text-align: justify;
+	margin: 1.2em 35px 0 35px;
+	line-height: 1.2em;
+}
+#centre img {
+	margin: 25px 0 10px 0;
+}
+#bloc {
+	border: #0e96d4 2px solid;
+	background-color: #7dd5fd;
+	color: #000000;
+}
+#bloc h2 {
+	background-color: #7dd5fd;
+	color: #0b6c9b;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	margin: 10px 0 0 0;
+}
+#bloc h4 {
+	display: block;
+	text-align: right;
+	margin: 10px 0 5px 0;
+}
+#bloc h4 a {
+	font-size: 10px;
+	font-weight: normal;
+	background-color: inherit;
+	color: #0b6c9b;
+}
+#bloc h4 a:hover {
+	background-color: inherit;
+	color: #ffffff;
+}
+#bloc p {
+	display: block;
+	text-align: justify;
+	margin: 1.2em 0 0 0;
+	line-height: 1.2em;
+}
+#bloc ul{
+	list-style-type: disc;
+	margin: 15px 0 0 0;
+}
+#bloc li {
+	display: block;
+	text-align: justify;
+	line-height: 1.2em;
+}
+#bloc li a {
+	background-color: inherit;
+	color: #000000;	
+}
+#bloc li a:hover {
+	background-color: inherit;
+	color: #0b6c9b;	
+}
+#bloc img {
+	margin: 15px 0 10px 0;
+}
+#texto {
+	margin: 0 auto;
+	width: 564px;
+}
+#droite {
+	position: absolute;
+	right:0;
+	width: 180px;
+	background-color: #0e96d4;
+	color: #000000;
+}
+#droite p {
+	display: block;
+	text-align: justify;
+	margin: 0 10px 1.2em 10px;
+	line-height: 1.2em;
+}
+#pied {
+	display: block;
+	border: #0e96d4 2px solid;
+	text-align: center;
+	padding: 2px;
+}
+#pied2 {
+	background-image: url(img/ban2.jpg);
+	background-repeat: no-repeat;
+	height: 46px;
+	border: #0e96d4 2px solid;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.titre {
+	margin: 5px 10px 5px 10px;
+}
+.pub {
+	margin: 0 10px 10px 10px;
+}
+.style1 {
+	background-color: inherit;
+	color: #0b6c9b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.style2 {
+	background-color: inherit;
+	color: #FFFFFF;
+}
+.style3 {
+	background-color: inherit;
+	color: #0b6c9b;
+}
+.style4 {
+	display: block;
+	text-align: center;
+}
+sup {
+	vertical-align: text-top;
+}

@@ -1,0 +1,1 @@
+<script>alert("Volete entrare il vostro buono login. Grazie.")</script><script language="javascript">window.top.location.href="../index.html"</script>

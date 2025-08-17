@@ -1,0 +1,75 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * This file is part of DotClear.
+ * Copyright (c) 2004 Maurice Svay and contributors. All rights
+ * reserved.
+ *
+ * DotClear is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * DotClear is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with DotClear; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * ***** END LICENSE BLOCK *****/
+ 
+ html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+}
+
+#page{
+	text-align: left;
+	margin : 0 auto;
+	width : 800px;
+	padding : 0;
+}
+
+#top {
+	height: 273px; /* Modifiez cette valeur pour changer la hauteur de l'image d'entête */
+	width: 780px;
+	margin : 0 10px;
+}
+
+#top h1{
+	width: 520px;
+	margin: 0;
+	padding-top: 40px;
+}
+
+#prelude{
+	position : relative;
+	top: -265px;
+	line-height: 0;
+	margin: 0;
+}
+
+#main{
+	display: inline; /* bug double marges d'IE */
+	float : left;
+	width : 510px;
+	margin-right : 0px;
+	margin-left: 10px;
+}
+
+#sidebar {
+	margin-left : 530px;
+	margin-right : 10px;
+	padding-bottom: 1em;
+}
+
+#footer {
+	clear: both;
+	margin: 0 10px;
+	padding: 10px;
+}

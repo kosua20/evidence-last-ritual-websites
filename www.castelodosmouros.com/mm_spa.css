@@ -1,0 +1,151 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	}
+	
+td {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#FFFF00;
+	}
+	
+a {
+	color: #FF080E;
+	}
+	
+a:hover {
+	color: #FF9900;
+	}
+p {
+	line-height: 140%;
+	margin: 10px 0 10px 0;
+}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 1px solid #FF9900
+	}
+
+#navigation a {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 8px 22px;
+	}
+	
+#navigation a:hover {
+	color:#FFFFCC;
+	background: url(pics/mm_bullet_yellow.gif) 10px 50% no-repeat;
+	}
+
+#ss_navigation {
+	text-align:justify;
+	padding-left: 22px;
+}
+	
+#navheader {
+	font:24px georgia;
+	color: #1F2669;
+	letter-spacing:.4em;
+	padding:10px;
+	line-height:30px;
+	}
+	
+#logo 	{
+	font:14pt Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	letter-spacing:.5em;
+	line-height:30px;
+	}
+
+#tagline 	{	
+	font:11px Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	letter-spacing:.2em;
+	line-height:14px;
+	}
+	
+#monthformat td {
+	 border-bottom: 1px solid #FFFFCC;
+	 }
+	 
+#dateformat {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	letter-spacing:.4em;
+	}
+	
+#dateformat a {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}
+	
+#dateformat a:hover {
+	color: #FFFFCC;
+	}
+
+/* Class Styles */
+	
+.bodyText {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	line-height:22px;
+	margin-top:0px;
+	padding-left:30px;
+	letter-spacing:.1em;
+	text-align: right;
+	}
+.bodyText2 {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	line-height:22px;
+	margin-top:0px;
+	letter-spacing:.1em;
+	}	
+.pageName{
+	font:18px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	line-height:24px;
+	letter-spacing:.3em;
+	text-align: right;
+	}
+	
+.columnHeader {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #FF080E;
+	line-height:18px;
+	letter-spacing:.05em;
+	}
+	
+.subHeader {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color: #FF080E;
+	line-height:18px;
+	letter-spacing:.1em;
+	}
+
+.smallText {
+	font:10px Arial, Helvetica, sans-serif;
+	color:#333333;
+	padding: 24px 0 24px 0;
+	}
+	
+.navText {
+	font:11px Georgia, Times New Roman, Times, serif;
+	color: #FFFF00;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}
+.Style1 {color: #FF9900;}
+.Style3 {color: #FF080E;}
+.Style2 {
+	font-size: 20pt;
+	font-weight: bold;
+}

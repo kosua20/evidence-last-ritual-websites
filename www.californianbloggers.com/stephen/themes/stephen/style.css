@@ -1,0 +1,340 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * This file is part of DotClear.
+ * Copyright (c) 2004 Olivier Meunier and contributors. All rights
+ * reserved.
+ *
+ * DotClear is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * DotClear is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with DotClear; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * ***** END LICENSE BLOCK *****
+ /* Author : Kozlika - http://www.kozlika.org
+ /* Modified by Stephen
+ 
+ 
+REGLES PAR DEFAUT
+------------------------------------------------------------------- */
+body {
+	margin : 0 auto;
+	padding : 0;
+	background : #CCC;
+	font-family: "Lucida Grande", Verdana, "Lucida Sans", "Lucida Sans Unicode", "Lucida", Verdana, "Bitstream Vera Sans", sans-serif; 
+	font-size : x-small;
+	color : #333;
+	text-align : center;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+p, td, ul, ol, li, dl, dt, dd { /* Pour compatibilite Netscape 4 */
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "Lucida", Verdana, "Bitstream Vera Sans", sans-serif;
+}
+
+/* Hierarchie des titres */
+
+h1, h2, h3 { font-weight : normal ; 	font-family : Georgia,"Times New Roman","New York",serif; }
+h4, h5, h6 { font-weight : bold; }
+h1 { font-size : 2.2em; margin : 0; }
+h2 { font-size : 1.4em; margin : 0.8em 0; }
+h3 { font-size : 1.2em; margin : 0.8em 0; }
+h4 { font-size : 1em; margin : 1em 0; }
+h5 { font-size : 0.9em; margin : 1.25em 0; }
+h6 { font-size : 0.8em; margin : 1.75em 0; }
+
+/* Comportement des liens */
+
+a { text-decoration : none; }
+a:link { color: #666; }
+a:visited { color : #666; }
+a:hover { text-decoration : underline; }
+a:active, a:focus { text-decoration : underline; }
+
+/* Mention de la langue d'un lien */
+
+a[hreflang]:after {
+	content: "\0000a0[" attr(hreflang) "]";
+	color : #666;
+	background : transparent;
+}
+
+/* Regles des balises courantes */
+
+p { margin : 0 0 1em 0; } /* paragraphes */
+img { border : none; } /* images */
+form { display : block; margin : 0; padding : 0; } /* formulaires */
+q, cite {  /* citations */
+    font-style : italic; 
+    margin : 1em; 
+}
+cite {
+    padding : 1em;
+    border-top : 1px solid #ccc;
+    border-bottom : 1px solid #ccc;
+}
+ul, ol { margin-left : 1em; padding-left : 1em; margin-bottom : 1em; }
+sup { padding-left : 0.15em; font-size : 80%; }
+
+abbr, acronym {
+	border-bottom: 1px dashed #999;
+	cursor: help;
+}
+blockquote {
+    margin-left : 2em;
+    padding-left : 1em;
+    border-left : 3px solid #999;
+}
+
+/* Presentation des lignes de code */
+
+code,pre { font-family : "Courier New",monospace; font-size : 1em; }
+pre {
+    background : #f5f5f5;
+	margin : 0 auto;
+	margin-bottom : 1em;
+	padding : 0.5em;
+	text-align:left;
+	white-space:normal;
+		/* caché pour IE 5 Mac qui sait pas faire - Ne pas supprimer cette ligne  \*/
+		white-space:pre;
+		width: 90%;
+		overflow : auto;
+	/* Fin hack Ne pas supprimer cette ligne */
+}
+
+/* --------------------------------------------------------
+STRUCTURE
+-------------------------------------------------------- */
+#page {
+    width : 72em;
+    margin : 0 auto 2em auto;
+    text-align :left;
+	background : #fff url(img/fond.png) repeat-y center top;
+    padding-left :2em;
+    padding-bottom : 0;
+}
+#top {
+    width : 19em;
+    float : right;
+    margin-bottom : 0;
+    background : transparent url(images/me.gif) no-repeat bottom center;
+    height : 20em;
+}
+#top h1 {
+    padding :1em 2em 0.5em 0;
+    border-bottom : 8px solid #ccc;
+}
+#prelude, #prelude a {
+    font-size : 0.5em;
+    margin:0;
+    color : #fff;
+}
+#main {
+    width : 100%;
+    float : left;
+    margin-right : -31em;
+}
+#content {
+    padding : 1em;
+    margin-right : 31em;
+    min-height : 400px;
+}
+#sidebar {
+    width : 18em;
+    float : right;
+}
+#footer {
+    clear : both;
+    padding : 2em 48px 2.5em 1em;
+    text-align : right;
+	background : transparent no-repeat;
+}
+    
+/* ---------------------------------------------------------
+BILLETS
+---------------------------------------------------------- */
+.post {
+    border-top : 1px solid #ddd;
+    border-bottom : 1px solid #ddd;
+    margin-bottom : 2px;
+    padding-top : 12px;
+    line-height : 130%;
+    font-size : 1.2em;
+}
+.day-date {
+    text-transform : uppercase;
+    letter-spacing : 1px;
+    font-size : 0.8em;
+    text-align : center;
+}
+.post-title {
+    font-size : 1.66em;
+    color : #000;
+    margin-bottom : 0.33em;
+}
+.post-title a {
+    color : #000;
+    margin-bottom : 0.33em;
+}
+.post-chapo, .post-content {
+    text-align : justify;
+}
+.post img {
+    padding : 0.5em;
+    border : 3px solid #ddd;
+}
+.post-info, .post-info-co, .footnotes {
+    font-size : x-small;
+}
+.post-info {
+    margin-bottom : 1.5em;
+}
+.post .post-footnotes h4 {
+    text-transform : capitalize;
+    font-weight : bold;
+    margin-top : 2em;
+}
+/* ---------------------------------------------------------
+MENU
+---------------------------------------------------------- */
+#sidebar {
+    background : transparent no-repeat bottom left;
+    padding-bottom : 300px;
+}
+#sidebar h2 {
+    text-transform : uppercase;
+    letter-spacing : 1px;
+    font-size : 0.9em;
+    margin-top : 4em;
+}
+#sidebar ul { 
+    margin-left : 0; 
+    padding-left : 0; 
+    list-style : none; 
+}
+
+/* -------------------------------------------------------------
+TRACBACKS ET COMMENTAIRES
+---------------------------------------------------------- */
+#trackbacks, #comments, #comment-preview {
+    font-size : 1.1em;
+}
+#trackbacks {
+    padding-top : 20px;
+    background : transparent no-repeat;
+}
+#trackbacks h3, #comments h3, #comment-preview h3 {
+    text-transform : uppercase;
+    letter-spacing : 1px;
+    font-size : 0.9em;
+    margin-top : 3em;
+    margin-bottom : 2em;
+    text-align : center;
+}
+.comment-info {
+    margin-top : 2em;
+}
+.comment-number {
+    font-size : 1.66em;
+	font-family : Georgia,"Times New Roman","New York",serif;
+}
+#comments form, #comment-preview {
+    background : transparent no-repeat top right;
+    padding : 1em;
+    border : 1px solid #ddd;
+}
+/* Formulaires
+-------------------------------------------------------- */
+fieldset {
+	display : block;
+	border : none;
+	margin : 0.5em 0 0 0;
+	padding : 0;
+}
+
+input, textarea {
+	font-size : 1.2em;
+	border : 1px solid #999;
+}
+
+input[type], textarea[name] {
+	background : #f5f5f5;
+}
+
+input[type=submit], input[type=reset] {
+	background : #ddd;
+	color : #333;
+}
+
+input[type=submit]:hover {
+	background : #666;
+	color : #fff;
+}
+
+textarea {
+	width : 100%;
+}
+
+p.field, .form-help {
+	margin : 0.5em 0 0 0;
+}
+
+p.field label {
+	display : block;
+	margin : 1.5em 0 0 0;
+	padding-bottom : 0.5em;
+}
+/* Error messages
+-------------------------------------------------------- */
+.error {
+	border : 1px solid #333;
+	background : #ccc;
+	padding : 0.5em;
+}
+.error ul {
+	padding-left : 20px;
+}
+.error li {
+	list-style : square;
+}
+
+
+/* ----------------------------------------------------------
+ Trucs en plus
+---------------------------------------------------------- */
+.center {
+	text-align : center;
+}
+.right {
+	text-align : right;
+}
+.petites-cap {
+	font-size : 0.82em;
+	text-transform : uppercase;
+}
+.petit {
+    font-size : x-small;
+}
+
+/* deco des liens */
+
+.post-content a, .post-chapo a, #comments a, #comments-preview a, #trackbacks a {
+	padding-right : 16px;
+    background : transparent no-repeat center right;
+}
+#comments span.comment-number a, .post-content a[id|="rev"], .footnotes a[id|="rev"] {
+    padding : 0;
+    background-image : none;
+}

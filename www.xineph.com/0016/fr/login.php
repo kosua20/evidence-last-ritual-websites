@@ -1,0 +1,1 @@
+<script language="javascript">window.top.location.href="jeu3_error.html"</script>

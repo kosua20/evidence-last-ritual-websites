@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+	<myMenu>
+		<myItem name="" url="" />
+		<myItem name="D A L M A L L Y" url="dalmally.html" />
+		<myItem name="K I L C H U R N" url="kilchurn.html" />
+		<myItem name="I N N I S   C H O N N E L" url="innischonnel.html" />
+		<myItem name="I N V E R A R A Y" url="inveraray.html" />
+		<myItem name="K I L M A R T I N" url="kilmartin.html" />
+		<myItem name="C R A I G N I S H" url="craignish.html" />
+	</myMenu>

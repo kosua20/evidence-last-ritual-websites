@@ -1,0 +1,201 @@
+.menu {
+	background-image: url(pics/menu.gif);
+	vertical-align: top;
+}
+.menu2 {
+	background-image: url(pics/menu.gif);
+	vertical-align: bottom;
+}
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #0b216c;
+	background-color: #0181cd;
+	margin: 21px 0px;
+}
+table {
+	font-size: 13px;
+}
+td {
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+	color: #e0b451;
+}
+a:hover {
+	color: #ffffff;
+}
+.snst a {
+	color: #ffffff;
+}
+.snst a:hover {
+	text-decoration: underline;
+}
+.titre {
+	background-color: #006ead;
+	text-align: center;
+}
+.sstitre {
+	height: 21px;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+.ssmenu {
+	height: 21px;
+	text-align: right;
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.ssmenu p {
+	line-height: 120%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sstitre2 {
+	height: 21px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;
+}
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;	
+}
+h2 {
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #e0b451;		
+}
+.elmenu {
+	height: 21px;
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;	
+	letter-spacing: 1px;
+}
+.bas {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.bas p {
+	line-height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.lettre2 {
+	font-size: 18px;
+	color: #e0b451;
+	font-weight: bold;
+}
+a.image { /* définition de la classe "image" de la balise <a> */
+     display: block; /* la balise a doit être en bloc */
+     width: 200px; /* largeur de l'image réactive */
+     height: 21px; /* hauteur de l'image réactive */
+     background-image: url(pics/elright.gif); /* source de l'image de départ */
+     background-repeat: no-repeat;
+	background-position: 0% 0%;
+	 color: #ffffff;
+}
+a.image:hover { /* définition de la classe "image" de la balise <a> au survol */
+     background-image: url(pics/elright.gif); /* source de l'image d'arrivée */
+	 background-position: 0% 100%;
+	 color: #000000;
+}
+a.image2 { /* définition de la classe "image" de la balise <a> */
+     display: block; /* la balise a doit être en bloc */
+     width: 200px; /* largeur de l'image réactive */
+     height: 21px; /* hauteur de l'image réactive */
+     background-image: url(pics/elright.gif); /* source de l'image de départ */
+     background-repeat: no-repeat;
+	background-position: 0% 100%;
+	 color: #000000;
+}
+.hd {
+	background-image: url(pics/right.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+	vertical-align: bottom;
+}
+.bg {
+	background-image: url(pics/left.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+	vertical-align: middle;
+}
+.ari {
+	font-size: 15px;
+	font-weight: bold;
+}
+.home {
+	font-family: Webdings;
+	color: #e0b451;
+	font-size: 19px;
+}
+.logos {
+	text-align: center;
+}
+.texte {
+	vertical-align: top;
+	text-align: justify;
+	color: #000000;
+}
+.texte p {
+	line-height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.cadre {
+	border: #e0b451 1px solid;
+	padding-right: 20px;
+}
+.photo {
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.cadre2 {
+	border: #e0b451 1px solid;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #006ead;
+	text-align: center;
+}
+.copyright p {
+	margin: 2px;
+	line-height: 100%;
+}
+td input {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 13px;
+	color: #000000;
+	background-color: #ffffff;
+	border: #e0b451 1px solid;
+	width: 200px;
+}
+.btn {
+	width: auto;
+	background-color: #006ead;
+	color: #ffffff;
+}	
+td textarea {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 13px;
+	color: #000000;
+	background-color: #ffffff;
+	border: #e0b451 1px solid;
+	width: 100%;
+}

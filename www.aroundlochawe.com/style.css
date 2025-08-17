@@ -1,0 +1,207 @@
+html {
+	text-align: center;
+	margin:0px;
+	padding:0px;
+}
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#002200;
+	background-image: url(images/background.jpg);
+	text-align:center;
+   	margin-left: auto;
+   	margin-right: auto;
+}
+
+p {
+	line-height: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#logo
+{
+	text-align: center;
+	width: 830px;
+	height: 213px;
+	background-color:#0F0D0C;
+	background-image: url(images/left_bg.jpg);
+	background-repeat: repeat-y;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #666666;
+}
+#content
+{
+	text-align: center;
+	width: 830px;
+	background-color:#0F0D0C;
+	background-image: url(images/left_bg.jpg);
+	background-repeat: repeat-y;
+
+}
+#box_area
+{
+	text-align: center;
+	width: 830px;
+	background-color:#0F0D0C;
+}
+#box_left_deco
+{
+	text-align: center;
+	background-color:#546866;
+	width:120px;
+	float:left;
+	background-image: url(images/box_left.jpg);
+	height: 214px;
+}
+#box_content
+{
+	width:665px;
+	float:left;
+	background-color:#0F0D0C;
+}
+#realbox_header
+{
+	text-align: center;
+	background-image: url(images/box_header.jpg);
+	height: 41px;
+	width: 665px;	
+}
+#realbox_content
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	text-align:center;
+	background-image: url(images/box_content.jpg);
+	height: 135px;
+	width: 585px;
+	padding-left:40px;
+	padding-right:40px;
+
+}
+#realbox_footer
+{
+	text-align: center;
+	background-image: url(images/box_footer.jpg);
+	height: 38px;
+	width: 665px;
+}
+#postbox_area
+{
+	text-align: center;
+	width: 830px;
+
+}
+#postbox_left_deco
+{
+	text-align: center;
+	width:120px;
+	float:left;
+	clear:left;
+	margin:0px;
+	padding:0px;
+}
+#postbox_content
+{
+	text-align: center;
+	width:569px;
+	float:left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #607068;
+	background-color: #1D1A19;
+	margin-left:34px;
+	padding:0px 15px 0px 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#postbox_footer
+{
+	text-align:right;
+	background-image: url(images/content_footer.jpg);
+	background-repeat: no-repeat;
+	margin-left:34px;
+	padding:0px 30px 15px 0px;
+	float:left;
+	width:569px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #666666;
+}
+#footer
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #666666;
+	font-variant: small-caps;
+	text-align: right;
+	vertical-align: middle;
+	background-image: url(images/footer.jpg);
+	background-repeat: no-repeat;
+	width: 830px;
+	height:46px;
+	background-color:#0F0D0C;
+}
+
+.spacer {
+  clear: both;
+  text-align: center;
+  line-height: 0px;
+}
+
+#copyrights {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	line-height: 10px;
+	text-align: center;
+	color:#CCCCCC;
+	margin-left:34px;
+
+}
+
+a.copyrights {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	line-height: 10px;
+	text-align: center;
+	color: #DDDDDD;
+	text-decoration: none;
+}
+a.copyrights:hover {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	line-height: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+#overall_container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:830px;
+	background-color:#0F0D0C;
+	border-right: 4px solid #29221a;
+	border-top: 4px solid #29221a;
+	border-bottom: 4px solid #29221a;
+}
+a {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #DDDDDD;
+}
+a:hover {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ccs { text-align: center; }

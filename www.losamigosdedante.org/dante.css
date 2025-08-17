@@ -1,0 +1,122 @@
+body {
+	margin: 26px 0px 0px 26px;
+	background-image:  url(pics/bg.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.left {
+	background-color: #c1bb9e;
+	width: 144px;
+	text-align: center;
+	vertical-align: top;
+}
+.right {
+	background-color: #e5e5cb;
+	text-align: center;
+	vertical-align: top;	
+}
+.title-right {
+	background-color: #e5e5cb;
+	height: 76px;
+	vertical-align: middle;
+	text-indent: 8px;
+	background-image: url(pics/granada.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+.border-right {
+	background-color: #d5cfb7;
+	height: 24px;	
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;	
+}
+.menu-right {
+	background-color: #d5cfb7;
+	height: 24px;
+	width: 153px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;	
+	font-size: 10px;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+table {
+	background-color: #CC9999;
+}
+table .info{
+	background-color: none;
+}
+
+#writein {
+	border-width: 0px;	
+}
+.legende	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 4px;
+	text-align: justify;
+	background-color: #d5cfb7;
+}
+.cadre	{
+	border-width:1px;
+	border-color:rgb(204,153,153);
+	border-style:solid;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #ffffff;
+}
+.lesboutons input {
+	background-color: #c1bb9e;
+}
+
+.login {
+	background-color: #d5cfb7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: right;
+	height: 24px;
+	min-height: 24px;
+}
+
+a {
+	color: #C00000;
+}
+.marge	{
+	font-size:10px;
+	color: #c1bb9e;
+	font-style: italic;
+	text-align: left;
+}
+.ssmenu	{
+	background-color: #e5e5cb;
+	text-align:left;
+}
+.nmsw_sousmenu1 {
+	color:white;
+	background-color: #c1bb9e;
+
+}
+.nmsw_sousmenu2 {
+	color:white;
+	background-color: #c1bb9e;
+	height: 24px;
+	width: 153px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;	
+	font-size: 10px;
+	letter-spacing: 3px;
+	cursor:pointer;
+}	
+
+.left .ssmenu td {
+	cursor:pointer;
+}

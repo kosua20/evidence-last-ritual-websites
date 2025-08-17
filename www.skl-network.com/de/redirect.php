@@ -1,0 +1,1 @@
+<SCRIPT LANGUAGE="JavaScript">document.location.href="http://search.msn.com/results.asp?q= -memoriam&cp=1252"</SCRIPT>

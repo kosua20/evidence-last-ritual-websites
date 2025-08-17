@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>SKL Network - Jack Lorski - Karen Gijman</title>
+<style>
+.txt {COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; 
+}
+.txt {COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; 
+}
+A {COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {COLOR: #FF0000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.fermer {COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; font-weight: bold; TEXT-DECORATION: none
+}
+A:hover.fermer {COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; font-weight: bold; TEXT-DECORATION: none
+}
+A.repondre {COLOR: #FF0000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover.repondre {COLOR: #FF0000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">      <p>&nbsp;</p>
+      <p><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">
+<table width="500" border="0" cellpadding="0" cellspacing="0" class="txt"><tr><td height="19" width="250"><div align="center">&nbsp;</div></td><td width="250"><font color="#FF0000"> | </font><a href="mail.php?id=2">mail suivant >>></a></td></tr><tr><td height="16" colspan="2">&nbsp;</td></tr><tr><td height="16" colspan="2"><font color="#999999">28/01/2003</font></td></tr><tr><td height="16" colspan="2"><font color="#FF0000">De :</font> Pierre Hamiel</td></tr><tr><td height="16" colspan="2"><font color="#FF0000">A :</font> Jack Lorski</td></tr><tr><td height="16" colspan="2"><div align="left"><font color="#FF0000">Sujet :</font> depuis le temps&nbsp;!</div></td></tr><tr><td height="16" colspan="2"><font color="#FF0000">-----------------------------------------------------------------------------------------------------------------------------</font></td></tr><tr><td height="328" colspan="2"><div align="justify">Salut Jack,</div><p align="justify">Quel beau hasard&nbsp;! je surfais ce matin pour trouver une &eacute;cole pour la prochaine rentr&eacute;e de Marion. Je me suis permis de r&eacute;pondre au message d&#8217;un forum qui pourrait t&#8217;int&eacute;resser&nbsp;:</p><p align="justify"><a href="http://forum.hit-parade.com/forum.asp?s=p93309&amp;t=3" target="_blank">http://forum.hit-parade.com/forum.asp?s=p93309&amp;t=3</a></p><p align="justify">Voil&agrave;, je voulais que tu saches que &ccedil;a m&#8217;a fait plaisir de me replonger dans les souvenirs de nos jeunes ann&eacute;es&nbsp;!</p><p align="justify">J'esp&egrave;re te revoir bient&ocirc;t. Tu pourras venir &agrave; la campagne un WE, notre maison t&#8217;est grande ouverte&nbsp;!</p><p align="justify">Bien amicalement,</p><p align="justify">L&#8217; Ami Pierrot &lt;:o)</p><p align="justify"><font color="#FF0000">[<a href="#" onClick="javascript:alert('Fonction indisponible veuillez contacter l\'administrateur.')" class="repondre">répondre</a>]</font></p><font color="#FF0000">-----------------------------------------------------------------------------------------------------------------------------</font><div align="center"><a href="javascript:window.close()" class="fermer">FERMER</a><br></div><font color="#FF0000">-----------------------------------------------------------------------------------------------------------------------------</font><br><br></td></tr></table>      </font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

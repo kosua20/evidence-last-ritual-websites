@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://purl.org/atom/ns#" version="0.3"
+	  xmlns:dc="http://purl.org/dc/elements/1.1/"
+	  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	  xml:lang="fr">
+
+  <title>Julie Webzine - Commentaires</title>
+  <link rel="alternate" type="text/html" href="http://www.julie-webzine.net/index.php"/>
+  <tagline type="text/plain" mode="escaped"></tagline>
+  
+  <modified>2009-05-19T12:24:44+02:00</modified>
+  <generator version="1.2.3" url="http://www.dotclear.net/">DotClear</generator>
+  
+  <sy:updatePeriod>daily</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <sy:updateBase>2009-05-19T12:24:44+02:00</sy:updateBase>
+  
+<entry>
+  <title>Premier billet - Julie Massenet</title>
+  <link rel="alternate" type="text/html" href="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c2"/>
+  <issued>2006-08-31T10:47:31+02:00</issued>
+  <modified>2006-08-31T10:47:31+02:00</modified>
+  <id>http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c2</id>
+  <author><name>Julie Massenet</name></author>
+  <content type="text/html" mode="escaped">&lt;p&gt;Merci pour tes encouragements Intempes ! Merci aussi à tous ceux que j'ai pu recroiser sur MSN, ça donne la pêche :)&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Premier billet - Intempes</title>
+  <link rel="alternate" type="text/html" href="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c1"/>
+  <issued>2006-08-29T22:36:14+02:00</issued>
+  <modified>2006-08-29T22:36:14+02:00</modified>
+  <id>http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c1</id>
+  <author><name>Intempes</name></author>
+  <content type="text/html" mode="escaped">&lt;p&gt;Coucou Julie.&lt;br /&gt;
+C'est donc ici ton nouveau petit théâtre. C'est plus joli, plus spacieux, plus propre quoi ! Bravo !&lt;br /&gt;
+&lt;br /&gt;
+Et quand la petite coccinelle aura du temps, elle pourra peut être jeter un oeil sur la photo, hein ?&lt;br /&gt;
+&lt;br /&gt;
+A+&lt;br /&gt;
+Intempes&lt;/p&gt;</content>
+</entry>
+</feed>

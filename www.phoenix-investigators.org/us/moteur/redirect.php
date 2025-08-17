@@ -1,0 +1,1 @@
+<SCRIPT LANGUAGE="JavaScript">document.location.href="http://search.msn.com/results.asp?q= -soluce -soluces -solution -astuces -astuce -walkthrough -games -game -missing &cp=1252"</SCRIPT>

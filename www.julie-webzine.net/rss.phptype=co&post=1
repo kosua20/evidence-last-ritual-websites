@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.julie-webzine.net/index.php">
+  <title>Julie Webzine - Commentaires</title>
+  <description><![CDATA[]]></description>
+  <link>http://www.julie-webzine.net/index.php</link>
+  <dc:language>fr</dc:language>
+  <dc:creator></dc:creator>
+  <dc:rights></dc:rights>
+  <dc:date>2006-08-31T10:47:31+02:00</dc:date>
+  <admin:generatorAgent rdf:resource="http://www.dotclear.net/" />
+  
+  <sy:updatePeriod>daily</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <sy:updateBase>2006-08-31T10:47:31+02:00</sy:updateBase>
+  
+  <items>
+  <rdf:Seq>
+    <rdf:li rdf:resource="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c2" />
+  <rdf:li rdf:resource="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c1" />
+  </rdf:Seq>
+  </items>
+</channel>
+
+<item rdf:about="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c2">
+  <title>Premier billet - Julie Massenet</title>
+  <link>http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c2</link>
+  <dc:date>2006-08-31T10:47:31+02:00</dc:date>
+  <dc:creator>Julie Massenet</dc:creator>
+  <description>Merci pour tes encouragements Intempes ! Merci aussi à tous ceux que j'ai pu recroiser sur MSN, ça donne la pêche :)...</description>
+  <content:encoded><![CDATA[<p>Merci pour tes encouragements Intempes ! Merci aussi à tous ceux que j'ai pu recroiser sur MSN, ça donne la pêche :)</p>]]></content:encoded>
+</item>
+<item rdf:about="http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c1">
+  <title>Premier billet - Intempes</title>
+  <link>http://www.julie-webzine.net/index.php?2006/08/28/1-first-post#c1</link>
+  <dc:date>2006-08-29T22:36:14+02:00</dc:date>
+  <dc:creator>Intempes</dc:creator>
+  <description>Coucou Julie.
+C'est donc ici ton nouveau petit théâtre. C'est plus joli, plus spacieux, plus propre quoi ! Bravo !
+
+Et quand la petite coccinelle aura du temps, elle pourra peut être jeter un oeil sur la photo, hein ?
+
+A+
+Intempes...</description>
+  <content:encoded><![CDATA[<p>Coucou Julie.<br />
+C'est donc ici ton nouveau petit théâtre. C'est plus joli, plus spacieux, plus propre quoi ! Bravo !<br />
+<br />
+Et quand la petite coccinelle aura du temps, elle pourra peut être jeter un oeil sur la photo, hein ?<br />
+<br />
+A+<br />
+Intempes</p>]]></content:encoded>
+</item>
+
+</rdf:RDF>

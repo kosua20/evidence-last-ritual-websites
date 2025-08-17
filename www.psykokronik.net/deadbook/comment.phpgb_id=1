@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Guestbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="guestbook, php, script, mySQL, free, advance">
+<style type="text/css">
+<!--
+.font1 {  font-family: Verdana; font-size: 10px; color: #0099CC }
+.font2 {  font-family: Verdana; font-size: 9px; color: #0099CC }
+.font3 { font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt; color: #0099CC; font-weight: bold}
+.select {  font-family: Verdana; font-size: 9pt}
+.input {  font-family: Verdana; font-size: 9pt}
+-->
+</style>
+</head>
+<body bgcolor="#000000" link="#990066" vlink="#990066">
+
+<script language="JavaScript">
+<!--
+var flag=0;
+function SetFlag() {
+  flag=1;
+}
+//-->
+</script>
+<table border="0" cellspacing="0" cellpadding="2" align="center" width="95%">
+   <tr>
+    <td height="45"><b><font size="4" face="Verdana" color="#0099CC">Guestbook</font></b></td>
+    <td height="45">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="45%" valign="bottom" class="font2">Write a comment for this guestbook entry.</td>
+    <td width="55%" align="right" valign="bottom" class="font2"> <b><img src="img/return.gif" width="10" height="10">
+     <a href="index.php">Back to Guestbook</a> | <img src="img/lock.gif" width="9" height="11"> <a href="admin.php">Administration</a></b></td>
+  </tr>
+</table>
+<form method="post" action="comment.php" onsubmit="return SetFlag()">
+  <table border="0" cellspacing="1" cellpadding="4" width="95%" align="center" bgcolor="#000000">
+    <tr>
+     <td colspan="2" bgcolor="#000000"><b><font size="2" face="Verdana" color="#0099CC">Sign the Guestbook:</font></b></td>
+    </tr>
+
+<tr bgcolor="#000000">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>1)</b></td>
+       <td width="92%"> <img src="img/ip.gif" width="14" height="14" alt="IP logged">&nbsp;&nbsp;<img src="img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)">&nbsp;
+        <a href="http://sparkslink.org" target="_blank"><img src="img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Nyx</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">webmistress@sparkslink.org</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Somewhere</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="img/post.gif" width="9" height="9">Saturday, November 1, 2003 11:01 AM&nbsp;
+     <a href="comment.php?gb_id=1"><img src="img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:webmistress@sparkslink.org"><img src="img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+   je tenais a laisser de une le premier message sur ce live d'or (héhé) ainsi que ma pensée sur cette nouvelle version de psyko... Je trouve qu'il y a un changement certain que ce soit dans tes écrits ou dans la composition du site en lui même. Le blanc lui va tres bien et je trouve qu'il est vraiment agréable au regard. J'ai adoré toutes tes sections d'où mon grand probleme lorsque j'ai du répondre à ton sondage (tu aurais peut être dû raouter la réponse "Pour tout" :) ) car je vais maintenant devoir revenir demain et apres demain pour repondre a nouveau mais sur le reste lol... <br />
+Sur ce je te laisse et encore bravo à toi!<br />
+<br />
+A bientôt,<br />
+<br />
+Nyx
+   </div>
+   
+ </td>
+</tr>
+
+
+    <tr bgcolor="#000000">
+      <td width="32%" class="font1"><img src="img/edit.gif" width="18" height="13">Comments:</td>
+      <td><textarea name="comment" cols="32" rows="6"></textarea></td>
+    </tr>
+    <tr bgcolor="#000000">
+      <td width="32%" class="font1">Name:</td>
+      <td><input type="text" name="user" size="35" maxlength="25"></td>
+    </tr>
+    
+
+
+    <tr bgcolor="#000000">
+      <td width="32%">&nbsp;</td>
+      <td>
+        <input type="submit" name="action" value="Submit" class="input" onclick="if(flag==1) return false;">
+        <input type="reset" value="Reset" class="input">
+        <input type="hidden" name="gb_id" value="1">
+        <input type="hidden" name="gb_comment" value="1">
+      </td>
+    </tr>
+  </table>
+</form>
+
+<center><font face="Arial, Helvetica, sans-serif" color="#CCCCCC" size="1"><b>Advanced Guestbook 2.2<br>
+  Powered by PHP &amp; MySQL - <a href="http://www.proxy2.de" target="_blank"><font color="#CCCCCC">http://http://www.proxy2.de</font></a></b></font></center>
+</body>
+</html>

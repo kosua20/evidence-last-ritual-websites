@@ -1,0 +1,11 @@
+body {background-color: black;color:white;font-family: monospace;}
+
+#loginwin { text-align: center; position: relative;margin-top: 12%;}
+
+td {border: 1px solid black;padding: 10px;background-color: white;color: black;font-family: sans-serif;}
+
+.infos {font-family:monospace;}
+
+table{margin: 10%;}
+
+#header {text-align: center;position:relative;top: 5%;}

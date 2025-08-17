@@ -1,0 +1,8 @@
+A.text {COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A:hover.text {COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+A.lien {COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; TEXT-DECORATION: underline
+}
+A:hover.lien {COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}

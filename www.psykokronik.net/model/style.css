@@ -1,0 +1,60 @@
+body { 
+	background-image: images/bckg.gif);
+	background-repeat: 
+	background-position:3px;
+	margin-left: 25px;
+	margin-right: 0;
+	margin-top: 25px;
+	margin-bottom: 0;
+	}
+a:link {color:#663333;text-decoration: none}
+a:visited {color:#663333;text-decoration: none}
+a:active {color:#663333;text-decoration: none}
+a:hover {color:#663333;text-decoration: none}
+#Contenu {
+	position: static;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	overflow: auto;
+	z-index: 1;
+	height: 350px;
+	width: 512px;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	scrollbar-face-color:#ffffff; 
+	scrollbar-arrow-color:#60411E; 
+	scrollbar-track-color: #ffffff; 
+	scrollbar-3dlight-color:#60411E; 
+	scrollbar-darkshadow-color:#8B5D29;
+}
+.Titre {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Texte {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.TexteRougeGras {
+	font-size: 12px;
+	font-weight: bold;
+	color: #663333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#leFrame {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:601px;
+	z-index:1;
+	border:none;
+}

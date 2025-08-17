@@ -1,0 +1,67 @@
+body {
+	font-family: "Comic Sans MS";
+	font-size: 14pt;
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: underline;
+	color: #CC0000;
+}
+
+a:hover {
+	text-decoration: underline overline;
+}
+
+h2 {
+	font-size: 15pt;
+	color: #CC0000;
+}
+
+ul {
+	text-align:left;
+	margin-left: 60px;
+	margin-right: 52px;
+	text-align: justify;
+}
+
+/* ID Styles */
+
+/* Class Styles */
+
+.col2 {
+	text-align: center;
+}
+
+.col2 p {
+	text-align: justify;
+	margin: 0 52px 0 52px;	
+}
+
+.col2#haut {
+	background-image: url(pics/parchemin_h.jpg)
+}
+
+.col2#bas {
+	background-image: url(pics/parchemin_b.jpg)
+}
+
+.col2#milieu {
+	background-image: url(pics/parchemin_m.jpg)
+}
+
+.global {
+	margin-left: 195px;
+}
+
+.photo {
+	border: #663300 solid 2px;
+}
+
+.alpha td {
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}

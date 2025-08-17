@@ -1,0 +1,1 @@
+<script>alert("Quiere entrar su buena clave de acceso. Gracias.")</script><script language="javascript">window.top.location.href="../index.html"</script>

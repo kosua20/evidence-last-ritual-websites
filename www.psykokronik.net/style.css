@@ -1,0 +1,49 @@
+@charset "iso-8859-1";
+body { 
+	background-position:3px;
+	margin-left: 6px;
+	margin-right: 0;
+	margin-top: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: 000000;
+	}
+a:link {color:#666666;text-decoration: none}
+a:visited {color:#666666;text-decoration: none}
+a:active {color:#666666;text-decoration: none}
+a:hover {color:#666666;text-decoration: none}
+.Texte {
+	font-size: 12px;
+	font-weight: none;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.TexteGris {
+	font-size: 12px;
+	font-weight: none;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.TexteNoirGras {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.TexteTurquoiseGras {
+	font-size: 12px;
+	font-weight: bold;
+	color: #00FFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#leFrame {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:601px;
+	z-index:1;
+	border:none;
+}
