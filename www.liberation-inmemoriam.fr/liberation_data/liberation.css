@@ -1,0 +1,1518 @@
+.info { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: red; }
+
+td.keywords { font-family: courier, fixed; font-size: 10px; }
+
+.pageBack { width: 890px; text-align: left; vertical-align: top; border: 1px solid; }
+
+.infosBackDoc { width: 100%; border: 1px solid rgb(204, 204, 204); padding: 5px; margin-bottom: 10px; }
+
+.infosBackDoc #nomChamps { width: 10%; }
+
+.infosBackDoc td { vertical-align: top; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.controlpad_titre, .controlpad_titreDoc { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 18px; line-height: 20px; font-weight: normal; }
+
+.controlpad_lead, .controlpad_surtitre { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 13px; }
+
+.controlpad_mainImage, .controlpad_paragraph, .controlpad_linkInformation, .controlpad_mediaImage, .controlpad_mediaDiapo, .controlpad_mediaSon, .controlpad_mediaVideo, .controlpad_son, .controlpad_video, .controlpad_galerieElement, .controlpad_infosDiaporama, .controlpad_sonDiaporama, .controlpad_imageDiaporama { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.controlpad_articleLink { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; }
+
+.controlpad_diaporama, .controlpad_externalLink, .controlpad_forum, .controlpad_blog { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; }
+
+.controlpad_auteurinfo, .controlpad_auteur, .controlpad_galerieAuteur, .controlpad_pretexte, .controlpad_posttexte, .controlpad_oeuvre { font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; font-size: 12px; }
+
+.popup { margin: 0px; padding: 0px; border: 0px; overflow: hidden; }
+
+.popup .copyright { padding-left: 2px; position: relative; z-index: 100; }
+
+body { margin: 0px; padding: 0px 0px 15px 10px; font-family: "Trebuchet MS"; font-size: 12px; font-weight: normal; background-color: rgb(255, 255, 255); line-height: 15px; color: rgb(34, 34, 34); }
+
+a:hover { text-decoration: underline; cursor: pointer; }
+
+a { text-decoration: none; }
+
+a img { border: 0px; }
+
+.page, .footer { width: 990px; border-left: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); border-top-style: solid; border-bottom-style: solid; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-spacing: 0px; border-collapse: collapse; }
+
+.page { border-top: 0px; border-bottom: 0px; }
+
+.footer { border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); border-right-style: solid; border-left-style: solid; border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-spacing: 0px; border-collapse: collapse; }
+
+.footer_firsttd { padding: 30px; color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-weight: bold; font-size: 11px; line-height: 22px; text-align: center; }
+
+.footer_firsttd span { color: rgb(197, 197, 197); }
+
+.footer_firsttd a { color: rgb(0, 0, 0); }
+
+.footer_lasttd { border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); background-color: rgb(229, 229, 229); height: 14px; }
+
+.liensInternesDiv0, .liensInternesDiv1 { vertical-align: top; padding-left: 4px; }
+
+.liensInternesDiv1 { width: 145px; float: left; }
+
+.liensInternesDiv2 { float: right; width: 116px; }
+
+ul { padding: 0px; margin: 0px; }
+
+li.rouge, li.rougeSmall1, li.rougeSmall2, li.rougeBig1, li.rougeBig2, li.rougeBig3 { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 8px; font-family: "Trebuchet MS"; }
+
+li.rouge, li.rougeSmall1, li.rougeSmall2, li.rougeBig1, li.rougeBig2, li.rougeBig3 { color: rgb(34, 34, 34); font-weight: normal; }
+
+li.rouge a, li.rougeSmall1 a, li.rougeSmall2 a, li.rougeBig1 a, li.rougeBig2 a, li.rougeBig3 a { color: rgb(0, 0, 0); font-weight: bold; }
+
+li.rouge, li.rouge a { font-size: 11px; line-height: 14px; }
+
+ul.rouge li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 8px; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+ul.rouge a { color: rgb(34, 34, 34); }
+
+ul.rouge a.rouge { color: rgb(230, 0, 5); font-weight: bold; }
+
+ul.rouge_serre li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 3px; vertical-align: top; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 11px; line-height: 14px; }
+
+ul.rouge_serre a.rouge { color: rgb(230, 0, 5); }
+
+ul.rouge_serre a { color: rgb(34, 34, 34); }
+
+ul.noire_inline a.gris { color: rgb(102, 102, 102); font-weight: normal; font-style: italic; font-size: 12px; line-height: 14px; }
+
+ul.noire_inline li { display: inline; background-image: url("./puce_noire.gif"); background-repeat: no-repeat; background-position: left center; list-style-type: none; padding-left: 8px; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+ul.noire_inline a { color: rgb(34, 34, 34); }
+
+ul.docInternalLinks li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 8px; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; text-decoration: none; }
+
+ul.docInternalLinks a { color: rgb(34, 34, 34); }
+
+ul.orange li { background-image: url("./puce_orange.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 3px; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 11px; line-height: 14px; }
+
+ul.orange a.orange { color: rgb(255, 204, 0); }
+
+ul.orange a { color: rgb(34, 34, 34); }
+
+ul.marron li { background-image: url("./puce_marron.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 8px; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+ul.marron a { color: rgb(34, 34, 34); }
+
+ul.articles_precedents_rouge li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; margin: 7px 10px 12px 11px; padding-left: 10px; color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-size: 11px; line-height: 14px; font-weight: bold; }
+
+ul.articles_precedents_rouge a { color: rgb(34, 34, 34); }
+
+ul.articles_precedents_orange li { background-image: url("./puce_orange.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; margin: 7px 10px 12px 11px; padding-left: 10px; color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-size: 11px; line-height: 14px; font-weight: bold; }
+
+ul.articles_precedents_orange a { color: rgb(34, 34, 34); }
+
+ul.articles_precedents_bleu li { background-image: url("./puce_bleue.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; margin: 7px 10px 12px 11px; padding-left: 10px; color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-size: 11px; line-height: 14px; font-weight: bold; }
+
+ul.articles_precedents_bleu a { color: rgb(34, 34, 34); }
+
+ul.monlibe_hp li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; margin-top: 2px; padding-bottom: 0px; color: rgb(0, 113, 162); font-family: "Trebuchet MS"; font-weight: normal; font-size: 10px; line-height: 12px; text-decoration: none; }
+
+ul.monlibe_hp a { color: rgb(0, 113, 162); }
+
+.puce_orange { background-image: url("./puce_orange.gif"); background-repeat: no-repeat; background-position: 0px 4px; vertical-align: top; padding-left: 10px; margin-right: 2px; }
+
+* html .puce_orange { background-position: 0px 2px; }
+
+.menu_td { border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); vertical-align: top; background: url("./top_nav.gif") repeat-x rgb(220, 220, 220); }
+
+.td_apres_menu { border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); height: 15px; }
+
+#menu { width: 100%; }
+
+.interligne_6pix { padding-top: 6px; }
+
+.nav, .subnav, #intervalle { margin: 0px; padding: 0px; list-style: none; z-index: 100; vertical-align: top; }
+
+.nav li, #intervalle { float: left; width: auto; }
+
+#intervalle { width: 1px; background-color: rgb(255, 255, 255); border-top: 3px solid rgb(255, 255, 255); }
+
+.nav li a { display: block; background: rgb(220, 220, 220); border-top: 5px solid rgb(51, 51, 51); font-family: "Trebuchet MS"; font-weight: bold; font-size: 12px; color: rgb(0, 0, 0); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; }
+
+.nav li a { padding: 1px 12px 0px; }
+
+.nav li a:hover { color: rgb(255, 255, 255); background: rgb(51, 51, 51); }
+
+.subnav { position: absolute; left: -999px; background: rgb(220, 220, 220); width: 110px; }
+
+li:hover .subnav, li.sfhover .subnav { left: auto; }
+
+.nav .subnav li { width: 100%; }
+
+.nav .subnav li a { display: block; border-top: none; padding: 2px 5px 0px; margin-right: 0px; font-family: "Trebuchet MS"; font-weight: normal; font-size: 12px; color: rgb(0, 0, 0); text-decoration: none; text-transform: none; letter-spacing: normal; }
+
+.nav .subnav li a:hover { color: rgb(255, 255, 255); }
+
+.majuscule { font-weight: bold; text-transform: uppercase; color: rgb(0, 0, 0); }
+
+.texte, .depeches_interligne, .texteLimit, .texteFondRaye { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.texte_underline { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 12px; line-height: 15px; text-decoration: underline; }
+
+.texte_gras { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 12px; line-height: 15px; }
+
+.texte_leadHP { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 13px; line-height: 16px; }
+
+.forumHP { vertical-align: top; margin-top: 4px; margin-bottom: 4px; }
+
+.liensInternesHP { padding-top: 15px; }
+
+.texte_petit { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+.texte_petitGras { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.texte_petitItal { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-style: italic; font-size: 11px; line-height: 14px; }
+
+.texte_petitTopMargin { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; margin-top: 4px; }
+
+.texteGris { font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.texteGrisMoyen { font-family: "Trebuchet MS"; color: rgb(204, 204, 204); font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.texteGris_petit { font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; font-size: 11px; line-height: 14px; }
+
+.texteGris_petit_bottom_10 { font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; font-size: 11px; line-height: 14px; margin-bottom: 10px; }
+
+.texteGris_trespetit { font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: bolder; font-size: 10px; line-height: 14px; }
+
+.texteRouge { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 12px; line-height: 15px; font-weight: normal; }
+
+.texteRouge_gras { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 12px; line-height: 15px; font-weight: bold; }
+
+.texteRouge_petit { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 11px; line-height: 14px; font-weight: normal; }
+
+.texteRouge_petitGras { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 11px; line-height: 14px; font-weight: bold; }
+
+.texteRouge_tresPetitGras, .liensInternesHP, .forumHP { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 10px; line-height: 13px; font-weight: bold; }
+
+.texteRouge_titre { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-weight: bold; font-size: 12px; text-transform: uppercase; }
+
+.texteRouge_titreMoyenGras { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 14px; line-height: 16px; font-weight: bold; }
+
+.texteRouge_grosTitre { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 20px; line-height: 22px; font-weight: bold; }
+
+.texteRouge_titreDocGras { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 16px; line-height: 20px; font-weight: bold; }
+
+.texteNoir { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.texteNoir_petit { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: normal; font-size: 11px; line-height: 14px; }
+
+.texteNoir_petitGras, .pictosBarDoc #zoneCibleNbReactions { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.texteNoir_grasPetitInter { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; }
+
+.texteNoir_gras { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 12px; line-height: 14px; font-weight: bold; }
+
+.texteNoir_grosTitre { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 20px; line-height: 22px; font-weight: bold; }
+
+.texteNoir_titreDocGras { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 18px; line-height: 20px; font-weight: bold; }
+
+.texteNoir_titreMoyenGras { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 14px; line-height: 16px; font-weight: bold; }
+
+.texteBleuVert_tresPetit { font-family: "Trebuchet MS"; color: rgb(0, 102, 153); font-size: 10px; line-height: 14px; }
+
+.texteOrange_petit { font-family: "Trebuchet MS"; color: rgb(255, 204, 0); font-size: 11px; line-height: 13px; font-weight: normal; }
+
+.texteBlanc_petit { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-weight: normal; line-height: 14px; font-size: 11px; }
+
+.texteMarron_titre { font-family: "Trebuchet MS"; color: rgb(92, 60, 31); font-size: 12px; line-height: 15px; text-transform: uppercase; }
+
+.docBack { width: 663px; margin: 11px; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); border-spacing: 0px; border-collapse: collapse; }
+
+.menuDoc { padding: 0px 0px 16px; margin: 0px; }
+
+.galCol1 { width: 300px; padding: 0px; vertical-align: top; }
+
+.tetiereDoc { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 22px; font-weight: bold; line-height: 24px; padding-left: 9px; padding-right: 9px; }
+
+.galCol2 { width: 359px; vertical-align: top; padding-left: 9px; border-width: 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); }
+
+.docCol1_2 { vertical-align: top; padding-bottom: 9px; margin: 0px; border-width: 0px 1px 0px 0px; border-color: rgb(204, 204, 204); border-style: solid; font-family: "Trebuchet MS"; font-size: 12px; font-weight: normal; }
+
+.docCol1 { vertical-align: top; padding-left: 0px; padding-right: 0px; margin: 0px; }
+
+.docCol2 { /*width: 191px;*/ border-width: 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); vertical-align: top; padding: 0px; }
+
+.docCol3 { width: 318px; padding: 0px; vertical-align: top; margin: 0px; border: 0px; }
+
+.divcol3 { width: 100%; }
+
+.printerfriendlyDoc { width: 100%; margin: 11px; border-width: 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); text-align: justify; }
+
+.logoLibeDoc { border-width: 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); padding-bottom: 10px; }
+
+.videoDocLegend { margin-top: 5px; }
+
+.imgLeftDoc { float: left; margin-right: 10px; margin-bottom: 2px; }
+
+.imgRightDoc { float: right; vertical-align: top; margin-left: 9px; margin-bottom: 2px; }
+
+.imgCenterDoc { text-align: center; vertical-align: top; }
+
+.pictosBarDoc { border-width: 1px 0px; border-color: rgb(204, 204, 204); border-style: solid; padding-top: 2px; padding-bottom: 2px; margin: 10px 40px 10px 9px; height: 27px; }
+
+.pictosBarDoc #pictoLabel { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); text-align: right; font-weight: normal; font-size: 12px; float: right; }
+
+.pictosBarDoc img, .pictosBarDoc #zoneCibleNbReactions { float: left; padding-right: 5px; padding-left: 0px; }
+
+.pictosBarDoc img { padding-top: 0px; padding-bottom: 0px; }
+
+.pictosBarDoc #zoneCibleNbReactions { padding-top: 5px; padding-bottom: 5px; }
+
+.rubDoc { margin-left: 9px; margin-right: 40px; }
+
+.reactionsDoc { margin-bottom: 10px; padding-left: 9px; padding-right: 40px; }
+
+.reactionsDoc, .reactionsDoc table { font-family: "Trebuchet MS"; vertical-align: top; }
+
+.reactionsDocTitre { margin: 0px; padding: 0px; height: 20px; background: url("./vos_reactions.gif") no-repeat; }
+
+.reactionsTetiere { margin-bottom: 10px; padding-left: 9px; padding-right: 9px; }
+
+.reactionsDocTexte, .reactionsDocTexteSmall1, .reactionsDocTexteSmall2, .reactionsDocTexteBig1, .reactionsDocTexteBig2, .reactionsDocTexteBig3, .reactionsDate, .reactionsDateSmall1, .reactionsDateSmall2, .reactionsDateBig1, .reactionsDateBig2, .reactionsDateBig3, .reactionsDocPseudo, .reactionsDocPseudoSmall1, .reactionsDocPseudoSmall2, .reactionsDocPseudoBig1, .reactionsDocPseudoBig2, .reactionsDocPseudoBig3 { font-weight: normal; }
+
+.reactionsDocTexte, .reactionsDocTexteSmall1, .reactionsDocTexteSmall2, .reactionsDocTexteBig1, .reactionsDocTexteBig2, .reactionsDocTexteBig3, .reactionsDocPseudo, .reactionsDocPseudoSmall1, .reactionsDocPseudoSmall2, .reactionsDocPseudoBig1, .reactionsDocPseudoBig2, .reactionsDocPseudoBig3, .reactionsDate, .reactionsDateSmall1, .reactionsDateSmall2, .reactionsDateBig1, .reactionsDateBig2, .reactionsDateBig3, .reactionsDocTitle, .reactionsDocTitleSmall1, .reactionsDocTitleSmall2, .reactionsDocTitleBig1, .reactionsDocTitleBig2, .reactionsDocTitleBig3 { vertical-align: top; }
+
+.reactionsDocLienImg, .reactionsDocLien, .reactionsDocLienSmall1, .reactionsDocLienSmall2, .reactionsDocLienBig1, .reactionsDocLienBig2, .reactionsDocLienBig3, .reactionsDocTitle, .reactionsDocTitleSmall1, .reactionsDocTitleSmall2, .reactionsDocTitleBig1, .reactionsDocTitleBig2, .reactionsDocTitleBig3 { font-weight: bold; }
+
+.reactionsDocLienImg, .reactionsDocLien, .reactionsDocLienSmall1, .reactionsDocLienSmall2, .reactionsDocLienBig1, .reactionsDocLienBig2, .reactionsDocLienBig3 { vertical-align: middle; }
+
+.reactionsDocLienImg, .reactionsDocPseudo, .reactionsDocPseudoSmall1, .reactionsDocPseudoSmall2, .reactionsDocPseudoBig1, .reactionsDocPseudoBig2, .reactionsDocPseudoBig3 { color: rgb(230, 0, 5); text-align: right; width: 15%; }
+
+.reactionsDocLien, .reactionsDocLienSmall1, .reactionsDocLienSmall2, .reactionsDocLienBig1, .reactionsDocLienBig2, .reactionsDocLienBig3 { padding-left: 5px; }
+
+.reactionsDocLien, .reactionsDocLienSmall1, .reactionsDocLienSmall2, .reactionsDocLienBig1, .reactionsDocLienBig2, .reactionsDocLienBig3, .reactionsDocLien a, .reactionsDocLienSmall1 a, .reactionsDocLienSmall2 a, .reactionsDocLienBig1 a, .reactionsDocLienBig2 a, .reactionsDocLienBig3 a, .reactionsDocTitle, .reactionsDocTitleSmall1, .reactionsDocTitleSmall2, .reactionsDocTitleBig1, .reactionsDocTitleBig2, .reactionsDocTitleBig3 { color: rgb(0, 0, 0); }
+
+.reactionsDocTexte a, .reactionsDocTexte, .reactionsDocTexteSmall1, .reactionsDocTexteSmall2, .reactionsDocTexteBig1, .reactionsDocTexteBig2, .reactionsDocTexteBig3 { color: rgb(34, 34, 34); }
+
+.reactionsDate, .reactionsDateSmall1, .reactionsDateSmall2, .reactionsDateBig1, .reactionsDateBig2, .reactionsDateBig3 { color: rgb(102, 102, 102); }
+
+.reactionsDocLien, .reactionsDocPseudo, .reactionsDocTexte, .reactionsDocTitle, .reactionsDate { font-size: 12px; line-height: 15px; }
+
+.reactionsDocLienSmall1, .reactionsDocPseudoSmall1, .reactionsDocTexteSmall1, .reactionsDocTitleSmall1, .reactionsDateSmall1 { font-size: 11px; line-height: 14px; }
+
+.reactionsDocLienSmall2, .reactionsDocPseudoSmall2, .reactionsDocTexteSmall2, .reactionsDocTitleSmall2, .reactionsDateSmall2 { font-size: 10px; line-height: 13px; }
+
+.reactionsDocLienBig1, .reactionsDocPseudoBig1, .reactionsDocTexteBig1, .reactionsDocTitleBig1, .reactionsDateBig1 { font-size: 13px; line-height: 16px; }
+
+.reactionsDocLienBig2, .reactionsDocPseudoBig2, .reactionsDocTexteBig2, .reactionsDocTitleBig2, .reactionsDateBig2 { font-size: 14px; line-height: 17px; }
+
+.reactionsDocLienBig3, .reactionsDocPseudoBig3, .reactionsDocTexteBig3, .reactionsDocTitleBig3, .reactionsDateBig3 { font-size: 15px; line-height: 18px; }
+
+.leadDoc, .leadDocSmall1, .leadDocSmall2, .leadDocBig1, .leadDocBig2, .leadDocBig3, .paragraphDoc, .paragraphDocSmall1, .paragraphDocSmall2, .paragraphDocBig1, .paragraphDocBig2, .paragraphDocBig3, .sonDoc, .sonDocSmall1, .sonDocSmall2, .sonDocBig1, .sonDocBig2, .sonDocBig3, .videoDoc, .videoDocSmall1, .videoDocSmall2, .videoDocBig1, .videoDocBig2, .videoDocBig3 { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; padding-left: 9px; padding-right: 40px; }
+
+.paragraphDoc, .paragraphDocSmall1, .paragraphDocSmall2, .paragraphDocBig1, .paragraphDocBig2, .paragraphDocBig3, .sonDoc, .sonDocSmall1, .sonDocSmall2, .sonDocBig1, .sonDocBig2, .sonDocBig3, .videoDoc, .videoDocSmall1, .videoDocSmall2, .videoDocBig1, .videoDocBig2, .videoDocBig3 { font-weight: normal; }
+
+.leadDoc, .leadDocSmall1, .leadDocSmall2, .leadDocBig1, .leadDocBig2, .leadDocBig3 { font-weight: bold; }
+
+.sonDoc, .sonDocSmall1, .sonDocSmall2, .sonDocBig1, .sonDocBig2, .sonDocBig3, .videoDoc, .videoDocSmall1, .videoDocSmall2, .videoDocBig1, .videoDocBig2, .videoDocBig3 { clear: both; }
+
+.sonDoc, .sonDocSmall1, .sonDocSmall2, .sonDocBig1, .sonDocBig2, .sonDocBig3, .videoDoc, .videoDocSmall1, .videoDocSmall2, .videoDocBig1, .videoDocBig2, .videoDocBig3, .diaporamaDoc, .diaporamaDocSmall1, .diaporamaDocSmall2, .diaporamaDocBig1, .diaporamaDocBig2, .diaporamaDocBig3 { margin-bottom: 10px; }
+
+.videoDoc, .videoDocSmall1, .videoDocSmall2, .videoDocBig1, .videoDocBig2, .videoDocBig3 { margin-top: 5px; }
+
+.videoDoc object, .videoDocSmall1 object, .videoDocSmall2 object, .videoDocBig1 object, .videoDocBig2 object, .videoDocBig3 object, .videoDoc object embed, .videoDocSmall1 object embed, .videoDocSmall2 object embed, .videoDocBig1 object embed, .videoDocBig2 object embed, .videoDocBig3 object embed { width: 364px; height: 326px; }
+
+.sonDoc object, .sonDocSmall1 object, .sonDocSmall2 object, .sonDocBig1 object, .sonDocBig2 object, .sonDocBig3 object { width: 200px; height: 20px; }
+
+.sonDoc a, .sonDocSmall1 a, .sonDocSmall2 a, .sonDocBig1 a, .sonDocBig2 a, .sonDocBig3 a, .videoDoc a, .videoDocSmall1 a, .videoDocSmall2 a, .videoDocBig1 a, .videoDocBig2 a, .videoDocBig3 a { color: rgb(34, 34, 34); }
+
+.sonDoc, .videoDoc, .diaporamaDoc { font-size: 12px; line-height: 15px; }
+
+.sonDocSmall1, .videoDocSmall1, .diaporamaDocSmall1 { font-size: 11px; line-height: 14px; }
+
+.sonDocSmall2, .videoDocSmall2, .diaporamaDocSmall2 { font-size: 10px; line-height: 13px; }
+
+.sonDocBig1, .videoDocBig1, .diaporamaDocBig1 { font-size: 13px; line-height: 16px; }
+
+.sonDocBig2, .videoDocBig2, .diaporamaDocBig2 { font-size: 14px; line-height: 17px; }
+
+.sonDocBig3, .videoDocBig3, .diaporamaDocBig3 { font-size: 15px; line-height: 18px; }
+
+.mediaHp, .photoHp { font-family: "Trebuchet MS"; font-size: 12px; line-height: 15px; color: rgb(34, 34, 34); font-weight: normal; clear: both; padding-right: 0px; padding-bottom: 10px; }
+
+.mediaHp { width: 364px; height: 356px; }
+
+.photoHp { width: 364px; height: 567px; }
+
+.mediaHp a, .photoHp a { color: rgb(34, 34, 34); }
+
+.mediaHpLegend { padding-left: 10px; margin-top: 5px; }
+
+.leadDoc, .leadDocSmall1, .leadDocSmall2, .leadDocBig1, .leadDocBig2, leaddocbig3 { margin-top: 4px; margin-bottom: 4px; }
+
+.leadDoc { font-size: 13px; line-height: 16px; }
+
+.leadDocSmall1 { font-size: 12px; line-height: 15px; }
+
+.leadDocSmall2 { font-size: 11px; line-height: 14px; }
+
+.leadDocBig1 { font-size: 14px; line-height: 17px; }
+
+.leadDocBig2 { font-size: 15px; line-height: 18px; }
+
+.leadDocBig3 { font-size: 16px; line-height: 19px; }
+
+.paragraphDoc, .paragraphDocSmall1, .paragraphDocSmall2, .paragraphDocBig1, .paragraphDocBig2, .paragraphDocBig3 { margin-bottom: 20px; }
+
+.paragraphDoc { font-size: 12px; line-height: 15px; }
+
+.paragraphDocSmall1 { font-size: 11px; line-height: 14px; }
+
+.paragraphDocSmall2 { font-size: 10px; line-height: 13px; }
+
+.paragraphDocBig1 { font-size: 13px; line-height: 16px; }
+
+.paragraphDocBig2 { font-size: 14px; line-height: 17px; }
+
+.paragraphDocBig3 { font-size: 15px; line-height: 18px; }
+
+.titreDoc a, .titreDoc, .titreDocSmall1, .titreDocSmall2, .titreDocBig1, .titreDocBig2, .titreDocBig3 .firstPara, .firstParaSmall1, .firstParaSmall2, .firstParaBig1, .firstParaBig2, .firstParaBig3, .diaporamaDoc, .diaporamaDocSmall1, .diaporamaDocSmall2, .diaporamaDocBig1, .diaporamaDocBig2, .diaporamaDocBig3, .diaporamaDoc a, .diaporamaDocSmall1 a, .diaporamaDocSmall2 a, .diaporamaDocBig1 a, .diaporamaDocBig2 a, .diaporamaDocBig3 a { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); }
+
+.titreDoc, .titreDocSmall1, .titreDocSmall2, .titreDocBig1, .titreDocBig2, .titreDocBig3 .firstPara, .firstParaSmall1, .firstParaSmall2, .firstParaBig1, .firstParaBig2, .firstParaBig3 { font-weight: normal; }
+
+.diaporamaDoc, .diaporamaDocSmall1, .diaporamaDocSmall2, .diaporamaDocBig1, .diaporamaDocBig2, .diaporamaDocBig3 { font-weight: bold; }
+
+.titreDoc, .titreDocSmall1, .titreDocSmall2, .titreDocBig1, .titreDocBig2, .titreDocBig3 { margin-bottom: 5px; padding-left: 9px; padding-right: 40px; }
+
+.firstPara::first-letter { font-size: 2em; line-height: 18px; }
+
+.firstParaSmall1::first-letter { font-size: 1.9em; line-height: 17px; }
+
+.firstParaSmall2::first-letter { font-size: 1.8em; line-height: 16px; }
+
+.firstParaBig1::first-letter { font-size: 2.1em; line-height: 19px; }
+
+.firstParaBig2::first-letter { font-size: 2.2em; line-height: 20px; }
+
+.firstParaBig3::first-letter { font-size: 2.3em; line-height: 21px; }
+
+.titreDoc { font-size: 18px; line-height: 20px; }
+
+.titreDocSmall1 { font-size: 17px; line-height: 19px; }
+
+.titreDocSmall2 { font-size: 16px; line-height: 18px; }
+
+.titreDocBig1 { font-size: 19px; line-height: 21px; }
+
+.titreDocBig2 { font-size: 20px; line-height: 22px; }
+
+.titreDocBig3 { font-size: 21px; line-height: 23px; }
+
+.infosDocEsp, .infosDocEspSmall1, .infosDocEspSmall2, .infosDocEspBig1, .infosDocEspBig2, .infosDocEspBig3, .infosDoc, .infosDocSmall1, .infosDocSmall2, .infosDocBig1, .infosDocBig2, .infosDocBig3, .copyright, .copyrightSmall1, .copyrightSmall2, .copyrightBig1, .copyrightBig2, .copyrightBig3 { clear: both; font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; vertical-align: top; }
+
+.infosDocEsp, .infosDocEspSmall1, .infosDocEspSmall2, .infosDocEspBig1, .infosDocEspBig2, .infosDocEspBig3, .infosDoc, .infosDocSmall1, .infosDocSmall2, .infosDocBig1, .infosDocBig2, .infosDocBig3, .diaporamaDoc, .diaporamaDocSmall1, .diaporamaDocSmall2, .diaporamaDocBig1, .diaporamaDocBig2, .diaporamaDocBig3 { padding-left: 9px; padding-right: 40px; }
+
+.infosDocEsp, .infosDocEspSmall1, .infosDocEspSmall2, .infosDocEspBig1, .infosDocEspBig2, .infosDocEspBig3 { margin-bottom: 10px; }
+
+.infosDocEsp, .infosDoc { font-size: 12px; line-height: 15px; }
+
+.infosDocEspSmall1, .infosDocSmall1 { font-size: 11px; line-height: 14px; }
+
+.infosDocEspSmall2, .infosDocSmall2 { font-size: 10px; line-height: 13px; }
+
+.infosDocEspBig1, .infosDocBig1 { font-size: 13px; line-height: 16px; }
+
+.infosDocEspBig2, .infosDocBig2 { font-size: 14px; line-height: 17px; }
+
+.infosDocEspBig3, .infosDocBig3 { font-size: 15px; line-height: 18px; }
+
+.copyright { font-size: 12px; }
+
+.copyrightSmall1 { font-size: 11px; }
+
+.copyrightSmall2 { font-size: 10px; }
+
+.copyrightBig1 { font-size: 13px; }
+
+.copyrightBig2 { font-size: 14px; }
+
+.copyrightBig3 { font-size: 15px; }
+
+.articleLinkDocTableCol2, .articleLinkDocTableCol2Small1, .articleLinkDocTableCol2Small2, .articleLinkDocTableCol2Big1, .articleLinkDocTableCol2Big2, .articleLinkDocTableCol2Big3, .articleLinkDocTableCol2Titre, .articleLinkDocTableCol2TitreSmall1, .articleLinkDocTableCol2TitreSmall2, .articleLinkDocTableCol2TitreBig1, .articleLinkDocTableCol2TitreBig2, .articleLinkDocTableCol2TitreBig3 { text-align: left; vertical-align: top; background-color: rgb(229, 229, 229); padding-bottom: 4px; padding-top: 2px; width: 173px; font-family: "Trebuchet MS"; }
+
+.articleLinkDocTableCol2Titre, .articleLinkDocTableCol2TitreSmall1, .articleLinkDocTableCol2TitreSmall2, .articleLinkDocTableCol2TitreBig1, .articleLinkDocTableCol2TitreBig2, .articleLinkDocTableCol2TitreBig3 { text-transform: uppercase; }
+
+.articleLinkDocTableCol2 ul li, .articleLinkDocTableCol2Small1 ul li, .articleLinkDocTableCol2Small2 ul li, .articleLinkDocTableCol2Big1 ul li, .articleLinkDocTableCol2Big2 ul li, .articleLinkDocTableCol2Big3 ul li { background-image: url("./puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; padding-bottom: 8px; font-weight: normal; text-decoration: none; color: rgb(34, 34, 34); }
+
+.articleLinkDocTableCol2 ul li a, .articleLinkDocTableCol2Small1 ul li a, .articleLinkDocTableCol2Small2 ul li a, .articleLinkDocTableCol2Big1 ul li a, .articleLinkDocTableCol2Big2 ul li a, .articleLinkDocTableCol2Big3 ul li a { color: rgb(34, 34, 34); }
+
+.articleLinkDocTableCol2 ul li { font-size: 11px; line-height: 14px; }
+
+.articleLinkDocTableCol2Small1 ul li { font-size: 11px; line-height: 14px; }
+
+.articleLinkDocTableCol2Small2 ul li { font-size: 10px; line-height: 13px; }
+
+.articleLinkDocTableCol2Big1 ul li { font-size: 12px; line-height: 15px; }
+
+.articleLinkDocTableCol2Big2 ul li { font-size: 13px; line-height: 16px; }
+
+.articleLinkDocTableCol2Big3 ul li { font-size: 14px; line-height: 17px; }
+
+.articleLinkDocTableCol2Titre, .articleLinkDocTableCol2TitreSmall1, .articleLinkDocTableCol2TitreSmall2, .articleLinkDocTableCol2TitreBig1, .articleLinkDocTableCol2TitreBig2, .articleLinkDocTableCol2TitreBig3 { color: rgb(0, 0, 0); font-weight: bold; }
+
+.articleLinkDocTableCol2Titre { font-size: 12px; line-height: 15px; }
+
+.articleLinkDocTableCol2TitreSmall1 { font-size: 11px; line-height: 14px; }
+
+.articleLinkDocTableCol2TitreSmall2 { font-size: 10px; line-height: 13px; }
+
+.articleLinkDocTableCol2TitreBig1 { font-size: 13px; line-height: 16px; }
+
+.articleLinkDocTableCol2TitreBig2 { font-size: 14px; line-height: 17px; }
+
+.articleLinkDocTableCol2TitreBig3 { font-size: 15px; line-height: 18px; }
+
+li.rougeSmall1, li.rougeSmall1 a { font-size: 10px; line-height: 13px; }
+
+li.rougeSmall2, li.rougeSmall2 a { font-size: 9px; line-height: 12px; }
+
+li.rougeBig1, li.rougeBig1 a { font-size: 12px; line-height: 15px; }
+
+li.rougeBig2, li.rougeBig2 a { font-size: 13px; line-height: 16px; }
+
+li.rougeBig3, li.rougeBig3 a { font-size: 14px; line-height: 17px; }
+
+#articlePub { clear: both; vertical-align: top; padding: 9px; margin: 0px; border-top: 1px solid rgb(204, 204, 204); background-image: url("./degrade_gris_182.gif"); background-repeat: repeat-x; background-color: rgb(245, 245, 245); }
+
+.galText { position: relative; visibility: visible; }
+
+.galTextOff { position: absolute; visibility: hidden; }
+
+.galTextFrontOff { visibility: hidden; }
+
+#galImageGF { width: 350px; vertical-align: top; margin-bottom: 25px; }
+
+#galImageGF img { text-align: center; }
+
+.galImagePF { width: 350px; clear: both; }
+
+.galImagePF img { margin-bottom: 5px; }
+
+.galImagePFNormal { width: 100px; float: left; margin-right: 25px; margin-bottom: 25px; }
+
+.galImagePFDernier { width: 100px; float: right; margin-bottom: 25px; }
+
+.linksDocCol2 { width: 173px; margin-left: 9px; margin-right: 9px; margin-bottom: 5px; }
+
+.lireAussiTitre { background-image: url("./lireAussi.gif"); background-repeat: no-repeat; width: 140px; height: 15px; }
+
+.memeThemeTitre { background-image: url("./memeTheme.gif"); background-repeat: no-repeat; width: 170px; height: 21px; margin-bottom: 3px; }
+
+.memeAuteurTitre { background-image: url("./memeAuteur.gif"); background-repeat: no-repeat; width: 170px; height: 21px; margin-bottom: 3px; }
+
+.archiveTitre { background-image: url("./archive.gif"); background-repeat: no-repeat; width: 170px; height: 21px; margin-bottom: 3px; }
+
+.memeRubTitre { background-image: url("./memeRub.gif"); background-repeat: no-repeat; width: 142px; height: 35px; margin-bottom: 5px; }
+
+.articleLinkDoc { clear: both; float: left; width: 193px; margin: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; }
+
+.articleLinkDocTable { width: 193px; border: 0px; float: left; text-align: left; padding: 0px; border-spacing: 0px; border-collapse: collapse; }
+
+.articleLinkColRondRight { background-image: url("./meme_sujet_fond_right.gif"); height: 4px; width: 11px; padding: 0px; }
+
+.articleLinkColRondLeft { width: 9px; height: 4px; padding: 0px; background-image: url("./meme_sujet_fond_left.gif"); }
+
+.articleLinkColHaut { width: 193px; height: 4px; padding: 0px; background-image: url("./meme_sujet_top.gif"); }
+
+.articleLinkColFond { width: 193px; height: 3px; padding: 0px; background-image: url("./meme_sujet_bottom.gif"); }
+
+.fondBleuVert { background-color: rgb(58, 126, 164); }
+
+.fondBleuVertFonce { background-color: rgb(20, 73, 102); }
+
+.fondGris { background-color: rgb(229, 229, 229); }
+
+.fondGrisMoyen { background-color: rgb(204, 204, 204); }
+
+.fondGrisClair { background-color: rgb(237, 233, 230); }
+
+.fondGrisMarron { background-color: rgb(197, 188, 181); }
+
+.fondGrisTresClair { background-color: rgb(244, 243, 241); }
+
+.fondOrange { background-color: rgb(254, 153, 0); }
+
+.fondMarronFonce { background-color: rgb(92, 60, 31); }
+
+.fondNoir { background-color: rgb(0, 0, 0); }
+
+.fondBleuVertMoyen { background-color: rgb(82, 151, 189); }
+
+.fondGrisTTClair { background-color: rgb(245, 244, 242); }
+
+.fondRouge { background-color: rgb(232, 33, 0); }
+
+.tabBleuTopBorder { background-color: rgb(82, 151, 190); border-top: 3px solid rgb(20, 73, 102); width: 100%; border-spacing: 0px; border-collapse: collapse; vertical-align: middle; height: 27px; }
+
+.tabBleuTopBorder img { float: left; padding: 2px; }
+
+.tabBleuTopBorder div { padding: 5px; }
+
+.tabBleuTopBorder a { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-size: 12px; }
+
+.envoyer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: rgb(0, 0, 153); text-decoration: none; }
+
+a.envoyer:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+
+.Style2 { font-family: "trebuchet MS", verdana; font-size: 16px; font-weight: bold; color: rgb(0, 0, 153); text-decoration: none; }
+
+.line { border-bottom: 1px solid rgb(134, 159, 210); }
+
+.topBottomligne { border-bottom: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); padding-top: 5px; padding-bottom: 5px; }
+
+table.menuReuters { background-color: rgb(230, 0, 5); color: rgb(255, 255, 255); }
+
+table.menuReuters td.upperlined { border-top: 1px solid rgb(255, 255, 255); }
+
+table.menuReuters a { color: rgb(255, 255, 255); }
+
+.MleChiffre_fond_petit { background-image: url("./fond_degrade_gris_petit.gif"); width: 100%; border-left: 1px solid rgb(204, 204, 204); }
+
+.scrolled { margin-right: 6px; position: relative; z-index: 2; overflow: auto; }
+
+.boutonRouge { text-decoration: none; color: rgb(255, 255, 255); text-align: center; font-weight: bold; background-color: rgb(230, 0, 5); cursor: pointer; }
+
+.paveRaye, .paveRayeFilet { background-position: right top; background-repeat: repeat-x; font-family: "Trebuchet MS"; color: rgb(82, 151, 189); font-weight: normal; line-height: 18px; font-size: 16px; text-align: left; vertical-align: middle; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; height: 35px; }
+
+.paveRayeFilet { border-top: 5px solid rgb(20, 73, 102); font-weight: bold; }
+
+.communSpace { padding: 5px 10px; }
+
+.paveBleu { border-top: 5px solid rgb(20, 73, 102); height: 35px; text-align: left; padding-left: 10px; padding-right: 10px; }
+
+.paveBleu, .paveBleu a { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-weight: bold; line-height: 18px; font-size: 16px; }
+
+.paveBleuTexteNoir { border-top: 5px solid rgb(20, 73, 102); height: 35px; font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; line-height: 18px; font-size: 16px; text-align: left; }
+
+.bandeauBleuRaye { width: 100%; border-spacing: 0px; border-collapse: collapse; }
+
+.bandeauBleuRaye td { padding-left: 10px; }
+
+.noBorder, .zoneDroite, .zoneMilieu, .tableauRaye { border-spacing: 0px; border-collapse: collapse; }
+
+.zoneMilieu { width: 60%; vertical-align: top; }
+
+.zoneMilieu td { padding: 3px 9px; }
+
+.zoneDroite { vertical-align: top; padding: 0px; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); }
+
+.texteBleu, .texteBleuFondRaye, .texteBleuLeft, .texteBleuGras { font-family: "Trebuchet MS"; color: rgb(82, 151, 189); font-size: 11px; line-height: 14px; vertical-align: middle; }
+
+.texteBleu, .texteBleuFondRaye, .texteBleuLeft { font-weight: normal; }
+
+.texteBleuGras { font-weight: bold; }
+
+.texteBleuFondRaye, .texteBleuLeft { text-align: left; }
+
+.texteBleu { text-align: right; }
+
+.texteBleu_titre, .texteBleu_t1_titre, .texteBleu_t2_titre, .texteBleu_t3_titre, .texteBleu_t4_titre, .texteBleu_t5_titre { font-family: "Trebuchet MS"; color: rgb(82, 151, 189); font-size: 18px; line-height: 18px; font-weight: bold; }
+
+.texteBleu_t1_titre { font-size: 10px; }
+
+.texteBleu_t2_titre { font-size: 12px; }
+
+.texteBleu_t3_titre { font-size: 14px; }
+
+.texteBleu_t4_titre { font-size: 16px; }
+
+.texteBleu_t5_titre { font-size: 18px; }
+
+.texteResSearch { font-weight: normal; font-style: italic; font-size: 12px; line-height: 12px; font-family: "Trebuchet MS"; color: rgb(102, 102, 102); }
+
+.texteLimit { border-right: 1px solid rgb(204, 204, 204); }
+
+.boutonPremium { text-decoration: none; color: rgb(102, 102, 102); text-align: center; font-weight: bold; font-family: "Trebuchet MS"; background-color: rgb(249, 248, 247); cursor: pointer; border-style: solid; border-color: rgb(237, 233, 230); border-width: 1px; padding-left: 5px; word-spacing: 1px; }
+
+.input { font-family: "Trebuchet MS"; font-size: 12px; color: rgb(34, 34, 34); border: 1px solid rgb(153, 153, 153); }
+
+.inputPresentation { font-family: "Trebuchet MS"; font-size: 12px; color: rgb(34, 34, 34); border: 1px solid rgb(153, 153, 153); width: 300px; height: 150px; }
+
+.inputSelect { font-family: "Trebuchet MS"; font-size: 12px; color: rgb(34, 34, 34); border: 1px solid rgb(153, 153, 153); width: 200px; }
+
+div.boite { margin: 0px; font-size: small; font-family: Arial, Helvetica, sans-serif; width: 160px; }
+
+div.tetiere h4 { display: block; float: left; color: rgb(0, 0, 0); font-weight: bold; font-size: 80%; text-transform: uppercase; margin: 0px; padding: 0px; width: 160px; }
+
+div.hotspot div.tetiere h4 { padding: 0px; text-align: center; height: 15px; font-weight: normal; }
+
+div.hotspot div.bord { border: 1px solid rgb(0, 0, 0); background-color: rgb(250, 250, 250); }
+
+div.hotspot div.boite-contenu { margin: 0px 7px; background-color: rgb(250, 250, 250); text-align: left; }
+
+div.hotspot div.boite-contenu { padding: 5px 0px; }
+
+div.hotspot div.cols { margin: 0px 7px; }
+
+div.hotspot div.bord div.boite-contenu h6 { margin-top: 5px; }
+
+div.hotspot h6, div.hotspot h6 a { font-size: 90%; margin: 0px; padding: 0px; color: rgb(0, 68, 169); text-decoration: none; }
+
+div.hotspot h6 a:hover { text-decoration: underline; }
+
+div.hotspot p { margin: 0px; }
+
+div.hotspot p a, div.hotspot p a:hover { margin: 0px; padding: 0px; font-size: 80%; color: rgb(86, 86, 86); text-decoration: none; }
+
+div.hotspot p a:hover { color: rgb(86, 86, 86); text-decoration: underline; }
+
+.lienspub { margin: 0px 0px 17px; padding: 5px; background-color: rgb(255, 245, 235); font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; text-align: left; }
+
+.lienspub h4 { font-family: Georgia, "Times New Roman", Times, serif; font-size: 80%; text-transform: uppercase; border-style: solid; border-color: rgb(0, 0, 0); border-width: 0px 0px 1px; margin: 0px; padding: 0px 0px 2px; }
+
+.lienspub h5 { margin: 11px 0px 0px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 80%; }
+
+.lienspub h5 a { text-decoration: none; color: rgb(0, 0, 0); }
+
+.lienspub h5 a:hover { text-decoration: underline; }
+
+.lienspub p { margin: 0px; padding: 0px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 80%; }
+
+.lienspub p a, .lienspub p a:visited { text-decoration: none; color: rgb(0, 0, 0); }
+
+.lienspub p a:hover, .lienspub p a:active { text-decoration: none; color: rgb(153, 153, 153); }
+
+.lienspub p.site a, .lienspub p.site a:visited { text-decoration: none; color: rgb(0, 102, 204); }
+
+.lienspub p.site a:hover, .lienspub p.site a:active { text-decoration: underline; }
+
+.lienspub p.responsable { border-style: solid; border-color: rgb(102, 102, 102); border-width: 1px 0px 0px; margin: 10px 0px 0px; padding: 4px 0px 0px; font-size: 75%; color: rgb(102, 102, 102); }
+
+table.tbarticle { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+
+table.tbarticle td { padding: 3px; border-right: 1px solid rgb(153, 153, 153); border-bottom: 1px solid rgb(102, 102, 102); }
+
+table.tbarticle tr.tbtetiere { background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); font-weight: bold; }
+
+table.tbarticle tr.tbtetiere td { height: 30px; border-bottom: 1px solid rgb(0, 0, 0); vertical-align: middle; }
+
+table.tbarticle tr.tbrang1 { background-color: rgb(204, 204, 204); }
+
+table.tbarticle tr.tbrang2 { background-color: rgb(204, 204, 194); }
+
+table.tbarticle td.colder { border-right: 0px; }
+
+table.tbarticle tr.tbpied { background-color: rgb(173, 173, 165); }
+
+table.tbarticle tr.tbpied td { padding: 5px; border: 0px; }
+
+.pubDroite { margin: 10px 9px; }
+
+.pubBasse { vertical-align: top; margin: 0px; padding: 10px; background-image: url("./fond_liens_sponsorises.jpg"); background-repeat: repeat-x; background-color: rgb(245, 245, 245); font-size: 11px; }
+
+.publicite { background-color: rgb(245, 244, 242); font-family: "Trebuchet MS"; color: rgb(102, 102, 102); font-weight: normal; font-size: 11px; line-height: 20px; }
+
+.fond_pub_728pix { background-image: url("./fond_pub_728x90.gif"); background-repeat: no-repeat; }
+
+.colDroiteHP { width: 318px; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); vertical-align: top; }
+
+.colGaucheHP { width: 319px; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); vertical-align: top; padding-left: 0px; padding-right: 0px; }
+
+.colMilieuHP { width: 349px; vertical-align: top; padding-left: 0px; padding-right: 0px; }
+
+.colMilieuHP td, .colMilieuHP td table, .colMilieuHP td div, .colMilieuHP table { vertical-align: top; }
+
+.colDoubleGaucheHP { width: 669px; border-width: 0px; border-style: solid; border-color: rgb(204, 204, 204); vertical-align: top; }
+
+.zoneModuleActu { width: 350px; padding-left: 10px; padding-right: 10px; padding-top: 10px; }
+
+.zoneActuJour { width: 650px; padding-left: 10px; padding-right: 10px; padding-top: 10px; }
+
+.rubActu { width: 100%; border-width: 0px; border-style: solid; border-color: rgb(204, 204, 204); }
+
+.rubActuZone { width: 100%; padding-left: 9px; padding-right: 10px; padding-bottom: 15px; }
+
+.rubActuDoc1Zone { width: 100%; padding-left: 9px; padding-right: 10px; }
+
+.cultureZone1 { width: 320px; padding-left: 9px; padding-right: 10px; padding-bottom: 10px; }
+
+.cultureZone2 { width: 320px; padding-bottom: 10px; }
+
+.cineZone2 { padding-left: 9px; padding-right: 10px; padding-top: 10px; border-width: 1px 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); }
+
+.cineZone3 { border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); padding-top: 0px; }
+
+.M1art_1img { width: 140px; padding: 10px 10px 10px 9px; }
+
+.MimgTitreSurtitre2ColRaye { padding: 5px 10px; }
+
+.imgGdeLeftHP { float: left; vertical-align: top; margin-bottom: 10px; margin-right: 20px; }
+
+.imgMoyenEvenementHP { float: left; vertical-align: top; margin-bottom: 10px; margin-right: 10px; }
+
+.imgPteLeftHP, .imgDepeches { float: left; vertical-align: top; margin-right: 10px; }
+
+.imgDepeches { margin-bottom: 0px; }
+
+.imgPteLeftHP { margin-bottom: 10px; }
+
+.imgPteLeftDossier { float: left; vertical-align: top; margin-right: 10px; margin-bottom: 5px; }
+
+.imgPteLeftBorderHP { float: left; vertical-align: top; margin-bottom: 15px; margin-right: 10px; border: 1px solid rgb(0, 0, 0); }
+
+.bandeauLienRouge { width: 320px; background-image: url("./com_fond_red.gif"); padding-right: 10px; background-color: rgb(199, 34, 0); }
+
+.bandeauReaction { background-image: url("./fondBandoReaction.gif"); font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.moduleFondBleu, .paveBleu, .paveBleuTexteNoir { background-color: rgb(82, 151, 189); padding-left: 10px; padding-right: 10px; }
+
+.fondLiseretRaye { background-image: url("./fond_liseret_raye.gif"); background-repeat: repeat-x; }
+
+.inputText { font-family: "Trebuchet MS"; font-size: 11px; color: rgb(102, 102, 102); font-style: normal; padding-left: 3px; width: 148px; height: 20px; border: 1px solid rgb(165, 166, 166); }
+
+.inputTextArea { font-family: "Trebuchet MS"; font-size: 11px; color: rgb(102, 102, 102); font-style: normal; padding-left: 3px; border: 1px solid rgb(165, 166, 166); }
+
+.mon_libe_hp { font-size: 11px; line-height: 11px; font-weight: bolder; color: rgb(0, 0, 0); vertical-align: top; }
+
+.recherche { width: 140px; height: 20px; }
+
+.recherche_ou { width: 120px; height: 18px; }
+
+.login_mon_libe, .recherche, .recherche_ou { font-size: 10px; margin-left: 2px; padding-left: 4px; }
+
+.login_mon_libe { height: 17px; width: 85px; }
+
+.login_page { width: 669px; }
+
+.login_page, .login_laius, .login_authentification, .login_error_msg { padding: 10px; }
+
+.login_laius { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.login_error_msg { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 12px; line-height: 15px; }
+
+.login_authentification { background-image: url("./fond_rayures.gif"); }
+
+.login_liseret_bleu_fonce { border-top: 5px solid rgb(20, 73, 102); }
+
+.login_liseret_bleu_clair { border-top: 25px solid rgb(82, 151, 190); }
+
+.recherche_hp { background-image: url("./fond_recherche.gif"); background-repeat: repeat-x; }
+
+.recherche_hp_input { width: 130px; height: 20px; vertical-align: top; font-family: "Trebuchet MS"; font-size: 11px; color: rgb(0, 0, 0); font-weight: normal; line-height: 13px; }
+
+.texteOrange_petitHP { font-family: "Trebuchet MS"; color: rgb(255, 153, 0); font-size: 11px; line-height: 13px; font-weight: bold; }
+
+.fond_raye_gris, .paveRaye, .paveRayeFilet, .texteFondRaye, .texteBleuFondRaye, .tableauRaye { background-image: url("./fond_rayures.gif"); }
+
+.div_raye_gris { padding: 11px 9px 10px; }
+
+.modulePadding { width: 100%; vertical-align: top; padding: 10px; }
+
+.module { width: 100%; vertical-align: top; padding: 0px; margin: 0px; }
+
+.module td, .module div { vertical-align: top; }
+
+.scroll, #LayerCulture, .blocon, .scrollMedia, .interactif_message, .interactif_liens { }
+
+.MainTableau { border-top: 1px solid rgb(204, 204, 204); border-bottom: 0px solid rgb(204, 204, 204); }
+
+.MainTableau1erCol { border-right: 1px solid rgb(204, 204, 204); border-bottom: 0px solid rgb(204, 204, 204); }
+
+.MainTableau2emeCol { border-bottom: 0px solid rgb(204, 204, 204); }
+
+.boxOffice { background-image: url("./fond_rayures.gif"); padding-left: 10px; padding-right: 10px; border-bottom: 1px solid rgb(204, 204, 204); }
+
+.modCultureBlanc { padding-left: 10px; padding-right: 10px; }
+
+.modCultureRaye { background-image: url("./fond_rayures.gif"); border-bottom: 1px solid rgb(204, 204, 204); }
+
+.modCultureRaye td { padding-left: 10px; padding-right: 10px; }
+
+.topCultureLiseret { background-image: url("./fond_vous_opinion.gif"); background-repeat: repeat-x; height: 8px; padding-left: 0px; padding-right: 0px; }
+
+.modCultureLiseret { background-image: url("./fond_rayures.gif"); border-top: 1px solid rgb(204, 204, 204); }
+
+.modCultureLiseret { padding-bottom: 10px; }
+
+.borderTop { border-top: 1px solid rgb(204, 204, 204); }
+
+.borderBottom, .borderRightBottom { border-bottom: 1px solid rgb(204, 204, 204); }
+
+.borderRight, .borderRightBottom, .borderRightHeader { border-right: 1px solid rgb(204, 204, 204); }
+
+.borderRightHeader { background-color: rgb(255, 255, 255); }
+
+.borderLeft { border-left: 1px solid rgb(204, 204, 204); }
+
+.borderLeftRight { border-right: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); }
+
+.paddingLeftRight { padding-right: 10px; padding-left: 10px; }
+
+.TexteNoir16pix { font-size: 16px; font-weight: bold; color: rgb(0, 0, 0); }
+
+.filet_pointille_bleu { border-bottom: 1px dotted rgb(138, 189, 218); margin-bottom: 5px; padding-bottom: 0px; }
+
+.lien_mon_libe { font-size: 12px; font-weight: bold; color: rgb(0, 0, 0); text-decoration: none; line-height: 12px; }
+
+.moduleTitre1erPara { padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
+
+
+.rub1Hp { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 18px; font-weight: bold; line-height: 20px; }
+
+.rub1Hp a { color: rgb(230, 0, 5); }
+
+.rub2Hp { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 22px; font-weight: bold; line-height: 24px; }
+
+.rub3Hp { font-family: "Trebuchet MS"; color: rgb(92, 60, 31); font-size: 22px; font-weight: bold; line-height: 24px; }
+
+.rub4Hp { font-family: "Trebuchet MS"; color: rgb(255, 153, 0); font-size: 18px; font-weight: bold; line-height: 20px; }
+
+.rub5Hp { font-family: "Trebuchet MS"; color: rgb(255, 153, 0); font-size: 20px; font-weight: bold; line-height: 22px; }
+
+.rub6Hp { font-family: "Trebuchet MS"; color: rgb(255, 153, 0); font-size: 22px; font-weight: bold; line-height: 24px; }
+
+.rub7Hp { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 24px; font-weight: bold; line-height: 26px; }
+
+.trait { background: url("trait.png") right bottom no-repeat; }
+
+.txt_actualite { background: url("txt_actualite.png") no-repeat; }
+
+.txt_monde { background: url("txt_monde.png") no-repeat; }
+
+.txt_terre { background: url("txt_terre.png") no-repeat; }
+
+.txt_politiques { background: url("txt_politiques.png") no-repeat; }
+
+.txt_societe { background: url("txt_societe.png") no-repeat; }
+
+.txt_economie { background: url("txt_economie.png") no-repeat; }
+
+.txt_medias { background: url("txt_medias.png") no-repeat; }
+
+.txt_sports { background: url("txt_sports.png") no-repeat; }
+
+.txt_sciences { background: url("txt_sciences.png") no-repeat; }
+
+.txt_instantanes { background: url("txt_instantanes.png") no-repeat; }
+
+.txt_forum { background: url("txt_forum.png") no-repeat; }
+
+.txt_blogs { background: url("txt_blogs.png") no-repeat; }
+
+.txt_courrier { background: url("txt_courrier.png") no-repeat; }
+
+.txt_rss { background: url("txt_rss.png") no-repeat; }
+
+.txt_culture { background: url("txt_culture.png") no-repeat; }
+
+.txt_cinema { background: url("txt_cinema.png") no-repeat; }
+
+.txt_livre { background: url("txt_livre.png") no-repeat; }
+
+.txt_musique { background: url("txt_musique.png") no-repeat; }
+
+.txt_sortir { background: url("txt_sortir.png") no-repeat; }
+
+.txt_television { background: url("txt_television.png") no-repeat; }
+
+.txt_jeuxvideos { background: url("txt_jeuxvideos.png") no-repeat; }
+
+.txt_tendances { background: url("txt_tendances.png") no-repeat; }
+
+.txt_digitales { background: url("txt_digitales.png") no-repeat; }
+
+.txt_portraits { background: url("txt_portraits.png") no-repeat; }
+
+.txt_grandangle { background: url("txt_grandangle.png") no-repeat; }
+
+.txt_weekend { background: url("txt_weekend.png") no-repeat; }
+
+.txt_villes { background: url("txt_villes.png") no-repeat; }
+
+.txt_opinion { background: url("txt_opinion.png") no-repeat; }
+
+.txt_rebonds { background: url("txt_rebonds.png") no-repeat; }
+
+.txt_chroniques { background: url("txt_chroniques.png") no-repeat; }
+
+.txt_vudailleur { background: url("txt_vudailleur.png") no-repeat; }
+
+.txt_chroniquesdexperts { background: url("txt_chroniquesdexperts.png") no-repeat; }
+
+.txt_vous { background: url("txt_vous.png") no-repeat; }
+
+.txt_sante { background: url("txt_sante.png") no-repeat; }
+
+.txt_education { background: url("txt_education.png") no-repeat; }
+
+.txt_logement { background: url("txt_logement.png") no-repeat; }
+
+.txt_internet { background: url("txt_internet.png") no-repeat; }
+
+.txt_emploi { background: url("txt_emploi.png") no-repeat; }
+
+.txt_voyages { background: url("txt_voyages.png") no-repeat; }
+
+.txt_diaporamas { background: url("txt_diaporamas.png") no-repeat; }
+
+.txt_videos { background: url("txt_videos.png") no-repeat; }
+
+.txt_sons { background: url("txt_sons.png") no-repeat; }
+
+.txt_galeries { background: url("txt_galeries.png") no-repeat; }
+
+.txt_infographies { background: url("txt_infographies.png") no-repeat; }
+
+.txt_rencontre { background: url("txt_rencontre.png") no-repeat; }
+
+.txt_meteo { background: url("txt_meteo.png") no-repeat; }
+
+.txt_bourse { background: url("txt_bourse.png") no-repeat; }
+
+.txt_formation { background: url("txt_formation.png") no-repeat; }
+
+.txt_immobilier { background: url("txt_immobilier.png") no-repeat; }
+
+.txt_carnet { background: url("txt_carnet.png") no-repeat; }
+
+.txt_entrenous { background: url("txt_entrenous.png") no-repeat; }
+
+.txt_abonnement { background: url("txt_abonnement.png") no-repeat; }
+
+.txt_contacts { background: url("txt_contacts.png") no-repeat; }
+
+.txt_agenda { background: url("txt_agenda.png") no-repeat; }
+
+.txt_bestsellers { background: url("txt_bestsellers.png") no-repeat; }
+
+.txt_boxoffice { background: url("txt_boxoffice.png") no-repeat; }
+
+.txt_leschoixducahierjeuxvideo { background: url("txt_leschoixducahierjeuxvideo.png") no-repeat; }
+
+.txt_chroniquesdedisques { background: url("txt_chroniquesdedisques.png") no-repeat; }
+
+.txt_critiquesdejeux { background: url("txt_critiquesdejeux.png") no-repeat; }
+
+.txt_DVD { background: url("txt_DVD.png") no-repeat; }
+
+.txt_lesinstantstele { background: url("txt_lesinstantstele.png") no-repeat; }
+
+.txt_jukebox { background: url("txt_jukebox.png") no-repeat; }
+
+.txt_poche { background: url("txt_poche.png") no-repeat; }
+
+.txt_choixducahier { background: url("txt_choixducahier.png") no-repeat; }
+
+.txt_disques { background: url("txt_disques.png") no-repeat; }
+
+.txt_lesmeilleuresventes { background: url("txt_lesmeilleuresventes.png") no-repeat; }
+
+.txt_tentations { background: url("txt_tentations.png") no-repeat; }
+
+.txt_vientdeparaitre { background: url("txt_vientdeparaitre.png") no-repeat; }
+
+.rub1Hp, .niveau1 { margin-top: 7px; }
+
+.niveau1 { height: 21px; background-position: 0px 0px; }
+
+.niveau2 { height: 25px; background-position: 0px -21px; }
+
+.niveau3 { height: 25px; background-position: 0px -46px; }
+
+.niveau4 { height: 20px; background-position: 0px -71px; }
+
+.niveau5 { height: 23px; background-position: 0px -91px; }
+
+.niveau6 { height: 27px; background-position: 0px -113px; }
+
+.niveau7 { height: 32px; background-position: 0px -140px; }
+
+.no { font-size: 9px; visibility: hidden; }
+
+
+.titreRubRss { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 18px; line-height: 20px; font-weight: bold; padding-top: 20px; padding-bottom: 5px; }
+
+.lienRubRss { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; padding-bottom: 15px; }
+
+.titreSousRubRss { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 14px; line-height: 16px; font-weight: bold; }
+
+.lienSousRubRss { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; padding-bottom: 10px; }
+
+.moduleRss { padding-right: 10px; padding-left: 10px; }
+
+.moduleNdocs { padding-top: 10px; padding-right: 10px; padding-left: 10px; }
+
+.modListeColGauches { border-right: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); }
+
+.modListeColDroite { border-top: 1px solid rgb(204, 204, 204); }
+
+.editionDu { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 16px; line-height: 20px; font-weight: bold; padding-bottom: 10px; }
+
+.evenement { padding-bottom: 10px; }
+
+.derniersNumeros { border-top: 1px solid rgb(204, 204, 204); padding: 10px; }
+
+.zoneAFP { padding-top: 10px; padding-right: 10px; padding-left: 10px; }
+
+.zoneTitreAFP { padding-right: 10px; padding-left: 10px; }
+
+
+
+.laUneFilet { padding-left: 9px; padding-right: 10px; }
+
+.laUneFilet img { margin-top: 0px; margin-bottom: 5px; width: 100%; height: 1px; }
+
+.laUneTdFilet { padding-left: 9px; padding-right: 10px; }
+
+.laUne { margin-bottom: 10px; vertical-align: top; }
+
+.laUneZoneHaute { padding-left: 9px; padding-right: 10px; padding-bottom: 5px; }
+
+.laUneZoneGauche { width: 300px; padding-left: 9px; padding-right: 10px; vertical-align: top; }
+
+.laUneZoneDroite, .laUne1GnPZoneDroite { width: 330px; padding-left: 9px; padding-right: 10px; padding-top: 0px; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204); }
+
+.laUneZoneDroite table { width: 330px; }
+
+.laUneZoneDroite table td { width: 165px; padding-right: 15px; padding-bottom: 10px; }
+
+.filetMonLibe { width: 49px; height: 5px; background-color: rgb(82, 151, 189); vertical-align: top; font-family: "Trebuchet MS"; font-weight: normal; font-size: 5px; }
+
+.moduleGrandEntretien { padding: 10px; }
+
+.moduleGrandEntretien td { padding-bottom: 10px; }
+
+.moduleRayeFiletBleu { background-image: url("fond_rayures.gif"); background-position: right top; background-repeat: repeat-x; border-top: 5px solid rgb(20, 73, 102); vertical-align: middle; padding-left: 10px; padding-right: 10px; padding-top: 5px; height: 35px; }
+
+.moduleBookmarks { padding-bottom: 10px; padding-right: 10px; padding-left: 10px; }
+
+.moduleChroniquesWeb { padding-bottom: 10px; padding-right: 10px; padding-left: 10px; }
+
+.moduleWeekend, .moduleWeekendTitre { padding-bottom: 10px; padding-right: 10px; padding-left: 10px; }
+
+.moduleWeekendTitre { padding-top: 10px; }
+
+.modulePersonnaliteTitre, .modulePersonnaliteDynamique { padding-right: 10px; padding-top: 10px; }
+
+.modulePersonnaliteTitre { padding-left: 10px; }
+
+.modulePersonnaliteDynamique { padding-bottom: 10px; }
+
+.art_img_right { width: 100%; border: 0px; }
+
+.art_img_right td, .art_img_right #img { padding-top: 10px; padding-bottom: 10px; padding-right: 10px; }
+
+.art_img_right td { padding-left: 10px; }
+
+.art_img_right, .art_img_right td, .art_img_right div, .art_img_right #img { vertical-align: top; margin: 0px; }
+
+.art_img_right #img { text-align: right; padding-left: 0px; }
+
+.MnDocImgListeTitreListe { margin-right: 10px; margin-left: 10px; vertical-align: top; }
+
+.MnDocImgListeTitreListe td { vertical-align: top; }
+
+.depeches_interligne { height: 1px; }
+
+.nav_depeches { vertical-align: top; width: 100%; border-top: 1px solid rgb(204, 204, 204); margin-bottom: 10px; border-spacing: 0px; border-collapse: collapse; }
+
+.nav_depeches_prec, .nav_depeches_suiv { vertical-align: top; }
+
+.nav_depeches_suiv { width: 125px; text-align: right; }
+
+.nav_depeches_prec { text-align: left; }
+
+.nav_reactions { vertical-align: top; border-top: 1px solid rgb(204, 204, 204); margin-bottom: 10px; border-spacing: 0px; border-collapse: collapse; }
+
+.nav_reactions_prec, .nav_reactions_suiv { vertical-align: top; }
+
+.nav_reactions_suiv { float: right; }
+
+.nav_reactions_prec { float: left; }
+
+.modListe { padding-right: 10px; padding-left: 10px; }
+
+.modListeFondGris { padding-right: 10px; padding-left: 10px; background-image: url("fond_degrade_gris.gif"); background-repeat: repeat-x; background-color: rgb(232, 232, 232); }
+
+.MnDoc_orange { width: 100%; height: 100%; background-image: url("fond_rayures.gif"); padding-top: 0px; }
+
+.MnDoc_orange, .MnDoc_orange table { border-spacing: 0px; border-collapse: collapse; }
+
+.MnDoc_orange td#top { height: 8px; background-image: url("fond_vous_opinion.gif"); background-repeat: repeat-x; }
+
+.MnDoc_orange td#center { padding: 11px 9px 10px; }
+
+.MnDoc_orange div#et_aussi { font-family: "Trebuchet MS"; color: rgb(255, 153, 0); font-size: 11px; line-height: 13px; font-weight: bold; }
+
+.MnDoc_orange_scroll { width: 100%; height: 100%; background-image: url("fond_rayures.gif"); padding-top: 0px; }
+
+.MnDoc_orange_scroll, .MnDoc_orange_scroll table { border-spacing: 0px; border-collapse: collapse; }
+
+.MnDoc_orange_scroll td#top { height: 8px; background-image: url("fond_vous_opinion.gif"); background-repeat: repeat-x; }
+
+.MnDoc_orange_scroll tr#pair { background-color: rgb(245, 244, 242); }
+
+.MnDoc_orange_scroll tr#impair { background-color: rgb(255, 255, 255); }
+
+.MnDoc_orange_scroll, .MnDoc_orange_scroll td { vertical-align: top; }
+
+.MnDoc_orange_scroll td { padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
+
+#LayerCulture { position: relative; width: 100%; height: 150px; z-index: 2; background-color: rgb(255, 255, 255); overflow: auto; padding: 0px; }
+
+.scrollCulture table { width: 100%; }
+
+.scrollCulture table, .scrollCulture div, .scrollCulture td, .imgScrollCulture { vertical-align: top; padding: 0px; }
+
+.scrollCulture td#image, .scrollCulture td#texte { padding: 5px; text-align: left; }
+
+.scrollCulture td#image { width: 60px; }
+
+.MnDoc_scroll { width: 100%; height: 100%; background-image: url("fond_rayures.gif"); padding-top: 0px; }
+
+.MnDoc_scroll, .MnDoc_scroll table { border-spacing: 0px; border-collapse: collapse; }
+
+.MnDoc_scroll td#top, .fond_liseret { height: 8px; background-image: url("fond_liseret_rouge.gif"); background-repeat: repeat-x; }
+
+.MnDoc_scroll tr#pair { background-color: rgb(245, 244, 242); }
+
+.MnDoc_scroll tr#impair { background-color: rgb(255, 255, 255); }
+
+.MnDoc_scroll, .MnDoc_scroll td { vertical-align: top; }
+
+.MnDoc_scroll td { padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
+
+#LayerCulture { position: relative; width: 100%; height: 150px; z-index: 2; background-color: rgb(255, 255, 255); overflow: auto; padding: 0px; }
+
+.scrollCulture table { width: 100%; }
+
+.scrollCulture table, .scrollCulture div, .scrollCulture td, .imgScrollCulture { vertical-align: top; padding: 0px; }
+
+.scrollCulture td#image, .scrollCulture td#texte { padding: 5px; text-align: left; }
+
+.scrollCulture td#image { width: 60px; }
+
+.MnBlogs { width: 100%; height: 100%; background-image: url("fond_rayures.gif"); padding-top: 0px; }
+
+.MnBlogs, .MnBlogs table { border-spacing: 0px; border-collapse: collapse; }
+
+.MnBlogs td#top { height: 8px; background-image: url("fond_liseret_rouge.gif"); background-repeat: repeat-x; }
+
+.MnBlogs tr#pair { background-color: rgb(245, 244, 242); }
+
+.MnBlogs tr#impair { background-color: rgb(255, 255, 255); }
+
+.MnBlogs, .MnBlogs td { vertical-align: top; }
+
+.MnBlogs td { padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
+
+.depecheAFPReuters { width: 100%; padding: 0px; }
+
+.depecheAFPReuters table { width: 100%; border-spacing: 0px; border-collapse: collapse; }
+
+.depecheAFPReuters td { vertical-align: top; }
+
+.depeches_bas { text-align: right; vertical-align: middle; }
+
+.depeches_tdfilet { background-color: rgb(190, 190, 190); padding: 0px; margin: 0px; }
+
+.depeches_tdfilet img { width: 1px; height: 1px; }
+
+.marge_verticale img { width: 1px; height: 10px; }
+
+.marge_horizontale img { width: 9px; height: 1px; }
+
+.depeches_haut, .depeches_menu { background-image: url("fond_module_depeches.gif"); background-repeat: repeat-x; border-spacing: 0px; border-collapse: collapse; padding: 0px; }
+
+.depeches_menu { text-align: right; }
+
+.news { width: 100%; height: 60px; padding: 0px; margin: 0px; }
+
+#marqueecontainerAFP { position: relative; width: 280px; height: 60px; background-color: white; overflow: hidden; padding: 2px 2px 2px 4px; }
+
+#marqueecontainerREUTERS { position: relative; width: 280px; height: 60px; background-color: white; overflow: hidden; padding: 2px 2px 2px 4px; }
+
+#defilant_liste div.defilant_element { position: absolute; float: left; }
+
+.titreMultimedia { font-family: "Trebuchet MS"; color: rgb(92, 60, 31); font-size: 24px; line-height: 16px; font-weight: bold; padding-left: 10px; height: 27px; }
+
+.titreMultimedia a { color: rgb(92, 60, 31); }
+
+.imgRSS { padding-right: 10px; padding-top: 0px; }
+
+.bandeauTitreMultimedia { background-image: url("fondTitreMultimedia.gif"); background-position: right bottom; background-repeat: no-repeat; vertical-align: bottom; }
+
+.centreMultimedia { padding-right: 10px; padding-left: 10px; padding-top: 10px; }
+
+.bandeauBasMultimedia { background-image: url("fondBandoReaction.gif"); vertical-align: top; }
+
+.lienBandeauBasMultimedia { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; vertical-align: top; }
+
+.bandeauRougeOutilsForum { background-image: url("fondBandeauOutilsForum.gif"); background-repeat: repeat-x; }
+
+.moduleOutilsForum { margin-top: 10px; padding-bottom: 10px; }
+
+.moduleMessagesForum { padding-left: 10px; padding-right: 10px; }
+
+.moduleOpinionsForum { padding-left: 10px; padding-right: 10px; }
+
+.blocMessage { padding-bottom: 20px; }
+
+.blocOpinions { padding-bottom: 20px; padding-left: 10px; padding-right: 10px; }
+
+.titreNoirForum { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 18px; line-height: 20px; font-weight: bold; padding-bottom: 5px; }
+
+.titreGrisForum { font-family: "Trebuchet MS"; color: rgb(190, 190, 190); font-weight: normal; font-size: 18px; line-height: 20px; }
+
+.rubNbVideo { padding: 5px 10px; }
+
+.titreVignette { background-image: url("fond_rayures.gif"); font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.laUneHpVideo { padding-right: 10px; padding-left: 10px; padding-bottom: 5px; }
+
+.surLeMemeSujet { background-image: url("fond_rayures.gif"); font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.chatLaUne { padding-top: 10px; padding-right: 10px; padding-left: 10px; }
+
+.topChatLiseret { background-image: url("fond_liseret_marron.gif"); background-repeat: repeat-x; height: 5px; padding-left: 0px; padding-right: 0px; }
+
+div.MRSSReaderEcran { width: 100%; }
+
+div.MRSSReaderEcran div.top { background-image: url("bg_module_ecran.gif"); background-repeat: repeat; background-position: left top; }
+
+div.MRSSReaderEcran div.center { height: 150px; overflow: auto; }
+
+div.MRSSReaderEcran div.elt { margin-left: 13px; padding-bottom: 5px; padding-top: 3px; }
+
+div.MRSSReaderEcran div.pair { background-color: rgb(245, 244, 242); }
+
+div.MRSSReaderEcran div.eltTitle a { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; padding-bottom: 5px; }
+
+div.MRSSReaderEcran div.eltCorpus a { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: normal; font-size: 11px; line-height: 14px; }
+
+div.MRSSReaderEcran div.bottom { height: 25px; background-color: black; }
+
+.modBA { padding-left: 9px; padding-right: 10px; padding-top: 10px; }
+
+.modBA_fond { background: url("fond_degrade_gris.gif") repeat-x rgb(232, 232, 232); padding-left: 10px; padding-right: 10px; padding-bottom: 5px; }
+
+.modBA_titreArticle { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.leChiffre_img { background: url("img_le_chiffre.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.leChiffre_titre { background-image: url("titre_le_chiffre.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+.lHistoire_img { background: url("img_histoire.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.lHistoire_titre { background-image: url("titre_histoire.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+.laFemme_img { background: url("img_la_femme.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.laFemme_titre { background-image: url("titre_la_femme.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+.lHomme_img { background: url("img_homme.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.lHomme_titre { background-image: url("titre_homme.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+.Portraits_img { background: url("img_portraits.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.Portraits_titre { background-image: url("titre_portraits.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+.GrandAngle_img { background: url("img_grand_angle.gif") no-repeat rgb(232, 232, 232); height: 53px; width: 53px; }
+
+.GrandAngle_titre { background-image: url("titre_grand_angle.gif"); background-repeat: no-repeat; background-position: 0px 2px; height: 20px; }
+
+
+.titreRubrique { background-color: rgb(1, 51, 52); padding: 10px; }
+
+.texteBlanc_titreGras { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-weight: bold; line-height: 20px; font-size: 18px; }
+
+.texteVertClair_titreGras { font-family: "Trebuchet MS"; color: rgb(32, 138, 138); font-weight: bold; line-height: 16px; font-size: 14px; }
+
+.laUneDossier { padding-right: 10px; padding-left: 10px; padding-bottom: 20px; }
+
+.fondDegrade1Vert { background-color: rgb(1, 51, 52); }
+
+.fondDegrade2Vert { background-color: rgb(53, 117, 117); }
+
+.fondDegrade3Vert { background-color: rgb(74, 134, 135); }
+
+.fondDegrade4Vert { background-color: rgb(97, 151, 151); }
+
+.fondDegrade5Vert { background-color: rgb(115, 165, 166); }
+
+.fondDegrade6Vert { background-color: rgb(135, 181, 181); }
+
+.fondDegrade7Vert { background-color: rgb(154, 196, 195); }
+
+.fondDegrade2Vert, .fondDegrade3Vert, .fondDegrade4Vert, .fondDegrade5Vert, .fondDegrade6Vert, .fondDegrade7Vert { padding-right: 10px; padding-left: 10px; width: 100%; }
+
+.surtitreBlanc { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-weight: bold; line-height: 16px; font-size: 14px; padding-top: 10px; }
+
+.titreVert { font-family: "Trebuchet MS"; color: rgb(1, 51, 52); font-weight: bold; line-height: 20px; font-size: 18px; }
+
+.linkTitleRouge { font-family: "Trebuchet MS"; color: rgb(232, 33, 0); font-weight: bold; line-height: 30px; font-size: 28px; }
+
+.leadBlanc { font-family: "Trebuchet MS"; color: rgb(255, 255, 255); font-weight: normal; line-height: 14px; font-size: 11px; }
+
+.dateVert { font-family: "Trebuchet MS"; color: rgb(1, 51, 52); font-weight: normal; line-height: 13px; font-size: 11px; padding-bottom: 10px; }
+
+.nDocDossierBandeau { background-image: url("fond_modules_dossiers.gif"); background-position: right top; background-repeat: no-repeat; height: 35px; font-family: "Trebuchet MS"; color: rgb(32, 138, 138); font-weight: bold; line-height: 18px; font-size: 16px; padding-left: 10px; padding-top: 10px; }
+
+div.nDocDossier { padding-right: 10px; padding-left: 10px; }
+
+.nDocDossierTitre { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; }
+
+.nDocDossierLead { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 13px; }
+
+.nDocDossierDate { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-style: italic; font-size: 11px; line-height: 14px; padding-bottom: 10px; }
+
+ul.nDocDossierVoir li { background-image: url("puce_noire.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 10px; margin-top: 2px; padding-bottom: 10px; color: rgb(32, 138, 138); font-family: "Trebuchet MS"; font-weight: bold; line-height: 13px; font-size: 11px; }
+
+ul.nDocDossierVoir a { color: rgb(32, 138, 138); }
+
+.fondComprendre { background-image: url("fond_module_comprendre.gif"); background-position: right top; background-repeat: no-repeat; padding: 36px 10px 5px; }
+
+.lesSites { background-image: url("fond_module_les_sites.gif"); background-position: right top; background-repeat: no-repeat; padding: 36px 10px 5px; }
+
+.lesSitesTexteRub { background-image: url("fond_module_les_sites_texteRub.gif"); background-position: right top; background-repeat: no-repeat; padding: 10px 10px 5px; font-family: "Trebuchet MS"; color: rgb(32, 138, 138); font-weight: bold; line-height: 24px; font-size: 22px; }
+
+.lesSitesDiv { padding-bottom: 5px; }
+
+.lesSitesLien { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 11px; line-height: 14px; font-weight: bold; }
+
+.lesSitesDesc { color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+.fondModDossier { background-image: url("fond_module_dossiers_HP.gif"); background-position: right top; background-repeat: no-repeat; padding: 8px 10px 0px; }
+
+.texteVertFonce_titre { font-family: "Trebuchet MS"; color: rgb(1, 51, 52); font-weight: bold; line-height: 20px; font-size: 18px; }
+
+.texteVertClair_petitGras { font-family: "Trebuchet MS"; color: rgb(32, 138, 138); font-weight: bold; line-height: 13px; font-size: 11px; }
+
+.lesPlus_texte_gras, .module_rss_texte, .module_galerie_texte, .module_galerie_texte_gras, .interactif_texte, .interactif_texte_gras, .interactif_texte_ital, .interactif_texte_gros { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); }
+
+.module_rss_texte, .module_galerie_texte, .interactif_texte { font-weight: normal; font-size: 12px; line-height: 15px; }
+
+.lesPlus_texte_gras, .module_galerie_texte_gras, .interactif_texte_gras { font-weight: bold; font-size: 12px; line-height: 14px; }
+
+.interactif_texte_gros { font-weight: bold; font-size: 16px; line-height: 18px; }
+
+.interactif_texte_ital { font-weight: normal; font-style: italic; font-size: 11px; line-height: 14px; }
+
+.fond_module_les_plus { background-image: url("fond_module_interactif.jpg"); background-repeat: repeat-x; width: 100%; height: 216px; border-bottom: 1px solid rgb(204, 204, 204); }
+
+.titre_les_plus { background: url("titre_module_lesplus.gif") left bottom no-repeat; width: 74px; height: 33px; vertical-align: baseline; }
+
+.liste_les_plus { padding-left: 20px; padding-bottom: 10px; vertical-align: top; }
+
+.liste_les_plus div { margin-right: 6px; overflow: auto; height: 140px; }
+
+.soustitre_les_plus { padding-left: 20px; padding-bottom: 4px; padding-top: 10px; vertical-align: top; }
+
+ul.marron_serre li { background-image: url("puce_marron.gif"); background-repeat: no-repeat; background-position: left top; list-style-type: none; padding-left: 8px; color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+ul.marron_serre a { color: rgb(0, 0, 0); }
+
+.interactif_message, .interactif_liens { margin-right: 6px; position: relative; z-index: 2; overflow: auto; background-color: rgb(250, 249, 247); }
+
+.interactif_message { height: 79px; }
+
+.interactif_liens { height: 69px; }
+
+.fond_module_interact { background-image: url("fond_module_interactif.jpg"); background-repeat: repeat-x; border-bottom: 1px solid rgb(204, 204, 204); height: 216px; }
+
+.interactif_titre { background: url("titre_module_interactif.gif") left bottom no-repeat; width: 200px; height: 33px; vertical-align: baseline; }
+
+.texteMarron_gras { font-family: "Trebuchet MS"; color: rgb(92, 60, 31); font-size: 12px; line-height: 15px; text-transform: uppercase; font-weight: bold; }
+
+.rss_newsletter_bandeau { background-image: url("fond_rss_newsletter.gif"); background-repeat: repeat-x; background-color: rgb(238, 234, 231); }
+
+.rss_newsletter_texte_petit { color: rgb(0, 0, 0); font-family: "Trebuchet MS"; font-weight: normal; font-size: 11px; line-height: 14px; }
+
+.module_rss_fond { background-image: url("fond_module_interactif.jpg"); background-repeat: repeat-x; width: 100%; height: 216px; border-bottom: 1px solid rgb(204, 204, 204); }
+
+.module_rss_fond_degrade { background: url("fond_degrade_gris_petit_inverse.gif") repeat-x rgb(229, 224, 220); width: 100%; border-left: 1px solid rgb(204, 204, 204); padding-left: 20px; text-align: right; }
+
+.module_rss_texte { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; padding: 4px 20px; }
+
+.liste_rss { font-family: "Trebuchet MS"; color: rgb(230, 0, 5); font-size: 12px; padding-left: 20px; padding-bottom: 10px; vertical-align: top; }
+
+.fond_module_newsletter { background-image: url("fond_module_interactif.jpg"); background-repeat: repeat-x; width: 100%; height: 216px; border-bottom: 1px solid rgb(204, 204, 204); }
+
+.texte_newsletter { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-weight: bold; font-size: 11px; line-height: 13px; }
+
+.liste_newsletter { padding-left: 20px; padding-bottom: 10px; vertical-align: top; }
+
+.soustitre_newsletter { padding-left: 20px; padding-bottom: 4px; padding-top: 10px; vertical-align: top; }
+
+.fond_module_marron { background-image: url("fond_module_interactif.jpg"); background-repeat: repeat-x; }
+
+.titre_regarder_actu { background: url("titre_regarder_actu.gif") left bottom no-repeat; width: 177px; height: 33px; vertical-align: baseline; }
+
+.texteNoir_titre { font-family: "Trebuchet MS"; color: rgb(0, 0, 0); font-size: 12px; line-height: 15px; font-weight: bold; text-transform: uppercase; }
+
+#multimedia { position: relative; width: 100%; height: 216px; background: url("bordure_multimedia.png") 0px 31px no-repeat rgb(237, 233, 230); }
+
+#multimedia h3 { margin: 0px; padding: 0px; height: 31px; background: url("titre_multimedia.png") no-repeat; }
+
+#multimedia h3 span { visibility: hidden; }
+
+#multimedia #menuMultimedia { margin: -22px 0px 0px; float: right; padding: 0px; }
+
+#menuMultimedia li { list-style-type: none; display: inline; }
+
+#menuMultimedia .on, #menuMultimedia .off { display: inline; float: left; width: 39px; height: 24px; }
+
+.son .off { background: url("son.png") no-repeat; }
+
+.son .on { background: url("son.png") 0px -48px no-repeat; }
+
+.video .off { background: url("video.png") no-repeat; }
+
+.video .on { background: url("video.png") 0px -48px no-repeat; }
+
+.photo .off { background: url("photo.png") no-repeat; }
+
+.photo .on { background: url("photo.png") 0px -48px no-repeat; }
+
+.diapo { padding-right: 6px; }
+
+.diapo .off { background: url("diapo.png") no-repeat; }
+
+.diapo .on { background: url("diapo.png") 0px -48px no-repeat; }
+
+.off:hover { background-position: 0px -24px; }
+
+.blocoff, .blocon { position: absolute; top: 37px; left: 0px; visibility: hidden; margin: 6px; vertical-align: top; display: inline; }
+
+.imgMultimedia { border: 1px solid rgb(0, 0, 0); padding: 0px; margin: 0px; }
+
+.blocon { visibility: visible; }
+
+.mediaDoc { margin: 10px; padding-left: 9px; padding-right: 40px; }
+
+.mediaDoc div { margin-bottom: 10px; }
+
+#multimediaDoc { position: relative; width: 191px; height: 348px; background: url("bordure_multimedia.png") 0px 63px no-repeat rgb(237, 233, 230); vertical-align: top; margin-bottom: 10px; margin-top: 0px; }
+
+#multimediaDoc h3 { margin: 0px; padding: 0px; height: 63px; background: url("titre_multimedia.png") no-repeat; }
+
+#multimediaDoc h3 span { visibility: hidden; }
+
+#multimediaDoc #menuMultimedia { margin: -22px 0px 0px; float: right; padding: 0px; }
+
+.blocoffDoc, .bloconDoc { position: absolute; width: 171px; top: 65px; left: 0px; margin: 9px; }
+
+.scrollMedia { margin: 0px; padding: 0px 5px; }
+
+.scrollMedia ul { margin-top: 5px; background-image: url("puce_rouge.gif"); background-repeat: no-repeat; background-position: left top; padding-left: 8px; list-style-type: none; vertical-align: top; }
+
+.scrollMedia ul li a { vertical-align: top; color: rgb(34, 34, 34); font-family: "Trebuchet MS"; font-weight: bold; font-size: 11px; line-height: 14px; }
+
+.blocoffDoc { visibility: hidden; }
+
+.bloconDoc { visibility: visible; }
+
+.blocImg { margin: 0px; padding: 0px 10px 3px 0px; }
+
+.blocImg a { padding: 0px; margin: 0px; border: 0px; }
+
+.alignLeft, .alignLeftDoc, .blocImg, .imgLaUne { float: left; }
+
+div.alignLeftDoc { padding-left: 9px; }
+
+.imgLaUne { margin-right: 10px; }
