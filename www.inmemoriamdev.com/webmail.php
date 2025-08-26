@@ -21,8 +21,10 @@ if ($conn->connect_error) {
     $user_lr = lastritual_encode($_POST["userid"]);
     $tablename = "messages_" . $user_lr;
 
+    echo "<form action=\"webmail.php\" method=\"post\" id=\"userreload\">User: " . $_POST["userid"] . " <input type=\"hidden\" name=\"userid\" value=\"" . $_POST["userid"] . "\"><input type=\"submit\" value=\"Refresh\"></form>";
+
     // Retrieve all past messages.
-    $sql = "SELECT fromname, fromadr, subject, body, time, delai, FROM_UNIXTIME(UNIX_TIMESTAMP(time) + delai) FROM " . $tablename . " WHERE UNIX_TIMESTAMP(time) + delai <= UNIX_TIMESTAMP() ORDER BY time DESC";
+    $sql = "SELECT fromname, fromadr, subject, body, time, delai, FROM_UNIXTIME(UNIX_TIMESTAMP(time) + delai) FROM " . $tablename . " WHERE UNIX_TIMESTAMP(time) + delai <= UNIX_TIMESTAMP() ORDER BY UNIX_TIMESTAMP(time) + delai DESC";
 
     if ($result = $conn->query($sql)) {
 
