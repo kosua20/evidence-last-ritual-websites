@@ -1,2 +1,180 @@
-﻿
-<script>alert("Immettere le informazioni di accesso corrette.")</script><script language="javascript">window.top.location.href="index.html"</script>
+﻿<?php 
+
+if(!isset($_POST['ident']) || !isset($_POST['pwd']) || strcasecmp($_POST["ident"], "weiffenbach") != 0 || strcasecmp($_POST["pwd"], "novalis") != 0){
+	echo "<script>alert(\"Immettere le informazioni di accesso corrette.\")</script><script language=\"javascript\">window.top.location.href=\"index.html\"</script>";
+	// Early 'exit'
+	return;
+}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Il Circolo degli Amici di Dante [ Carlos Echevarria Dominguez, Antonio Maura Ribeira ]</title>
+<meta name="Description" content="Il Circolo degli Amici di Dante [ Carlos Echevarria Dominguez, Antonio Maura Ribeira ] è un'associazione culturale con sede a Granada, in Spagna, che che riunisce tutti coloro che sono interessati all'Italia di ieri e di oggi, dal punto di vista storico, artistico e letterario." />
+<meta name="Keywords" content="Dante, Carlos Echevarria Dominguez, Antonio Maura Ribeira" />
+<meta name="robots" content="ALL" />
+<meta name="copyright" content="Carlos Echevarria Dominguez, Antonio Maura Ribeira" />
+<meta name="author" content="Carlos Echevarria Dominguez, Antonio Maura Ribeira" />
+<link rel="stylesheet" href="../dante.css">
+<script language="JavaScript" type="text/javascript">
+<!--
+function ouvreLien(url,mode) { 
+if (mode == "_blank") { 
+window.open(url); 
+} else if (mode == "_top") { 
+window.top.location.href = url; 
+} else { 
+window.top.parent.frames[mode].location.href = url; 
+} 
+} 
+// -->
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function namosw_cell_rollover(cell, classname) {
+  if (document.all || document.getElementById) {
+    cell.classBackup = cell.className;
+    cell.className   = classname;
+  }
+}
+
+function namosw_cell_rollout(cell)
+{
+  if (document.all || document.getElementById) {
+    cell.className   = cell.classBackup;
+  }
+}
+// -->
+</script>
+<script type="text/javascript" language="Javascript" >
+<!--
+function verification()
+{
+ if(document.formulaire.nom.value == "")  {
+   alert("Immettere il cognome");
+   document.formulaire.nom.focus();
+   return false;
+  }
+   else
+ if(document.formulaire.prenom.value == "") {
+   alert("Immettere il nome");
+   document.formulaire.prenom.focus();
+   return false;
+  }
+   else
+ if(document.formulaire.email.value == "") {
+   alert("Immettere l'indirizzo e-mail");
+   document.formulaire.email.focus();
+   return false;
+  }
+  else
+ if(document.formulaire.email.value.indexOf('@') == -1) {
+   alert("I dati immessi non corrispondono a un indirizzo e-mail. Verificarli");
+   document.formulaire.email.focus();
+   return false;
+  }
+  else
+    sujetoption = -1
+    for (i=0; i<formulaire.sujet.length; i++)
+    {
+    if(document.formulaire.sujet[i].checked){
+    sujetoption = i
+    }
+   }
+    if (sujetoption == -1) {
+   alert("Selezionare un oggetto per il messaggio");
+   return false;
+  }
+  else
+ if(document.formulaire.texte.value == "") {
+   alert("Immettere il testo del messaggio");
+   document.formulaire.texte.focus();
+   return false;
+  }
+return true
+}
+//-->
+</script>
+</head>
+<body>
+<table cellpadding="0" cellspacing="1">
+  <tr> 
+    <td rowspan="4" class="left" style="background-image:url('../pics/bea.gif'); background-repeat:no-repeat; background-position:50% 67%;"><img src="../pics/seal.gif" width="128" height="128" ALT="Carlos Echevarria Dominguez, Antonio Maura Ribeira"><br><br><br> <img src="../pics/name.gif" alt="" width="144" height="39" vspace="6"> 
+      <table width="130" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr>
+          <td class="menu-right">LA VITA</td>
+        </tr>
+        <tr>
+          <td class="ssmenu">
+	    	<table width="100%" border="0" cellspacing="0" cellpadding="3" style="background-color: #e5e5cb; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;">
+              <tr>
+                <td onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu1')" onClick="ouvreLien('bio.html','_top')">•&nbsp;Gli anni giovanili</td>
+              </tr>
+              <tr>
+                <td onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu1')" onClick="ouvreLien('bio.html#bio1','_top')">•&nbsp;La vita politica</td>
+              </tr>
+              <tr>
+                <td onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu1')" onClick="ouvreLien('bio.html#bio2','_top')">•&nbsp;L'esilio</td>
+              </tr>
+            </table>	  	  </td>
+        </tr>
+        <tr>
+          <td class="menu-right">LE OPERE</td>
+        </tr>
+        <tr>
+          <td class="ssmenu">
+	    	<table width="100%" border="0" cellspacing="0" cellpadding="3" style="background-color: #e5e5cb; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;">
+              <tr>
+                <td onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu1')" onClick="ouvreLien('vita.html','_top')">•&nbsp;<em>La Vita Nuova</em></td>
+              </tr>
+              <tr>
+                <td onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu1')" onClick="ouvreLien('comedia.html','_top')">•&nbsp;<em>La Divina Commedia</em></td>
+              </tr>
+            </table>
+		  </td>
+        </tr>
+      </table>
+	</td>
+    <td class="menu-right" onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu2')" onClick="ouvreLien('index.html','_top')">HOME</td>
+    <td class="menu-right" onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu2')" onClick="ouvreLien('actualidad.html','_top')">ATTUALIT&Agrave;</td>
+    <td class="menu-right" onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu2')" onClick="ouvreLien('actividad.html','_top')">ATTIVIT&Agrave;</td>
+    <td class="menu-right" onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu2')" onClick="ouvreLien('links.html','_top')">LINK</td>
+    <td class="menu-right" onMouseOut="namosw_cell_rollout(this)" onMouseOver="namosw_cell_rollover(this, 'nmsw_sousmenu2')" onClick="ouvreLien('contacto.html','_top')">CONTATTI</td>
+  </tr>
+  <tr> 
+    <td colspan="6" class="title-right"><IMG height=62 alt="" src="../pics/title_it.gif" width=500></td>
+  </tr>
+  <tr> 
+    <td colspan="6" class="login"><span style="margin-bottom:0px;"><i>Benvenuto</i>, Hans Weiffenbach&nbsp;&nbsp;&nbsp;</span></td>
+  </tr>
+  <tr> 
+    <td colspan="6" class="right">
+	<p>&nbsp;</p>
+	<h3>Attualit&agrave;</h3>
+      <table width="688" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr> 
+        	<td>&nbsp;&bull;&nbsp;
+        	</td>
+          <td class="legende" width="688">
+            <p>Siamo profondamente addolorati nel condividere la recente scomparsa di tre dei nostri stimati soci, Miguel Perez Castillo, Manuel Santamaria Burgos e Joaquim Llorca Serrano. Che riposino in pace.</p></td>
+        </tr>
+      </table>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td class="left" style="vertical-align: middle;"><a href="../index.html"><img src="../pics/es.gif" alt="" width="16" height="12" border="0"></a>&nbsp;<a href="index.html"><IMG height=12 alt="" src="../pics/it.gif" width=16 border=0></a>&nbsp;<a href="../uk/index.html"><img src="../pics/uk.gif" alt="" width="16" height="12" border="0"></a>&nbsp;<a href="../fr/index.html"><img src="../pics/fr.gif" alt="" width="16" height="12" border="0"></a></td>
+    <td colspan="5" class="border-right"><a href="index.html">HOME</a> | <a href="actualidad.html">ATTUALIT&Agrave;</a> | <a href="actividad.html">ATTIVIT&Agrave;</a> | <a href="links.html">LINK</a> | <a href="contacto.html">CONTATTI</a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
