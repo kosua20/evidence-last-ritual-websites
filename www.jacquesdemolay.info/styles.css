@@ -1,0 +1,168 @@
+html {
+	overflow: hidden;
+}
+
+html {
+	overflow: visible !important;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	letter-spacing:.1em;
+	text-align: justify;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	background-image: url(pics/bck.gif);
+	background-position: 50% 0%;
+	background-color: #CCCCCC;
+	scrollbar-face-color: #dcdcdc;
+	scrollbar-darkshadow-color: #E6E6E6;
+	scrollbar-shadow-color: #999999;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #E6E6E6;
+	scrollbar-track-color: #E6E6E6;
+	scrollbar-arrow-color: #CC0000;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #CC0000;
+}
+
+.lien a {
+	text-decoration: none;
+	color: #666666;
+	font-variant: small-caps;
+}
+
+.lien a:hover {
+	color: #CC0000;	
+}
+
+ul {
+	list-style-image:url(pics/puce.png);
+	list-style-position: outside;
+	list-style-type: circle;
+	margin: 0 0 0 20px;
+}
+
+.puce {
+	color: #CC0000;
+}
+
+.global {
+	height: 556px;
+	width: 760px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -380px;
+	margin-top: -278px;
+}
+
+.cadre {
+	margin: 0px;
+	padding: 0px;
+	width: 760px;
+	border-left: #FFFFFF solid 1px;
+	border-top: #FFFFFF solid 1px;
+	border-right: #999999 solid 1px;
+	border-bottom: #999999 solid 1px;
+	background-image: url(pics/bck1.gif);
+}
+
+.citation {
+	text-align: right;
+	vertical-align: top;
+	padding-right: 16px;
+}
+
+.contenu {
+	width: 760px;
+	height: 320px;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.contenu1 {
+	width: 760px;
+	height: 408px;
+	max-height: 408px;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.contenu1 p {
+	padding: 0 14px 0 2px;
+	line-height: 140%;
+}
+
+.contenu1 p img {
+	float: left;
+	margin: 7px 12px 0 0;
+}
+
+.lettrine {
+	float: left;
+	font-size: 52px;
+	margin : -2px 2px -3px 0;
+	padding: 0;
+	line-height: 100%;
+}
+
+.suite {
+	float: right;
+	margin-right: 14px;
+}
+
+.intro {
+	width: 760px;
+}
+
+.image {
+	width: 200px;
+	vertical-align: middle;
+}
+
+.lang {
+	width: 48px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.menu {
+	text-align: right;
+	padding-right: 16px;
+}
+
+.source {
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.title {
+	text-align: right;
+	padding-right: 16px;
+	vertical-align:	middle;
+}
+
+.minimaj {
+	font-variant: small-caps;
+}

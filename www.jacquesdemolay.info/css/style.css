@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+p a{text-decoration:none; color:#0000ff;}
+
+a:visited {text-decoration:none; color:#9900ff;}
+
+a:hover {text-decoration:none; color:#c0c0c0;}
+
+
+body {
+	text-align: center;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ","ＭＳ Ｐゴシック",Osaka, "MS PGothic", Sans-serif;
+}
+#allbox_wrapp {
+	text-align: left;
+	width: 900px;
+	padding: 0 25px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+
+#header_wrapp {
+	height: 100px;
+	position: relative;
+}
+#header_wrapp h1 {
+	position: absolute;
+	top: 22px;
+	right: 0px;
+}
+#header_wrapp p {
+	position: absolute;
+	top: 22px;
+	left: 0px;
+}
+
+
+#mainimg_wrapp {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+#mainimg_wrapp p.readtext {
+	font-size: 120%;
+	width: 300px;
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	background: rgba(255,255,255,0.7);
+	padding: 10px;
+}
+#pankuzu_wrapp {
+	margin: 15px 0;
+}
+#pankuzu_wrapp li {
+	display: inline;
+}
+#container_wrapp {
+	margin: 5px 0 0 0;
+}
+
+
+#side_wrapp {
+	width: 255px;
+}
+#side_wrapp dl {
+	margin-bottom: 10px;
+}
+#side_wrapp dt {
+	height: 26px;
+	padding: 8px 0 0 30px;
+	background: url(../img/side_title.png) no-repeat 0 0;
+}
+#side_wrapp dd {
+	padding: 0 9px 10px;
+}
+#side_wrapp dd li {
+	padding: 6px 0 6px 18px;
+	background: url(../img/pointer01.png) no-repeat 0 center;
+	border-bottom: 1px dotted #CCC;
+}
+
+
+#contents_wrapp {
+	width: 630px;
+}
+h2, h1.lowLevelTitle {
+	height: 32px;
+	font-weight: bold;
+	padding: 17px 0 0 35px;
+	margin: 0 0 8px 0;
+	background: url(../img/contents_title.png) no-repeat 0 0;
+}
+.box01 {
+	float: left;
+	width: 180px;
+	height: 110px;
+	padding: 0 0 0 120px;
+	margin: 0 30px 10px 0;
+}
+.box01 dt {
+	font-weight: bold;
+}
+.box01 .txt {
+	padding: 5px 0 0 0;
+}
+.box01 .img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box02 {}
+.box02 dt {}
+.box02 dt a {
+	font-weight: bold;
+	color: #FFF;
+}
+.box02 dd {}
+.box02 .img {}
+.box02 .link {
+	text-align: center;
+}
+.box02 .link li {
+	display: inline;
+	padding: 6px 0 6px 16px;
+	margin: 0 3px 0 0;
+	background: url(../img/pointer01.png) no-repeat 0 center;
+}
+.contentsTxt {
+	line-height: 180%;
+	font-size: 105%;
+	padding: 0 22px;
+}
+
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}

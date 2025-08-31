@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dt, dd, li, table, th, td, form, select, option, address, pre, strong, em, caption, cite, code, dfn, var, div {
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+img {
+	border: 0;
+	background-color: transparent;
+	vertical-align: bottom;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+fieldset {
+	border:0;
+}
+hr {
+	display: none;
+}
+ol, ul {
+	list-style: none;
+}
+ul ul, ol ul, ul ol, ol ol, dl ul, dl ol, dl dl, td td, h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	line-height: 1.3;
+	font-size: 78%;
+	color: #555;
+	background: #CCC;
+}
+
+
+.bold { font-weight: bold; }
+.bbor { border-bottom: 1px dotted #CCC; }
+
+.mb5 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb30 { margin-bottom: 30px !important; }
+
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+
+.mr0 { margin-right: 0px !important; }
+
+
+.floatL { float: left; }
+.floatR { float: right; }
+.floatNo { float: none; }
+
+
+.clear { clear: both; }
+.clearL { clear: left; }
+.clearR { clear: right; }
+
+
+.alignL { text-align: left; }
+.alignR { text-align: right; }
+.alignC { text-align: center; }
+
+
+.box01, .box02, .box03, .box04 {
+	position: relative;
+}
+.prLink {
+	padding: 10px 20px;
+	margin: 20px 0;
+	border: 1px solid #E4E4E4;
+	background-color: #F3F3F3;
+}
+
+
+ul.disc li { list-style: disc inside; }
+body, td, th { word-wrap: break-word; }
+
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom:1; }
+
+
+#foot_wrapp {
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 0 0 0 0;
+	background-color: #FFF;
+	border-top: 2px double #E0E0E0;
+}
