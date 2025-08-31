@@ -32,11 +32,11 @@
 	<td>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 		  <tr>
-			<td width="29" height="26" bgcolor="#66CCFF"><img src="../img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
+			<td width="29" height="26" bgcolor="#66CCFF"><img src="../img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
               <param name="movie" value="../index/filrouge.swf?chemin=../index">
               <param name="quality" value="high">
               <embed src="../index/filrouge.swf?chemin=../index" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="970" height="26"></embed>
-			  </object></td>
+			  </object>--></td>
 		  </tr>
 		</table>
 	</td>

@@ -31,11 +31,11 @@
 	<td>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 		  <tr>
-			<td width="29" height="26" bgcolor="#66CCFF"><img src="../img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
+			<td width="29" height="26" bgcolor="#66CCFF"><img src="../img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
               <param name="movie" value="../index/filrouge.swf?chemin=..%2Findex%2F">
               <param name="quality" value="high">
               <embed src="../index/filrouge.swf?chemin=..%2Findex%2F" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="970" height="26"></embed>
-			  </object></td>
+			  </object>--></td>
 		  </tr>
 		</table>
 	</td>
@@ -74,7 +74,7 @@
 	<td width="5" rowspan="3"><img src="../img/spacer.gif" width="5" height="1"></td>
   </tr>
    <tr>
-	  <td><span class="titre3-blanc">¿Ya est&aacute; inscrito(a)?</span></td>
+	  <td><span class="titre3-blanc">?Ya est&aacute; inscrito(a)?</span></td>
   </tr>
   <tr>
 	  <td><span class="titre3-blanc">Nick</span><br/>
@@ -94,7 +94,7 @@
 	<td height="10"><img src="../img/spacer.gif" width="1" height="10"></td>
   </tr>
   <tr>
-	  <td><a href="../../es/membre/envoi_passe.php"><span class="titre3-blanc"><font size="1" face="Arial, Helvetica, sans-serif">¿Ha perdido la contrase&ntilde;a?</font></span></a></td>
+	  <td><a href="../../es/membre/envoi_passe.php"><span class="titre3-blanc"><font size="1" face="Arial, Helvetica, sans-serif">?Ha perdido la contrase&ntilde;a?</font></span></a></td>
   </tr>
 </table>
   

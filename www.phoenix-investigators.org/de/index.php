@@ -31,11 +31,11 @@
 	<td>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 		  <tr>
-			<td width="29" height="26" bgcolor="#66CCFF"><img src="img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
+			<td width="29" height="26" bgcolor="#66CCFF"><img src="img/spacer.gif" width="1" height="1" /></td>    <td bgcolor="#000000" width="971"><!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="970" height="26">
               <param name="movie" value="index/filrouge.swf?chemin=.%2Findex%2F">
               <param name="quality" value="high">
               <embed src="index/filrouge.swf?chemin=.%2Findex%2F" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="970" height="26"></embed>
-			  </object></td>
+			  </object>--></td>
 		  </tr>
 		</table>
 	</td>
@@ -382,7 +382,7 @@
 												<td width="1" rowspan="3" bgcolor="#000000"><img src="../img/spacer.gif" width="1" height="1"></td>
 											  </tr>
 											  <tr>
-												<td><a href="inscription/etape1.php"><img src="../img_membres/user22990.jpg" width="50" height="50" border="0" alt="Briggs"></a></td>
+												<td><a href="inscription/etape1.php"><img src="../img_membres/no_file.gif" width="50" height="50" border="0" alt="Briggs"></a></td>
 									  </tr>
 									  <tr>
 										<td height="1" bgcolor="#000000"><img src="../img/spacer.gif" width="1" height="1"></td>
@@ -454,7 +454,7 @@
 												<td width="1" rowspan="3" bgcolor="#000000"><img src="../img/spacer.gif" width="1" height="1"></td>
 											  </tr>
 											  <tr>
-												<td><a href="inscription/etape1.php"><img src="../img_membres/user22946.png" width="50" height="50" border="0" alt="machappine"></a></td>
+												<td><a href="inscription/etape1.php"><img src="../img_membres/no_file.gif" width="50" height="50" border="0" alt="machappine"></a></td>
 									  </tr>
 									  <tr>
 										<td height="1" bgcolor="#000000"><img src="../img/spacer.gif" width="1" height="1"></td>
@@ -610,7 +610,7 @@
 		  <table width="100%" border="0" cellpadding="0" cellspacing="0">
 			  <tr>
 				<td width="300">&nbsp;</td>
-			  <td class="titre3-blanc" align="center"><a href="../fr/icpa/cgu.php" class="titre3-blanc" target="_blank">Nutzungsbedingungen</a> - <a href="mailto:contact@phoenix-investigators.org" class="titre3-blanc">Webmaster kontaktieren</a></td>
+			  <td class="titre3-blanc" align="center"><a href="icpa/cgu.php" class="titre3-blanc" target="_blank">Nutzungsbedingungen</a> - <a href="mailto:contact@phoenix-investigators.org" class="titre3-blanc">Webmaster kontaktieren</a></td>
 				<td width="300">&nbsp;</td>
 			  </tr>
 			</table>
