@@ -1,0 +1,74 @@
+.alignC { text-align:center; }
+.alignL { text-align:left; }
+.alignR { text-align:right; }
+.floatL { float:left; }
+.floatR { float:right; }
+.clear  { clear:both; }
+.newsletter li{margin:0px 0px 10px 0px;width:100%;}
+.newsletter label{font-weight:bold;}
+.error{color:#000; background:#FFEAEB url(/pics/share/important24.gif) no-repeat; display:block; padding-left:27px; height:20px; min-height:20px; height:auto!important; font-weight:bold;}
+.ok{color:#00CC99; }
+.imp {color: red;}
+#pub{text-align:center;}
+
+/*----------workaround etirement des colonnes en cas de depassement ie-------------*/
+.box-content{overflow:hidden;}
+
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+
+/*---------WORK AROUND DISPARITION ELEMENT FLOAT SOUS IE------------*/
+/*.article{clear:both; position:relative;}
+#top {display:block; clear:both;}
+.GcheTexte{ position:relative;}
+.DrteTexte{position:relative;}*/
+
+/*----compatibilité minimum avec css perso----------*/
+
+/*clic droit*/
+#menuClicDroit {position:absolute;top:0px;left:0px;z-index:500;visibility:hidden;border:1px solid #666;padding:3px;}
+#menuClicDroit span{display:block; margin-top:5px; margin-bottom:1px;}
+
+/* module Album*/
+#Album li {list-style:none; text-align:center; margin-bottom:5px;}
+
+/*image aleatoire*/
+.divImgAl{ margin-bottom:5px;}
+
+/*preview articles*/
+#divPrevText{ background-color:#FDE8BA; color:#000000; margin-bottom:5px;}
+#spanImPrev {background:url(/pics/share/important.gif) no-repeat; width:41px; height:35px; float:left; margin:3px; }
+#txtPrv {width:800px; margin:0px auto;}
+
+.Option,.article {clear:both;}
+.Option {margin-bottom:15px;}
+.optionLink{float:right;}
+.spanliencom,.spanlientrack,.spanlienrecom,.spanaddcomment{float:left;}
+/*------fin compatibilité--------*/
+
+
+.cleaner {clear:both;}
+
+#divNewsletter {min-height:310px; height:310px; height:auto !important;}
+
+/* css scroller pub */
+#tetracase {position:relative;overflow:hidden;height:14px;width:701px;background-color:#FFF;}
+#tetracase a {color:black;font-weight:bold;}
+.tetradiv {position:absolute;overflow:hidden;top:0;left:701px;line-height:14px;font-size:9px;color:black}
+
+.rightInput{float:left;}
+.letfLabel{width:25%; float:left;}
+.formLine{clear:both; padding:5px 0px;}
+.explain {margin-bottom:10px; }
+.submit {margin:10px 0px 0px 4px; cursor:pointer;}
+#boxfooter {background-color:#FDEBC1;text-align:center; padding-bottom:5px; color:#5675A4;}
+#boxmain{color:#5675A4; margin:10px 10px 0px 10px;}
+.lowimportance {color:#BBB}
+.centreTexte {text-align:center;}
+.leftMarged {margin-left:10px;}
+.rightMarged {margin-right:10px;}
+.sideMarged {margin-left:10px; margin-right:10px;}
+.RowBlue {background:#E8EEF4;}
+.topMarged {margin-top:5px;margin-bottom:5px;}
+.topWideMarged {margin-top:10px;margin-bottom:10px;}

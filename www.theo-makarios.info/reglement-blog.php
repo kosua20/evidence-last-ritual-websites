@@ -1,550 +1,347 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr_FR" lang="fr_FR">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
-<title>www.theo-makarios.info - conditions gÃ©nÃ©rales d'utilisation</title>
-<meta name="description" content="L'actualitÃ© de l'Histoire vue par ThÃ©o Makarios, historien mÃ©diÃ©viste et Ã©pigraphiste." />
-<meta name="keywords" content="professeur histoire, moyen age, renaissance, antiquite, medieval, medieviste, epigraphiste" />
-<link type="text/css" href="http://accel6.fdata.over-blog.com/99/00/00/01/style/common.css?2.2.1.21" media="screen" rel="stylesheet" />
-<link type="text/css" href="http://accel4.fdata.over-blog.com/99/00/00/01/templates/canvas/article_struct_7_1.css?2.2.1.21" rel="stylesheet" />
-<link type="text/css" href="http://accel3.fdata.over-blog.com/99/00/00/01/templates/267/common/article/7/struct.css?2.2.1.21" rel="stylesheet" />
-<link type="text/css" href="http://accel5.fdata.over-blog.com/99/00/00/01/templates/267/common/article/screen.css?2.2.1.21" rel="stylesheet" />
-<link type="text/css" href="http://accel4.fdata.over-blog.com/99/00/00/01/templates/267/blue/article/common/screen.css?2.2.1.21" rel="stylesheet" />
-<link type="text/css" href="http://accel7.fdata.over-blog.com/99/00/00/01/templates/267/blue/article/7/screen.css?2.2.1.21" rel="stylesheet" />
-<script type="text/javascript" src="http://accel5.fdata.over-blog.com/99/00/00/01/js/blog.js?2.2.1.21" ></script>
-<script type="text/javascript" src="http://accel4.fdata.over-blog.com/99/00/00/01/js/OB_Common.js?2.2.1.21" ></script>
-<script type="text/javascript" src="http://accel1.fdata.over-blog.com/99/00/00/01/js/local/localizedStrings.js?2.2.1.21" ></script>
-<meta name="robots" content="index,follow" />
-<meta name="generator" content="OB_2" />
-<link rel="alternate" type="application/rss+xml" title="Flux RSS des articles" href="http://www.theo-makarios.info/rss-articles.xml" />
-<link rel="alternate" type="application/rss+xml" title="Flux RSS des commentaires" href="http://www.theo-makarios.info/rss-comments.xml" />
-<link rel="shortcut icon" type="image/x-icon" href="http://accel7.fdata.over-blog.com/99/00/00/01/img/favicon.ico" />
-<link rel="icon" type="image/png" href="http://accel0.fdata.over-blog.com/99/00/00/01/img/favicon.png" />
-		<!-- overblog tracker -->
-		<script src="/_tracker.js?20081204" type="text/javascript"></script>
-		<script type="text/javascript">
-		//<![CDATA[
-		_oobacct = "OB-40820-136959254/12550788/167915596/40361149/";
-		oobTracker();
-		//]]>
-		</script>
-		<!-- end of tracker -->
-	</head><body >
-<script type="text/javascript" charset="utf-8">
-//<![CDATA[
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>www.theo-makarios.info - conditions générales d'utilisation</title>
 
-	if (window.navigator.userAgent.toLowerCase().match(/iphone|ipod/))
-	{
-		var iAlert = 0;
-		var cook = document.cookie.split('; ');
-		for (var i in cook)
-		{
-			var gato = cook[i].split('=');
-			if (gato[0] == 'iAlert')
-			{
-				iAlert = parseInt(gato[1]);
-			}
-		}
-		if (iAlert < 3)
-		{
-			document.cookie = 'iAlert=' + parseInt(iAlert + 1);
-			document.write(
-				'<div class="ctn_z_infobox" style="margin: 0;font-size: 30px;" onclick="window.location = \'http://' + window.location.hostname + '/iphone/\';">' +
-					'<strong class="title">' +
-						'Overblog pour iPhone' +
-					'</strong>' +
-					'<br />' +
-					'Overblog est disponible en version optimisÃ©e pour iPhone ! Touchez lÃ  !!' +
-				'</div>'
-			);
-		}
-	}
 
-//]]>
+
+    		<meta name="description" content="L'actualité de l'Histoire vue par Théo Makarios, historien médiéviste et épigraphiste." />
+  
+
+  	<meta name="keywords" content="histoire, moyen age, mdival, mdiviste,   pigraphiste"  />
+
+
+  <meta name="robots" content="index,follow" />
+  <meta http-equiv="language" content="fr" />
+  <link rel="alternate" type="application/rdf+xml" title="www.theo-makarios.info - conditions générales d'utilisation RSS" href="http://www.theo-makarios.info/index.rdf" />
+  <link rel="alternate" type="application/atom+xml" title="www.theo-makarios.info - conditions générales d'utilisation ATOM" href="http://www.theo-makarios.info/atom.php" />
+  <link rel="alternate" type="application/rss+xml" title="www.theo-makarios.info - conditions générales d'utilisation RSS2" href="http://www.theo-makarios.info/rss2.php" />
+  <link rel="stylesheet" type="text/css" href="/fdata/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/fdata/0/04/08/20/css/custom.css" />
+
+<script src="/fdata/script/form-inc.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--<div style="margin:0px; width:100%; background-color:#FFCC99; display:block; ">
+				<img src="pics/share/bulle_petit.gif" alt="" style="position:absolute; top:0px; left:0px;" />
+				<a href="inscription.php?nomDomaine2=&idP=" style="float:right; margin-right:5px; background-color:transparent; display:inline; text-decoration:none;">Créez votre blog gratuit</a>
+				<a href="http://www./index.php" style="margin-top:3px; margin-left:20px; display:inline; background-color:transparent; text-decoration:none;">www.</a>
+</div>-->
+
+<script type="text/javascript">
+var tetra;
+var staticItemCount=0;
+function StartTetra() {
+   var doc;
+   var url='sms-1195837632.xml';
+   if (document.getElementById) {
+      var doc=document.getElementById('tetracase');
+      if ((browser<1)||(!doc.innerHTML)) url='';
+      if (url.length||staticItemCount) {
+         tetra=TetraMakeConf('tetra',url,1,staticItemCount,699,699,22,'R2L',5,5,10,25);
+         TetraStart('tetra');
+      }
+   }
+}
 </script>
 
 
-		
- 
-	<!-- tpl:267 | sv1:2 | sv1.5:2 | sv2:2 | r:0 -->
-
-
-	<!-- v2 niveau: 30 -->
+<div id="centrePage">
 	<div id="global">
-					<div id="ln_0" class="ln">									<div id="cl_0_0" class="cl">
-						<div class="column_content">
-																															
-									<div  id="header" >
-				<div id="top">
-			
-  <span style="font-size: 24pt;">le blog de thÃ©o <b>makarios<br></b> <span style="font-size: 12pt;">est en travaux !</span></span>
+		<div id="header"><div id="top"><script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;option=invisible"></script> <script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;data=today&amp;option=invisible"></script> <script type="text/javascript" src="http://m3.moostik.net/js/?pseudo=theomakarios&amp;data=live&amp;option=invisible"></script>
+<div align="center">
+<table width="100%" height="60" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tbody>
+        <tr>
+            <td width="220" style="border: 1px solid rgb(242, 233, 222); text-align: center; background-color: rgb(255, 255, 255);"><SCRIPT LANGUAGE='JavaScript'>{var Couleurcadre='#f2e9de'; var Couleurfond='#F9F8F5'; var Couleurtitre='#595220'; varCouleurdate='#136099'; var Largeur='220';}</SCRIPT><SCRIPT LANGUAGE='JavaScript' SRC='http://www.france-pittoresque.com/almanach/ephem.js'></SCRIPT><noscript>[Eph&amp;amp;amp;amp;amp;amp;eacute;meride en Javascript]</noscript></td>
+            <td style="text-align: center;"> <video width="360" autoplay muted loop>
+    <source src="/ddata/xxxyyy/0/04/08/20/titre.mp4" type="video/mp4" >
+</video>
+            <p>&nbsp;</p>
+            <p><strong><a href="http://theo-makarios.over-blog.com/">Accueil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.theo-makarios.info/article-370397-6.html">Livre&nbsp;d'or</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:theo.makarios@wanadoo.fr">Contact</a></strong></p>
+            </td>
+            <td width="222" style="text-align: center;"><img width="82" height="81" src="/idata/0/04/08/20/blog/theo.png" alt="Théo" /><br /> <SCRIPT language="JavaScript" type="text/javascript">
+<!--
+var ad1 = "http://trans.voila.fr/voila?systran_lp=fr_";
+var ad2 = "&systran_id=Voila-fr&systran_url=";
+var ad3 = "&systran_f=1150820414";
+var URL = location.href;
+document.write( "<a href='"+ad1+"en"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='/idata/0/04/08/20/box/enbtn.png' width=24 height=17 border=0 alt=English title=English align=absMiddle></a>&nbsp;" );
+document.write( "<a href='"+ad1+"de"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='/idata/0/04/08/20/box/debtn.png' width=24 height=17 border=0 alt=Deutsch title=Deutsch align=absMiddle></a>&nbsp;" );
+document.write( "<a href='"+ad1+"it"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='/idata/0/04/08/20/box/itbtn.png' width=24 height=17 border=0 alt=Italiano title=Italiano align=absMiddle></a>&nbsp;");
+document.write( "<a href='"+ad1+"es"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='/idata/0/04/08/20/box/esbtn.png' width=24 height=17 border=0 alt=Español title=Español align=absMiddle></a>&nbsp;" );
+document.write( "<a href='"+ad1+"pt"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='/idata/0/04/08/20/box/ptbtn.png' width=24 height=17 border=0 alt=Português title=Português align=absMiddle></a>&nbsp;" );
+document.write( "<a href='"+ad1+"nl"+ad2+URL+ad3+"' target=_top>" );
+document.write( "<img src='http://62.233.33.192/0/04/08/20/box/nlbtn.png' width=24 height=17 border=0 alt=Nederlands title=Nederlands align=absMiddle></a>" );
+//-->
+</SCRIPT><noscript>[Traductions en Javascript]</noscript></td>
+        </tr>
+    </tbody>
+</table>
+<script language="javascript" type="text/javascript">
+//<!--
+document.title = "Le blog de Théo Makarios : un certain regard sur l'actualité de l'Histoire";
+//-->
+</script></div>
+<div id="google">
+<div class="box-titre">
+<h2>Rechercher</h2>
+</div>
+<br />
+<form action="http://www.google.com/search" target="_blank" method="get">
+    <input type="hidden" name="domains" value="theo-makarios.info" />
+    <div align="center"> <input type="text" name="q" value="Vos mots-clés…" size="25" maxlength="255" class="motcles" onmouseover="this.focus()" onfocus="this.select(); this.value=''" />   <input type="submit" name="sa" class="go" value="Ok" />    <br />   <input type="radio" name="sitesearch" class="radio" value="" />   sur le web &nbsp;&nbsp;&nbsp;   <input type="radio" name="sitesearch" value="theo-makarios.info" class="radio" checked="" />   sur ce blog<br />   <br />   Avec&nbsp;<img width="45" height="15" align="absmiddle" src="/idata/0/04/08/20/blog/google.gif" alt="" /> </div>
+</form>
+</div><div class="clear"></div></div>
+</div>
 
-  
-		<div class="clear"></div>
-		</div>
-		</div>																																												</div>
-					</div>		
-								<div class="clear"></div>
-			</div>					<div id="ln_1" class="ln">									<div id="cl_1_0" class="cl">
-						<div class="column_content">
-																															
-									<div id="reglementBlog">
-  <h1>www.theo-makarios.info - conditions gÃ©nÃ©rales d'utilisation</h1>
-  Informations pour ce site :<br />
-  Adresse : www.theo-makarios.info  <p><blockquote>
-    Titre : Le blog de Th&eacute;o Makarios    Description : L'actualitÃ© de l'Histoire vue par ThÃ©o Makarios, historien mÃ©diÃ©viste et Ã©pigraphiste.    Ce site a Ã©tÃ© crÃ©Ã© le 27/03/2005 
-  </p></blockquote> 
-  <p>
-  Vous pouvez lire les <a href="http://www.over-blog.com/reglement-blog.php" class="newWindow">Conditions GÃ©nÃ©rales d'Utilisation</a> du site www.theo-makarios.info.  </p>
-	<p>
-  Le site www.theo-makarios.info utilise le service over-blog.com et est hÃ©bergÃ© par la sociÃ©tÃ© <a href="http://www.jfg-networks.com/" class="newWindow">JFG NETWORKS</a> dont le siÃ¨ge social est situÃ© 1 Avenue Jean Rieux  - 31500 TOULOUSE.  <p>La sociÃ©tÃ© JFG Networks n'est pas responsable du contenu proposÃ© par ce blog.</p>  </p>
- <p>
-  Vous pouvez lire les <a href="http://www.over-blog.com/reglement.php" class="newWindow">conditions gÃ©nÃ©rales d'utilisation</a>, que l'auteur et responsable de ce blog a acceptÃ©es lors de son inscription  </p>
-  	  Les thÃ¨mes suivants peuvent aussi vous intÃ©resser :	  		<a href="http://www.over-blog.com/blog-annuaire-1-sport.html">Blog : Sport</a>&nbsp;
-	  		<a href="http://www.over-blog.com/blog-annuaire-1-humour.html">Blog : Humour</a>&nbsp;
-	  		<a href="http://www.over-blog.com/blog-annuaire-1-musique.html">Blog : Musique</a>&nbsp;
-	     </div>  
-																																												</div>
-					</div>		
-									<div id="cl_1_1" class="cl">
-						<div class="column_content">
-																															
-									<div class="box recherche box0" >
-	<div class="box-titre"><h2><span>Rechercher</span></h2></div>
-	<div class="box-content">
-					<form action='http://www.over-blog.com/recherche/recherche-blog.php' method="get" target="_blank">
-						<div>
-											<input type="hidden" name="ref" value="40820" />
-										<input name="query" maxlength="255" value="" onmouseover="this.focus()" onfocus="this.select(); this.value=''" type="text" />
-											<input type="submit" value=" OK "  class="button"/>
+						    <div id="troisCol">
+					<div id="leftnav">
+												
+								<div class="box" id="Categorie">
+												<div class="box-titre"><h2>Les rubriques</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/categorie-134336.html">Les petites histoires (9)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-71793.html">Livres (22)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-94277.html">Festivals (4)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-71792.html">Évènements (5)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-94280.html">Expositions (9)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-79683.html">Formations (7)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-87601.html">Sites Internet (3)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-95387.html">Entretiens (7)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-102498.html">Cinéma - DVD (2)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-71794.html">Multimédia (2)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-104839.html">TV - Radios - Presse (8)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-112706.html">Conférences - débats (2)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-118017.html">Tourisme (7)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-695095.html">Réflexions (2)</a></li>
+<li><a href="http://www.theo-makarios.info/categorie-117409.html">A propos du blog... (2)</a></li>
+</ul>
+</div>
 								</div>
-		</form>
-	</div>
-	<div class="box-footer"><h2><span>&nbsp;</span></h2></div> 
+									
+								<div class="box" id="ArticleRecent">
+												<div class="box-titre"><h2>Les articles</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/article-5090783.html">Meilleurs vœux !</a></li>
+<li><a href="http://www.theo-makarios.info/article-5037172.html">Le Grand Tournoi de l'Histoire</a></li>
+<li><a href="http://www.theo-makarios.info/article-4890086.html">Le Moyen Age flamboyant : poésie et peinture</a></li>
+<li><a href="http://www.theo-makarios.info/article-4389561.html">Le Domaine de Kerguéhennec</a></li>
+<li><a href="http://www.theo-makarios.info/article-4013939.html">Châteaux et forteresses du Moyen Age en Val de Loire</a></li>
+<li><a href="http://www.theo-makarios.info/article-4012991.html">Les librairies aristocratiques dans les anciens Pays-Bas au Moyen Âge</a></li>
+<li><a href="http://www.theo-makarios.info/article-3917181.html">Trésors enluminés de Troyes</a></li>
+<li><a href="http://www.theo-makarios.info/article-3917283.html">Les Visiteurs d'Histoire</a></li>
+<li><a href="http://www.theo-makarios.info/article-3917887.html">Merci</a></li>
+<li><a href="http://www.theo-makarios.info/article-3176202.html">Les chevaliers du Portugal</a></li>
+<li style="list-style-type: none;text-align:right"><a style="text-decoration:none;font-weight:bold" href="http://www.theo-makarios.info/liste-article-blog.php"><em>Liste complète</em></a></li>
+</ul>
 </div>
+								</div>
+									
+								<div class="box" id="CommentRecent">
+												<div class="box-titre"><h2>Les commentaires</h2></div>
+												<div class="box-content">Aucun article disponible
+</div>
+								</div>
+									
+								<div class="box" id="Archive">
+												<div class="box-titre"><h2>Les archives</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/archive-11-2007.html">Novembre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2007.html">Octobre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2007.html">Septembre 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2007.html">Août 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2007.html">Juillet 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2007.html">Juin 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2007.html">Mai 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2007.html">Avril 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2007.html">Mars 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-2-2007.html">Février 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-1-2007.html">Janvier 2007</a></li>
+<li><a href="http://www.theo-makarios.info/archive-12-2006.html">Décembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-11-2006.html">Novembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2006.html">Octobre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2006.html">Septembre 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2006.html">Août 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2006.html">Juillet 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2006.html">Juin 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2006.html">Mai 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2006.html">Avril 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2006.html">Mars 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-2-2006.html">Février 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-1-2006.html">Janvier 2006</a></li>
+<li><a href="http://www.theo-makarios.info/archive-12-2005.html">Décembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-11-2005.html">Novembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-10-2005.html">Octobre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-9-2005.html">Septembre 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-8-2005.html">Août 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-7-2005.html">Juillet 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-6-2005.html">Juin 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-5-2005.html">Mai 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-4-2005.html">Avril 2005</a></li>
+<li><a href="http://www.theo-makarios.info/archive-3-2005.html">Mars 2005</a></li>
+</ul>
+</div>
+								</div>
+									
+								<div class="box" id="Syndication">
+												<div class="box-titre"><h2>Les fils d'infos</h2></div>
+												<div class="box-content"><ul>
+<li><a href="http://www.theo-makarios.info/index.rdf"><img src="/fdata/pics/share/picto_rss10.png" alt="Feed RDF 1.0" /></a></li>
+<li><a href="http://www.theo-makarios.info/atom.php"><img src="/fdata/pics/share/picto_atom.png" alt="Feed ATOM 0.3" /></a></li>
+<li><a href="http://www.theo-makarios.info/rss2.php"><img src="/fdata/pics/share/picto_rss20.png" alt="Feed RSS 2.0" /></a></li>
+</ul>
+</div>
+								</div>
+									
+					</div>	<!--fin leftnav-->
+			 
+				  <div id="main">
+				  			<div align="center"></div>
+							<div id="content">	
+										<div id="reglementBlog"><h1>www.theo-makarios.info - conditions générales d'utilisation</h1>
 
-																																									
-									<div class="box categorie  box1" >
-	<div class="box-titre"><h2><span>CatÃ©gories</span></h2></div>
-	<div class="box-content">
-		<ul>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-134336.html">Petites histoires</a>
-								(13)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-71793.html">Livres & BD</a>
-								(27)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-94277.html">Foires & Festivals</a>
-								(6)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-71792.html">ActualitÃ©s & Formations</a>
-								(12)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-94280.html">Expositions & ConfÃ©rences</a>
-								(14)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-87601.html">Logiciels & Internet</a>
-								(4)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-95387.html">Entretiens</a>
-								(7)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-102498.html">CinÃ©ma, Musique & VidÃ©os</a>
-								(6)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-104839.html">MÃ©dias & MultimÃ©dia</a>
-								(10)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-118017.html">Tourisme</a>
-								(9)
-							</li>
-					<li>
-				<a href="http://www.theo-makarios.info/categorie-117409.html">A propos du blog...</a>
-								(5)
-							</li>
-				</ul>
-	</div>
-	<div class="box-footer"><h2><span>&nbsp;</span></h2></div> 
-</div>
-																																									
-									<div class="box calendrier box2" >
-	<div class="box-titre"><h2><span>Calendrier</span></h2></div>
-	<div class="box-content">
-		 	<table class="calendarTable1" border="0" cellpadding="2" cellspacing="1">
-		<tbody>
-			<tr>
-				<td colspan="7" class="calendarTop1" align="center">
-										DÃ©cembre 2008									</td>
-			</tr>
-			<tr align="center">
-								<td class="calendarHeader1">
-					<b>L</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>M</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>M</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>J</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>V</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>S</b>
-				</td>
-								<td class="calendarHeader1">
-					<b>D</b>
-				</td>
-							</tr>
-						<tr align="center">
-								<td class="calendarDays1">
-																		1												
-									</td>
-								<td class="calendarDays1">
-																		2												
-									</td>
-								<td class="calendarDays1">
-																		3												
-									</td>
-								<td class="calendarToday1">
-																		4												
-									</td>
-								<td class="calendarDays1">
-																		5												
-									</td>
-								<td class="calendarDays1">
-																		6												
-									</td>
-								<td class="calendarDays1">
-																		7												
-									</td>
-							</tr>
-						<tr align="center">
-								<td class="calendarDays1">
-																		8												
-									</td>
-								<td class="calendarDays1">
-																		9												
-									</td>
-								<td class="calendarDays1">
-																		10												
-									</td>
-								<td class="calendarDays1">
-																		11												
-									</td>
-								<td class="calendarDays1">
-																		12												
-									</td>
-								<td class="calendarDays1">
-																		13												
-									</td>
-								<td class="calendarDays1">
-																		14												
-									</td>
-							</tr>
-						<tr align="center">
-								<td class="calendarDays1">
-																		15												
-									</td>
-								<td class="calendarDays1">
-																		16												
-									</td>
-								<td class="calendarDays1">
-																		17												
-									</td>
-								<td class="calendarDays1">
-																		18												
-									</td>
-								<td class="calendarDays1">
-																		19												
-									</td>
-								<td class="calendarDays1">
-																		20												
-									</td>
-								<td class="calendarDays1">
-																		21												
-									</td>
-							</tr>
-						<tr align="center">
-								<td class="calendarDays1">
-																		22												
-									</td>
-								<td class="calendarDays1">
-																		23												
-									</td>
-								<td class="calendarDays1">
-																		24												
-									</td>
-								<td class="calendarDays1">
-																		25												
-									</td>
-								<td class="calendarDays1">
-																		26												
-									</td>
-								<td class="calendarDays1">
-																		27												
-									</td>
-								<td class="calendarDays1">
-																		28												
-									</td>
-							</tr>
-						<tr align="center">
-								<td class="calendarDays1">
-																		29												
-									</td>
-								<td class="calendarDays1">
-																		30												
-									</td>
-								<td class="calendarDays1">
-																		31												
-									</td>
-								<td class="calendarDays1">
-											&nbsp;
-									</td>
-								<td class="calendarDays1">
-											&nbsp;
-									</td>
-								<td class="calendarDays1">
-											&nbsp;
-									</td>
-								<td class="calendarDays1">
-											&nbsp;
-									</td>
-							</tr>
+Informations pour ce site : <br/>
+<p><blockquote>Adresse : www.theo-makarios.info<br/>
+Titre : Le blog de Théo Makarios<br/>
+Description : L'actualité de l'Histoire vue par Théo Makarios, historien médiéviste et épigraphiste.</blockquote></p>
+Ce site à été créé le 27/03/2005
+<p><br/>Vous pouvez lire les <a target="_blank" href="http://www.over-blog.com/reglement-blog.php">Conditions Générales d'Utilisation</a> du site www.theo-makarios.info.</p><p>Le site www.theo-makarios.info utilise le service <a href="http://www.over-blog.com/">over-blog.com</a> et est hébergé par la société <a href="http://www.jfg-networks.com" target="_blank">JFG NETWORKS</a> La société JFG Networks n'est pas responsable du contenu proposé par ce site.<br/><br/><p>Vous pouvez lire les <a href="http://www.over-blog.com/reglement.php" target="_blank">conditions générales d'utilisation</a> que l'auteur et responsable de ce site à accepté lors de son inscription</div>
+
+							</div> <!--fin content-->
+				  </div><!--fin main-->
+
+
 			
-			<tr>
-				<td colspan="7" class="calendarDays1" align="center">
-					<table border="0" width="173">
-						<tbody>
-							<tr>
-								<td class="calendarDays1" align="left" style="width:25%">
-																			<a href="http://www.theo-makarios.info/archive-2-7-2008.html" title="Article(s) du mois prÃ©cÃ©dent">&lt;&lt;</a>
-																	</td>
-								<td class="calendarDays1" align="center" style="width:25%">
-																			&lt;
+							<div id="rightnav">
+												
+									<div class="box" id="RightPart">
+													<div class="box-titre"><h2>Les images</h2></div>
+													<div class="box-content"><ul>
+    <li><a onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.theo-makarios.info/album-214930.html">Couronnements des Rois de France</a></li>
+    <li><a onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.theo-makarios.info/album-16433.html">Ch&acirc;teaux m&eacute;di&eacute;vaux</a></li>
+</ul>
+<br />
+<div align="center"><object width="181" height="150" data="/ddata/xxxyyy/0/04/08/20/sepia.swf" type="application/x-shockwave-flash">
+<param value="/ddata/xxxyyy/0/04/08/20/sepia.swf" name="movie" />
+<param value="transparent" name="wmode" />
+<p>[Diaporama en Flash]</p>
+</object></div><div class="clear"></div></div>
+									</div>
 										
-								</td>
-								<td class="calendarDays1" align="center" style="width:25%">
-																			&gt;
+									<div class="box" id="Newsletter">
+													<div class="box-titre"><h2>La lettre d'infos</h2></div>
+													<div class="box-content">Inscription à la newsletter
+<form name="Form" action="http://adminv1.over-blog.com/newsletter.php?nomBlog2=theo-makarios&nomDomaine2=over-blog.com" method="post" target="_blank" class="cleansize">
+<input type="text" name="email" id="email#NOTNULL#EMAIL" value="Email" onclick="this.value='';" />
+<input type="submit" value="Ok" id="email" onclick="return controle(this,'#D8D7D7','red','Adresse e-mail incorrecte')" />
+</form>
+</div>
+									</div>
 										
-								</td>
-								<td class="calendarDays1" align="right" style="width:25%">
-																			&gt;&gt;
-																	</td>
-							</tr>
-						</tbody>
-					</table>
-				</td>
-			</tr>
-
-			</tbody>
-		</table>	</div>
-	<div class="box-footer"><h2><span>&nbsp;</span></h2></div> 
-</div>																																									
-									<div class="box articlerecent box3" >	
-	<div class="box-titre"><h2><span>Liste d'articles</span></h2></div>
-	<div class="box-content">
-		<ul>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-16424746.html" title="Blog en travaux...">Blog en travaux...</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7346439.html" title="Meilleurs vÂœÅ“ux !">Meilleurs vÂœÅ“ux !</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7321964.html" title="Le sapin de NoÃ«l">Le sapin de NoÃ«l</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7310140.html" title="PhÂœÅ“nix, dÃ©tective du temps">PhÂœÅ“nix, dÃ©tective du temps</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7308847.html" title="Elizabeth, l'Ã¢ge d'or">Elizabeth, l'Ã¢ge d'or</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7306145.html" title="Les croisades">Les croisades</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7303273.html" title="Le chÃ¢teau de Suscinio (56)">Le chÃ¢teau de Suscinio (56)</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7290006.html" title="Qu'il soit maudit !">Qu'il soit maudit !</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7288177.html" title="L'Histoire contemporaine Ã  la carte">L'Histoire contemporaine Ã  la carte</a>
-							</li>
-			
-			<li>
-				<a href="http://www.theo-makarios.info/article-7284469.html" title="Le royaume de Monsieur Colbert">Le royaume de Monsieur Colbert</a>
-							</li>
-				</ul>
-		<span class="listAll"><a href="http://www.theo-makarios.info/articles-blog.html"><em>liste complÃ¨te</em></a></span>
-	</div>
-	<div class="box-footer"><h2><span>&nbsp;</span></h2></div> 
+									<div class="box" id="LeftPart">
+													<div class="box-titre"><h2>Les blogs</h2></div>
+													<div class="box-content"><ul>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://spaces.msn.com/members/enluminure/">Le Moyen Age</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://antiquite-tardive.hautetfort.com/">L'ATP</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://historymedren.about.com/">Medieval History</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.20six.fr/blitztoire/">Blitztoire</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://bouquiniste.hautetfort.com/histoire_du_livre/">Bouquiniste</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://francoistonic.tooblog.fr/">Fran&ccedil;ois Tonic - Le Blog</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://medieval.over-blog.com/">Place de la chevalerie</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://geneahist-goupil.over-blog.com/">Geneahist-Goupil</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://flambeauxallan.over-blog.com/">Les Flambeaux de l'Allan</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://egypte.over-blog.com/">Dieux et D&eacute;esses d'Egypte</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://histoirefr.over-blog.com/">Histoire de France</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://cham.over-blog.com/">CHAM</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.francegenweb.org/blog/">FranceGenWeb<em>log</em></a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://gillesdubois.blogspot.com/">Carnet Web de G&eacute;n&eacute;alogie</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://pecia.tooblog.fr/">Le manuscrit m&eacute;di&eacute;val</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://lir73.over-blog.com/">Les Ind&eacute;pendants R&eacute;unis</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://histoire.over-blog.com/">L'Histoire</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://www.histohebdo.fr.tc/">Histohebdo</a> </li>
+    <li><a class="lien" onkeypress="window.open(this.href); return false;" onclick="window.open(this.href); return false;" href="http://chateau-espinasse.over-blog.com/">Ch&acirc;teau Espinasse</a> </li>
+</ul><div class="clear"></div></div>
+									</div>
+										
+									<div class="box" id="Lien">
+													<div class="box-titre"><h2>Les sites</h2></div>
+													<div class="box-content"><ul>
+<li><a href="http://www.ecoledulouvre.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'École du Louvre</a></li>
+<li><a href="http://www.histoiredefrance.net/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Histoire de France</a></li>
+<li><a href="http://www.fiecnet.org/fr/index.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La F. I. E. C.</a></li>
+<li><a href="http://hypo.ge-dip.etat-ge.ch/www/cliotexte/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Cliotexte</a></li>
+<li><a href="http://www.college-de-france.fr/site/general/index.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Le Collège de France</a></li>
+<li><a href="http://www.bnf.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La Bibliothèque Nationale de France</a></li>
+<li><a href="http://gallica.bnf.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Gallica</a></li>
+<li><a href="http://www.histoire-image.org/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Histoire par l'image</a></li>
+<li><a href="http://www.moyenageenlumiere.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">le Moyen Âge en lumière</a></li>
+<li><a href="http://htw.free.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoweb, l'Histoire en ligne</a></li>
+<li><a href="http://www.histoire.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">La chaîne TV Histoire</a></li>
+<li><a href="http://www.yrub.com/histoire/histoire.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">L'Atrium : Section Histoire</a></li>
+<li><a href="http://lemo.irht.cnrs.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Le médiéviste et l'ordinateur</a></li>
+<li><a href="http://www.rmn.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Réunion des Musées Nationaux</a></li>
+<li><a href="http://www.ccr.jussieu.fr/urfist/mediev.htm" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Ménestrel</a></li>
+<li><a href="http://www.histoire-en-ligne.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoire en Ligne</a></li>
+<li><a href="http://www.citadelle.org/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Citadelle</a></li>
+<li><a href="http://www.musee-moyenage.fr/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Musée National du Moyen Age</a></li>
+<li><a href="http://perso.wanadoo.fr/pecia/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Pecia</a></li>
+<li><a href="http://www.herodote.net/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Jours d'Histoire</a></li>
+<li><a href="http://www.bibliorare.com/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Bibliorare.com</a></li>
+<li><a href="http://www.histoire-france.info/" class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Histoire-France.info</a></li>
+</ul>
 </div>
+									</div>
+										
 
-																																												</div>
-					</div>		
-								<div class="clear"></div>
-			</div>					<div id="ln_2" class="ln">									<div id="cl_2_0" class="cl">
-						<div class="column_content">
-																															
-									<div   id="footer" >
-	
-  <div id="colbas3" class="colbas">
-    <h2>
-      Blogs
-    </h2>
-    <div class="colbas-content">
-      <ul>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://spaces.msn.com/members/enluminure/">Le Moyen Age</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://antiquite-tardive.hautetfort.com/">L'ATP</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://historymedren.about.com/">Medieval History</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://www.20six.fr/blitztoire/">Blitztoire</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href=
-          "http://bouquiniste.hautetfort.com/histoire_du_livre/">Bouquiniste</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://francoistonic.tooblog.fr/">FranÃ§ois Tonic</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://medieval.over-blog.com/">Place de la chevalerie</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://geneahist-goupil.over-blog.com/">Geneahist-Goupil</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://flambeauxallan.over-blog.com/">Les Flambeaux de l'Allan</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://egypte.over-blog.com/">Dieux et DÃ©esses d'Egypte</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://histoirefr.over-blog.com/">Histoire de France</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://cham.over-blog.com/">CHAM</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://www.francegenweb.org/blog/">FranceGenWeb</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://gillesdubois.blogspot.com/">Carnet Web de GÃ©nÃ©alogie</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://pecia.tooblog.fr/">Le manuscrit mÃ©diÃ©val</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://lir73.over-blog.com/">Les IndÃ©pendants RÃ©unis</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://histoire.over-blog.com/">L'Histoire</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://www.histohebdo.fr.tc/">Histohebdo</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://chateau-espinasse.over-blog.com/">ChÃ¢teau Espinasse</a>
-        </li>
-        <li>
-          <a class="lien" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" href="http://historia.unblog.fr/">Historia</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+				</div>	<!--fin rightnav-->
+				
+					</div><!--fin info structure-->
+		<div class="clear"></div>
+		<div id="footer"><div align="center">
+<p><strong><a href="http://theo-makarios.over-blog.com/">Accueil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.theo-makarios.info/article-370397-6.html">Livre&nbsp;d'or</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:theo.makarios@wanadoo.fr">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:scroll(0,0)">Haut de page</a></strong><br />&nbsp;</p>
+<table cellspacing="2" cellpadding="0" border="0" style="border: 1px solid rgb(165, 130, 95); font-size: 10px; background-color: rgb(255, 255, 255);">
+    <tbody>
+        <tr>
+            <td style="background-color: rgb(221, 221, 221);" rowspan="3"><img width="64" height="64" border="0" alt="Cercle Médiéval Francophone" src="/idata/0/04/08/20/medieval2.gif" /></td>
+            <td align="center" style="vertical-align: middle; background-color: rgb(221, 221, 221);">&nbsp;Le <a href="http://www.lecarreaumedieval.com/ring.htm" target="_TOP">Cercle&nbsp;M&eacute;di&eacute;val&nbsp;Francophone</a> est pr&eacute;sent&eacute; par <a href="mailto:theo.makarios@wanadoo.fr">Th&eacute;o&nbsp;Makarios</a>&nbsp;</td>
+            <td style="background-color: rgb(221, 221, 221);" rowspan="3"><img width="64" height="64" border="0" alt="Cercle Médiéval Francophone" src="/idata/0/04/08/20/medieval2.gif" /></td>
+        </tr>
+        <tr>
+            <td align="center" style="vertical-align: middle;"><strong><a href="http://www.ringsurf.com/netring?ring=LGDL;id=181;action=prev" target="_TOP">Site pr&eacute;c&eacute;dent</a>&nbsp;|&nbsp;<a href="http://www.ringsurf.com/netring?ring=LGDL;action=rand" target="_TOP">Site al&eacute;atoire</a>&nbsp;|&nbsp;<a href="http://www.ringsurf.com/netring?ring=LGDL;id=181;action=next" target="_TOP">Site suivant</a></strong></td>
+        </tr>
+        <tr>
+            <td align="center" style="vertical-align: middle; background-color: rgb(221, 221, 221);">Vous voulez rejoindre <a href="http://www.ringsurf.com/netring?ring=LGDL;action=list" target="_TOP">les&nbsp;membres&nbsp;de&nbsp;ce&nbsp;cercle</a>&nbsp;? <a href="http://www.ringsurf.com/netring?ring=LGDL;action=addform" target="_TOP">Informations</a></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p><a class="" href="http://www.alapage.com/mx/?donnee_appel=AXZIR&amp;x=28&amp;y=6" target="_blank"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/alapage.png" /></a>&nbsp;<a class="" href="http://www.fnac.com/default.asp?NID=0&amp;RNID=0&amp;Origin=THEOMAKARIOS&amp;OriginClick=yes" target="_blank"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/fnac.png" /></a>&nbsp;<a class="" href="http://www.amazon.fr/exec/obidos/redirect-home?site=amazon&amp;tag=leblogdetheom-21" target="_blank"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/amazon.png" /></a>&nbsp;<a class="" href="http://www.cibleclick.com/cibles/clicks/symp.cfm?site_id=450437547&amp;friend_id=234905493&amp;banniere_id=8500" target="_blank"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/chapitre.png" /></a></p>
+<p><a href="http://www.gartoo.com/" target="_blank"><img width="80" height="15" border="0" alt="Site référencé dans l'annuaire Gartoo" src="http://www.gartoo.com/tags/id17.jpg" /></a>&nbsp;<a href="http://www.blogarea.net/" target="_blank"><img width="80" height="15" border="0" alt="Site référencé sur BlogArea" src="http://www.blogarea.net/Affiliation/blogarea_button.png" /></a>&nbsp;<a href="http://www.blogwise.com/" target="_blank"><img width="80" height="15" border="0" alt="Blogwise - blog directory" src="http://www.blogwise.com/buttons/banner_blogwise.gif" /></a>&nbsp;<a href="http://clique.softextasia.net/" target="_blank"><img width="80" height="15" border="0" alt="" src="http://www.softextasia.net/Clique/Codes/bt2.gif" /></a>&nbsp;<a href="http://pagesperso.laposte.net/ouimaizou/over/annuaire/" target="_blank"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/listiblog.png" /></a>&nbsp;<a href="http://www.blogarama.com/" target="_blank"><img width="80" height="15" border="0" alt="Blogarama - The Blog Directory" src="http://www.blogarama.com/images/button_sm_2.gif" /></a>&nbsp;<a href="http://www.mesblogs.com/" target="_blank"><img width="80" height="15" border="0" alt="" src="http://www.mesblogs.com/images/small_mesblogs.gif" /></a>&nbsp;<a href="http://www.blogstreet.com/"><img width="80" height="15" border="0" alt="" src="/idata/0/04/08/20/blogstreet-button.png" /></a></p>
+<SCRIPT src="/ddata/xxxyyy/0/04/08/20/popup.js" type=text/javascript></SCRIPT></div>
+<link href="/idata/0/04/08/20/favicon.png" type="image/png" rel="icon" /><div class="clear"></div></div>
+	</div><!--fin global-->
+		<div align="center">
+		<a href="contact.php" onclick="window.open(this.href,'','width=500, height=550, scrollbars,resizable'); return false;" onkeypress="window.open(this.href,'','width=500, height=550, scrollbars,resizable'); return false;">Contact</a> -
+		<a href="reglement-blog.php">C.G.U.</a>  - <a href="http://adminv1.over-blog.com/abuse.php?nomBlog2=theo-makarios&nomDomaine2=over-blog.com" onclick="window.open(this.href,'','width=700, height=500,resizable=yes, scrollbars=yes'); return false;" onkeypress="window.open(this.href,'','width=700, height=200,resizable=yes, scrollbars=yes'); return false;">Signaler un abus</a>
+    </div><!--up3-->
+<!-- yo  --></div>
 
-  
-	<div class="clear"></div>
-</div>
-																																												</div>
-					</div>		
-								<div class="clear"></div>
-			</div>			</div>	
-	<div id="legals" style="visibility:visible!important; display:block !important; height:auto!important; width:100%!important; text-align:center!important; clear:both;">
-						<a href='http://www.over-blog.com/blog-annuaire-1-sport.html' class='newWindow'>Blog : Sport</a> sur <a href='http://www.over-blog.com/' class='newWindow'>over-blog.com</a>				- 
-		
-	<a href="http://ann.over-blog.com/blog-contact.php?ref=40820"
-		onclick="window.open(this.href,'','width=850, height=550, scrollbars,resizable'); return false;"
-		style="visibility:visible!important; display:inline!important; height:auto!important; width:auto!important;"
-	>
-		Contact</a> -
-	<a href="http://www.theo-makarios.info/reglement-blog.php"
-		style="visibility:visible!important; display:inline!important; height:auto!important; width:auto!important;"
-	>
-		C.G.U.</a> -
-			<a href='http://www.over-blog.com/offres-blog/rentabiliser-son-blog.php' class='newWindow'>RÃ©munÃ©ration en droits d'auteur</a> avec <a href="http://www.tf1pub.fr/supports/communautaire/51.php" onclick="window.open(this); return false;" rel="nofollow">TF1 Network</a> -
-		<a href="http://ann.over-blog.com/blog-abus.php?ref=40820"
-		 onclick="window.open(this.href,'','width=950, height=600,resizable=yes, scrollbars=yes'); return false;"
-		style="visibility:visible!important; display:inline!important; height:auto!important; width:auto!important;"
-	>
-		Signaler un abus</a>
-</div>
-
-	<script type="text/javascript">
-		jfg_addCss('http://accel0.fdata.over-blog.com/99/00/00/01/templates/267/blue/');
+<script type="text/javascript"><!--
+	CM_RUBRIQUE = "other";
+	CM_CLIENT = "overblog";
+	CM_SECTION1 = "other";
+	// --></script>
+	<script type="text/javascript" src="http://js.cybermonitor.com/overblog.js">
 	</script>
 	<noscript>
-	</noscript>
-	
-<script type="text/javascript">
-	<!--
-		CM_RUBRIQUE = "tos";
-		CM_CLIENT = "overblog";
-		CM_SECTION1 = "1_hit";
-	// -->
-</script>
-<script type="text/javascript" src="http://js.cybermonitor.com/overblog.js" id="stat_script" ></script>
-	
-<noscript>
-	<div style="height: 0;">
-		<img src="http://stat3.cybermonitor.com/overblog_v?R=tos&amp;S=total;1_hit" alt="stats" />
-	</div>
-</noscript>
-
-	
-	
-	
-
-<div id="debug_hidden">
-	<!--
-	time :  237ms, 30ms, 02:58:45
-	<hr />
-	debug : 
-	<hr />
-	cpu : 30
-	<hr />
-	create : 02:58:45
-	-->
-</div>
-
-</body></html>
+	<img src="http://stat3.cybermonitor.com/overblog_v?R=other&S=total;other" alt=""/>
+	</noscript></body>
+</html>

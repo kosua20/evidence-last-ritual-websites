@@ -1,0 +1,233 @@
+/*fichier de structure général externe*/
+@import url("/fdata/css/commonstruct2.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/***************************************/
+
+/*---------------- elements principaux ---------------*/
+/*---------------- les styles ci-dessous affectes l'ensemble des lments de la page n'ayant pas de style propre ou hrit --------------*/
+body	{ margin:0px; padding:0px; background-image:url(/modele/232/pics/fond.png); font-family: Arial,Verdana,sans-serif; font-size:x-small;}
+
+h1      { color: #626D13; font-size:20px }/*titre des pages*/
+h2      { color: #626D13; font-size:10px;}
+h3      { color: #626D13; font-size:10px;}
+a 	    { text-decoration:none; color:#FFF; font-size:110% }/* liens des pages */
+a:hover { text-decoration:underline; color:#4C4C49 }/* liens survoles*/
+legend  { color:#FFFFFF; padding-left:5px; padding-right:5px; }
+li      { list-style-type:none; color:#626D13;} /*listes non ordonnees*/
+img     { border:0px none;  } /* images */
+input   { background-color:transparent; border:1px solid #626D13;  color:#000; margin-bottom:2px;}
+.clear{padding:0px; margin:0px;}
+/* boutons, champs texte */
+
+/* --------------- Structure -------------------- */
+/* les styles ci dessous definissent l'aspect du blog quelque soit la structure (2-3 colonnes...)*/
+#centrePage     { width:100%;}/*div contenant la page sert  centrer le blog*/
+#global {padding:1px; margin-left:auto;  margin-right:auto; margin-top:21px; position:relative;  background-color:#FFF; color:#92979C;}/*colonne principale, contient toutes les colonnes du blog*/
+#global a {color:#626D13;}
+#main 		{}/*colonne principale contenant les articles*/
+#content 	{ overflow:hidden; margin:0px;}/*contenu de la colonne main*/
+#rightnav 	{ }/*colonne de droite*/
+#leftnav 	{ }/*colonne de gauche*/
+
+/********************************************************************************************************/
+/*                GESTION DU POSITIONNEMENT SELON LES DIFFERENTES STRUCTURES                            */
+/*------------------------------------------------------------------------------------------------------*/
+/*/!\ Attention la modification des informations ci-dessous peut entrainer la dformation de votre blog */
+/********************************************************************************************************/
+
+#global	{width:800px; border:2px solid #3F460A;}/*definie la taille du blog*/
+
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne  droite~~~~~~~~~~*/
+	#deuxColDroite #main	 { position:relative; float:left; overflow:hidden; width:595px; border-right: 1px dotted #969993;}/*colonne principale*/
+	#deuxColDroite #rightnav { position:relative; float:right; margin-bottom:5px; width:195px;}/*colonne de droite*/
+
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne  gauche~~~~~~~~~~*/
+	#deuxColGauche #main{ position:relative; float:right; overflow:hidden; width:595px; border-left:1px dotted #969993; }/*colonne principale*/
+	#deuxColGauche #leftnav { position:relative; float:left; margin-bottom:5px;  width:195px;}/*colonne de gauche*/
+
+/*~~~~~~~~~~ structure 1colonne  droite + 1 colonne principale + 1 colonne  gauche~~~~~~~~~~*/
+	#troisCol #main{ position:relative; float:left; overflow:hidden; width:400px; border-right:dotted 1px #969993; border-left: dotted 1px #969993; padding:0px; margin-left:3px;}/*colonne principale*/
+	#troisCol #rightnav{ position:relative; float:right; margin-bottom:5px; width:195px; }/*colonne de droite*/
+	#troisCol #leftnav{ position:relative; float:left; margin-bottom:5px;  width:195px;} /*colonne de gauche*/
+/**************************************************************************************************************/
+
+/* ------------------- Box -------------------- */
+/*definie le style des modules*/
+.box{ position:relative; margin-bottom: 5px; border-bottom:1px solid #626D13; background-color:#FFF; padding-bottom:5px; border-bottom:1px solid #626D13;}
+.box h2{ color: #626D13; margin-top:0px; margin-bottom:0px; }
+
+/*titre de la boite*/
+.box-titre{ position:relative; background-color:#ABB78E; padding-left: 20px; background-image:url(/modele/232/pics/cotes.png); background-repeat: no-repeat; text-align: left; background-position:5px 0px; border-bottom: 2px solid #fff}
+
+/*div contenant le titre*/
+.box-content     {overflow:auto; padding: 2px; color: #626D13; background: #DDE3CF;}/*contenu du module*/
+.box-content input {background-color: #FFF; border: solid 1px #626D13;color: #626D13; font-size:9px}
+.box-content p   {  margin:5px 0px 5px 2px; padding:0px; color: #626D13; background: transparent;}/*paragraphe*/
+.box-content ul  { margin:5px 0px 5px 15px; padding:0px; color: #626D13; background: transparent;}/*liste*/
+.box-content li  { list-style: square; color: #ABB78E;  margin:0px; padding:0px;}/*element d'une liste*/
+
+/* ------------------entete ---------------------*/
+#header { text-align:center;  margin:0px auto 5px auto;  position:relative; background-color:#FFF; font-size:20px; color:#626D13;}/*div contenant l'entete du blog*/
+#top    { border: 3px solid #626D13;}/*entete du blog*/
+#top h1 { padding:0px; margin:0px;}/*titre du blog /!\ modifiable*/
+.topLien{text-decoration:none;color:#FFF}/*lien de l'entte vers la home du blog /!\ modifiable*/
+.topLien:hover {text-decoration:underline;color:#FFF}/*lien de l'entete vers la home du blog survol /!\ modifiable*/
+
+/* ---------------------Bas de page----------------*/
+#footer { margin-top:10px;  position:relative;  color:#FFF; background-color:#FFF; }/*pied de page du blog*/
+#footer p { margin:0px; padding: 10px;  }/*paragraphes du pied de page*/
+.basLien{ text-decoration:underline}
+.basLien:hover { text-decoration:underline}
+
+/* ---------- Recherche ----------------------- */
+#Recherche   {}
+#Recherche h2 {}
+#WForm       {margin:0px; border:0px none; padding:10px}
+#WForm input {  font-size:100%;  text-align:center;  background-color:transparent; border:1px solid #FFF}
+#WForm input:hover {  background:#FFFFFF;}
+.RNum  { font-weight:bold; }/*numero du resultat*/
+.RDesc { padding:10px; }/*resume du resultat (premieres lignes de l'article)*/
+.ROut  { font-style:normal; color:#4C4C49;}/*domaine auquel appartient le resultat*/
+.RSize { color:#E610DE;}
+a.RTitle       { text-decoration:none;}/*titre du resultat*/
+a.RTitle:hover { text-decoration:none;}/*titre du resultat survole*/
+#GGResults { text-align:left; margin:0px; color:#4C4C49;}/*nombre de resultats de la recherche*/
+.Result1   { padding:4px; background:#F6A5EE; color:#4C4C49;}/*resultat style 1*/
+.Result2   { padding:4px; color:#4C4C49}/*resultat style 2*/
+
+/*------------------- Articles ----------------------------------*/
+.article {margin:0px 8px 18px 8px; padding:0px;}/*style general d'un article (entete texte et pied)*/
+.article p {margin-top:5px; margin-bottom:0px}/*tous les paragraphes composant un article*/
+.contenuArticle {border-top: solid 1px #626D13; color:#8C8F88;}/*style du texte d'un article*/
+.Date {margin-left:5px; color:#A0A56F;font-weight: bold;}/*style de la date affichee dans l'entete de l'article*/
+.Option {color:#4C4C49; margin-left:3px; text-align: right;}/*style du pied de l'article (publie par, categorie, commentaire,recommander)*/
+.barreHautArticle { padding:0px 0px 5px 0px; margin:0px; width:100%; }/*entete du blog contient la date*/
+#articleSeul .contenuArticle{border-top: 1px solid #626D13;}
+.categorieArticle { color: #4C4C49}/*categorie de l'article*/
+.categorieArticle a { text-transform:lowercase;}/*lien sur la categorie de larticle*/
+.categorieArticle a:hover { text-transform:lowercase;}/*lien survole sur la categorie de larticle*/
+.titreArticle	{margin-left:5px; font-size: 15px; text-decoration:none; color:#CCE134}/*lien sur le titre de l'article*/
+.titreArticle:hover {text-decoration:underline; color:#CCE134}/*lien survole sur le titre de l'article*/
+#reglementBlog{}
+#articleSeul {} /*style d'un article lors de l'affichage de l'article avec commentaires/trackbacks*/
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+.hitcitation {font-style:italic;text-align:justify;padding:5px 20px;background-color:#eee;}
+.hitencart {border:1px solid black;text-align:justify;font-weight:bold;margin:5px 0px;padding:5px 5px;}
+.hitimportant {font-weight:bold;color:red;font-weight:bold;font-size:120%;}
+.hitperso1 {font-style:italic;}
+.hitperso2 {font-weight:bold;}
+/*--------------------Liste des articles-------------------------*/
+.listArticles 	{ margin-top:15px ; padding-bottom:20px; border:0px none;}/*style d'un article*/
+.resumeArticle 	{}/*style du resume d'un article*/
+
+/*--------------------Commentaires---------------------------- */
+.h2commentMessage { margin:5px; color: #626D13;border-bottom: 1px solid #626D13;}
+.comment    {  }
+.comment hr {  }
+.linkcomment	{ margin:5px;font-size:130%; }/*lien d'ajout d'un commentaire*/
+.commentMessage { margin:5px; border:1px dotted #626D13; background-color:#ABB78E; color:#626D13}/*texte d'un commentaire*/
+.reponseOption {margin:5px; border:1px dotted #626D13; text-align:right;}
+.reponseMessage {text-align:right; background-color:#DDE3CF;}
+.commentOption 	{margin:5px; text-align:left; color:#626D13; margin-bottom:10px; background-color:#ABB78E; border:1px dotted #626D13; color:#626D13;}/*infos sur le commentaire auteur site...*/
+.nocomm{margin:5px;}
+/*---------------formulaire de saisie d'un commentaire--------------*/
+#formComment 			{background-color:#FFF; border:1px solid #969993; color:#626D13; }
+#formComment h2			{color:#626D13;}
+#formComment label 		{ width:70px;  } /*texte associ aux champs de sasie*/
+#formComment input 		{ background-color:transparent;  border:1px solid #626D13;}/* boutons, champs texte */
+#formComment textarea	{ background-color:transparent;  border:1px solid #626D13;}/*zone de saisie de texte*/
+
+/*-------------------trackback----------------------------------*/
+#addTrackback 		{ margin:5px; color:#626D13; border: dotted 1px #626D13; background-color:#ABB78E;} /* cadre donnant l'adresse de trackback*/
+.affTrackback 		{ padding:5px; background:#fff; color:#969993; margin-bottom:10px;}/**/
+.affTrackback h2 	{ color:#626D13;}/**/
+.linkTrackback 		{font-size:130%;}/*lien vers la fenetre d'ajout de trackback */
+.h2Trackback 		{  margin:5px;color:#626D13;border-bottom: 1px solid #626D13}/**/
+
+/*-----------------fenetre d'ajout d'un trackback---------------------*/
+#divTrackBack			{background-color:#FFF; border:1px solid #626D13; color:#626D13;}/*style general*/
+#divTrackBack input 	{ background-color:transparent; border:1px solid #626D13;}/*champs de texte bouton*/
+#divTrackBack textarea	{ background-color:transparent; border:1px solid #626D13;}/*zone de saisie de texte*/
+
+/*-------------------fenetre de recommandation---------------------------*/
+#divRecommander {background-color: #FFF; border:0px none; color:#626D13;}/*style general*/
+#divRecommander td {text-align:left;}
+#divRecommander span{ font-size:larger; color: #626D13;}
+#divRecommander legend{ font-size:larger; color: #626D13;background-color:#ABB87E}/*texte du cadre*/
+#divRecommander fieldset{ padding:3px; margin:5px; background:#FFF; border:1px dotted #969993;}/*conteneur des champs*/
+#divRecommander input{ background-color:transparent; border:1px solid #626D13}/*champs de texte bouton*/
+#divRecommander textarea{ background-color:transparent; border:1px solid #626D13;}/*zone de saisie de texte*/
+
+/*-----------------Newsletter-----------------------------------*/
+#divNewsletter h2 { text-align: center; color: #626D13; font-size:12pt;}/*titre de la page*/
+#divNewsletter input { background-color:transparent; border:1px solid #626D13;}/*champs de texte checkbox*/
+#divNewsletter .newsletter{}/*texte des checbox*/
+#divNewsletter{margin:150px;background-color: #fff}
+
+
+/* ---------------------Calendrier--------------------------------- */
+.calendarTop1 	{  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #9A1A2E; font-weight: bold;  background-color: transparent; text-align:left;} /*entete*/
+.calendarToday1 {  font-family: Arial, Helvetica, sans-serif;background-color:#626D13; font-size: 10px; text-align: center; font-weight: bolder; color:#FFF;} /* Aujourd'hui */
+.calendarDays1 	{  width:50px; height: 15px; font-family: Arial,Verdana ,Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #626D13; text-align:center;  margin: 0px;  padding: 0px; }
+.calendarHeader1{  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color:#ffffff; background-color: #626D13; border: 1px solid #3F460A;} /* lettre de la semaine */
+.calendarTable1 {  background:none; } /* contour du calendrier */
+
+
+/*-----------------------Pagination-------------------------*/
+.pagination { color:#000; }
+.pagination a {} /*Liens*/
+.pagination b{ } /*Page courante*/
+
+/*------------------------Divers-----------------------------*/
+.cleaner {clear:both;}
+
+
+/*-----------------------elements commun a l'accueil et aux pages d'un album------------------------------*/
+#bodyAlbum{}/*style general de la page de l'album*/
+#generalAbum{}/*div contenant tout l'album peut etre utilise  la place de bodyAlbum*/
+#topAlbum{background-color:#FFF;}/*entete de l'album contient l'entete du blog*/
+#enteteAlbum{width:99%;margin-right:auto; margin-left:auto;font-size:130%; color:#FFF; background-color:#9A8D43;}/*ligne sous l'entete du blog contient les liens vers les albums*/
+#enteteAlbum a { text-decoration:none;}
+#enteteAlbum a:hover {text-decoration:underline;}
+.lienAlbum {text-decoration:none; color:#626D13;}
+.lienAlbum:hover{text-decoration:underline; color:#626D13;}
+#piedAlbum{ width:99%;margin-right:auto; margin-left:auto;text-align:center; margin-top:5px; color:#575151; background-color:#FFF;}/*pied de page de l'album*/
+#piedAlbum a {text-decoration:none; color:#575151;}
+#piedAlbum a:hover {text-decoration:underline; color:#626D13;}
+.h2Album { text-align:center; font-size:12pt; color:#FFF;}/*titre de l'album/la photo*/
+#bodyAlbum {width:96%;margin-right:auto; margin-left:auto;}
+.topLienAlbum{text-decoration:none; color:#626D13;}/*lien vers un album*/
+.topLienAlbum:hover{color:#626D13;}/*lien survole*/
+
+
+/*-------------------------------Accueil album------------------------*/
+#centreAccAlbum{}/*contient les thumbnails de l'accueil de l'album (non utilise)*/
+.AccAlbum{text-align:center; width: 99%; background-color:#FFF; border: dotted 2px #969993;margin-right:auto; margin-left:auto;}/*contient les thumbnails de l'accueil de l'album*/
+.thumbAccAlbum { display:inline; margin:5px;}/*div contenant une miniature*/
+.thumbAccAlbumimg { padding:5px 0px;border:2px solid #626D13}/*miniature*/
+
+
+/*-----------------------Album photo--------------------------*/
+nomPhotoAlbum { font-size:large; color:#626D13;text-align:center;}/*nom de la photo affiche*/
+
+.quickNavAlbum{margin:0px; padding:0px; width:100%; color:#FFF; text-align:center;}/*liens de navigation rapide (precedent suivant retour)*/
+.quickNavAlbum a {text-decoration:none; color:#D9E869;} /*liens de la navigation rapide*/
+.quickNavAlbum a:hover {text-decoration:underline;}/*liens survole de navigation rapide*/
+.precAlbum{ float:left; text-decoration:none; position:relative; padding:0px; margin:0px;}/*liens et titre photo precedente*/
+.suivAlbum{ float:right;  text-decoration:none; position:relative; padding:0px; margin:0px;}/*liens et titre photo suivante*/
+.retourAlbum{ position:relative;  text-decoration:none; padding:0px; margin:0px auto; width:6em; color:#D9E869;}/*liens de retour album photo*/
+#centrethumbsAlbum{background-color:#626D13}/*contient les miniatures de l'accueil de l'album (non utilise)*/
+.thumbsAlbum { width:100%; background-color:#FFF;padding:2px;text-align:center; margin-right:auto; margin-left:auto;border: 2px dotted #969993}/*miniatures de l'album contient toutes les miniautures*/
+.thumbAlbum { display:inline; margin:3px;}/*div contenant une miniature*/
+.thumbAlbum img { border:1px solid #626D13;}/*miniature*/
+.thumbCouranteAlbum { display:inline; margin:3px;}/*div contenant la miniature de la photo courante*/
+.thumbCouranteAlbum  img { border:2px dotted #93252A;}/*miniature de la photo courante*/
+#photo{ text-align:center;width:100%;background-color:#FFF;margin-right:auto; margin-left:auto;border: dotted 2px #969993}/*div contenant la photo courante*/
+#photo img {margin: 2px auto; border:2px solid #93252A;background-color: #000000}/*photo courante*/
+
+/*---bouton droit souris*/
+#menuClicDroit {position:absolute; top:0px; left:0px; z-index:500; visibility:hidden; border:1px solid #666; padding:3px; background-color:#626D13; }
+#menuClicDroit li { list-style-type:none; margin:0px; padding:0px}
+#menuClicDroit ul{margin:0px;padding:0px}
+#menuClicDroit span{display:block; margin-top:5px; margin-bottom:1px;color:#FFF;}

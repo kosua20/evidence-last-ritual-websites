@@ -9,8 +9,8 @@
 	<meta name="robots" content="index,follow" />
 	<meta http-equiv="language" content="fr" />
 	<meta content="index,follow,noarchive" name="robots" />
-	<link rel="stylesheet" href="http://fdata.over-blog.com/css/www/struct-1-3.css" />
-	<link rel="stylesheet" href="http://fdata.over-blog.com/css/over-blog.com.css" />
+	<link rel="stylesheet" href="/fdata/css/www/struct-1-3.css" />
+	<link rel="stylesheet" href="/fdata/css/over-blog.com.css" />
 
 <script language="javascript" type="text/javascript">
 
@@ -46,7 +46,7 @@
 			}
 		
 		</script>
-			<script src="http://fdata.over-blog.com//script/form-inc.js" type="text/javascript"></script>
+			<script src="/fdata//script/form-inc.js" type="text/javascript"></script>
 </head>
 
 
@@ -59,7 +59,7 @@
 
 	<div class="box" id="box-0-0">
 <div id="globalContact"><h2 class="leftMarged">Formulaire de contact</h2><form action="http://adminv1.over-blog.com/contact.php" method="POST" name="Form" id="Form" class="leftMarged">
-<input type="hidden" id="spmk" name ="spmk" value="376e87ce3fb0e" />
+<input type="hidden" id="spmk" name ="spmk" value="36e7d7079e4c7" />
 				<input type="hidden" value="3" name="a" />
 				<input type="hidden" value="40820" name="IdUser" />
 				<input type="hidden" value="www.theo-makarios.info" name="URL_RET" />
@@ -92,7 +92,7 @@
 				  </tr>
 				  <tr>
 				  	<td></td>
-					<td ><img border="0" name="alnum" src="http://admin.over-blog.com/crypto?376e87ce3fb0e" id="alnum"  alt="" />  <a href="#" onclick="reload('alnum','spmk');"><img src="http://accel2.fdata.over-blog.com/pics/share/refresh24.gif" alt="Je n'arrive pas à lire le texte" /></a></td>
+					<td ><img border="0" name="alnum" src="http://admin.over-blog.com/crypto?36e7d7079e4c7" id="alnum"  alt="" />  <a href="#" onclick="reload('alnum','spmk');"><img src="/fdata/pics/share/refresh24.gif" alt="Je n'arrive pas à lire le texte" /></a></td>
 				  </tr>
 				  <tr>
 					<td><strong><label for="texteImage#NOTNULL">Texte de l'image ci-dessus: </label></strong></td>

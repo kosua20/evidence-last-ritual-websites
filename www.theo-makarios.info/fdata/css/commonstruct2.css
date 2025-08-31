@@ -1,0 +1,33 @@
+/* CSS Document */
+/*structure generale des blogs*/ 
+
+/*--Presentation----*/
+#Presentation span {margin:3px 2px;}
+#Presentation h2 {margin:3px;}
+#Presentation strong {font-weight:bold; font-size:110%;}
+
+/*---Gestion des extraits accueil----*/
+.extraitArticle {margin-bottom:30px; clear:both; padding:5px;}
+/*.extraitArticle a,.extraitArticle a:hover {font-size:100%;}*/
+.titreExtrait {float:left; font-weight:bold;}
+.categorieExtrait {}
+.infoExtrait { float:left; width:100%;font-size:12px;}
+.infoExtrait a {text-decoration:none;}
+.dateAuteur{ text-align:left; white-space:nowrap; }
+.dateExtrait{}
+.plusExtrait{font-style:italic;}
+.plusExtrait a {text-transform:capitalize; font-style:italic;}
+.extrait {clear:both;}
+
+.hrExtrait {height:1px; padding:0px; width:100%; clear:both; margin:1px auto 10px auto;}
+.plusExtrait{margin-top:5px;clear:both; text-align:right;}
+.imgTitreCat {float:left; text-align:left; margin-right:5px;}
+.imgExtraitCon {margin:3px; float:left;}
+
+#aleaIm .box-content {text-align:center;}
+
+/*---gestion du lien (virginie)---*/
+.lien span {display:block;}
+.lien img {margin-bottom:30px;}
+
+#rightnav,#leftnav {overflow:hidden;}

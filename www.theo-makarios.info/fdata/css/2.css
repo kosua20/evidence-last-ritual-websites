@@ -1,0 +1,211 @@
+/*fichier de structure général externe*/
+@import url("/fdata/css/commonstruct2.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/***************************************/
+/* ---------- Elements Principaux ------------- */
+body    { margin:0px; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:x-small;color:#00000;background:#FFFFFF; }
+h1      { color: #5675A4; font-size: 20px; } /*titre des pages*/
+h2      { color: #5675A4; font-size: 15px; }
+h3      { color: #5675A4; font-size: 12px; }
+a 	    { text-decoration:underline; color:#5675A4; font-size:110%; } /* lien */
+a:hover { text-decoration:none; color:#9E9E9E}
+legend  { color:#5675A4; padding-left:5px; padding-right:5px;}
+li      { list-style-type:none; }
+img     { border:0px; } /* image */
+input   { border:solid 1px #D8D7D7; font-size:100%; background:#FFFFFF; color:#5675A4; } /* bouton */
+
+
+/* ---------- Structure ------- */
+/* La class main correspond à la structure global du blog
+/* le numéro après 'main' correspond au type de structure (1 2 ou trois colonne) */
+
+/* Pour les stuctures avec 2 colonnes */
+#main1 { text-align: left; margin: 0px auto 50px auto; }
+#main1 #rightnav   { padding:10px; width:210px; }
+#main1 #leftnav    { padding:10px; width:210px; }
+#main1 #content    { padding:10px; border-left:1px solid #B8B8B8; border-right:1px solid #B8B8B8;  }
+#main1 h2          { margin:0px 0px 10px 0px; padding:0px; font-size:130%; }
+
+
+/* Pour les stuctures avec une colonne à droite */
+#main2 {  text-align: left; margin: 0px auto 50px auto; }
+#main2 #rightnav {  padding:10px;  width:220px; }
+#main2 #content  { padding: 10px; border-left:1px solid #B8B8B8; border-right:1px solid #B8B8B8; }
+#main2 h2        { margin:0px 0px 10px 0px; padding:0px; font-size:130%; }
+
+/* Pour les stuctures avec une colonne à gauche */
+#main3 {  text-align: left; margin: 0px auto 50px auto; }
+#main3 #leftnav {  padding:10px;  width:220px; }
+#main3 #content {  padding: 10px; border-left:1px solid #B8B8B8; border-right:1px solid #B8B8B8;   }
+#main3 h2       { margin:0px 0px 10px 0px; padding:0px; font-size:130%; }
+
+#MainTab { margin:0px; width:100%; }
+#MainTab td { vertical-align:top; }
+
+/* entete */
+#top    { padding:0px; border-bottom: 1px solid gray; background: url(/modele/2/pics/top.png) repeat-x scroll top left;}
+#top h1 { padding:0px; margin:0px;color:black; }
+
+.topLien{text-decoration:none;}
+.topLien:hover {text-decoration:none;}
+
+
+/* Bas de page */
+#footer   { clear:both; color: #333; border-top: 1px solid gray; }
+#footer p { margin:0px; padding: 10px; background:#ddd; }
+
+.basLien 	    { }
+.basLien:hover { }
+
+.cleaner {clear:both;}
+/* ---------- Box ---------- */
+/* correspond au block des modules */
+.box             { width:100%; margin-bottom:10px; }
+.box h2          {}
+.box-top         { background:transparent url(/modele/2/pics/box-top-center.png) repeat-x scroll top left; }
+.box-left        { background:transparent url(/modele/2/pics/box-middle-left.png) repeat-y scroll top left; }
+.box-right       { background:transparent url(/modele/2/pics/box-middle-right.png) repeat-y scroll top right; }
+.box-bottom      { background:transparent url(/modele/2/pics/box-bottom-center.png) repeat-x scroll bottom left; }
+.box-topLeft     { background:transparent url(/modele/2/pics/box-top-left.png) no-repeat scroll top left; }
+.box-topRight    { background:transparent url(/modele/2/pics/box-top-right.png) no-repeat scroll top right; }
+.box-bottomLeft  { background:transparent url(/modele/2/pics/box-bottom-left.png) no-repeat scroll bottom left; }
+.box-bottomRight { background:url(/modele/2/pics/box-bottom-right.png) no-repeat scroll bottom right; padding:3px; }
+.box-content     { overflow:auto; padding:0px 10px 15px 5px; color: #5675A4; }
+.box-content p   { margin:5px 0px 5px 15px; padding:0px; }
+.box-content ul  { margin:5px 0px 5px 15px; padding:0px; }
+.box-content li  { list-style:square; color:#b6b6b6; margin:5px; padding:0px; }
+
+
+/* ---------- Recherche --- */
+#Recherche   { padding:0px; }
+#WForm       { margin:0px; border:solid 1px #D8D7D7; padding:10px; background: #F3F7FC; }
+#WForm input { border:solid 1px #D8D7D7; font-size:100%; background:#f4f4f4; color:#5675A4; }
+#WForm input:hover { border:solid 1px #5675A4; background:#fff; }
+
+.RNum  { font-weight:bold; }
+.RDesc { padding:10px; }
+.ROut  { font-style:italic; color:#A0B8CB; }
+.RSize { color:#BFBFBF; }
+
+a.RTitle       { text-decoration:none; color:#00275E; }
+a.RTitle:hover { text-decoration:none; color:#834141; }
+
+#GGResults { text-align:left; margin:0px; color:#000000; }
+.Result1   { padding:4px; background:#F7FAFD; }
+.Result2   { padding:4px; background:#FBFBFB; }
+
+.article    { margin-top:10px; padding:0px;  }
+.article p  { padding:0px 0px 5px 5px; margin:0px; }
+.Date 	{ width:100%; margin-right:10px;}
+.Option { padding:5px 0px 0px 0px; margin:5px 0px 5px 0px; border-top:1px dotted #808080; width:100%; text-align:right; font-size:85%;}
+.categorieArticle {} /*categorie de l'article*/
+.categorieArticle a {text-transform:lowercase;}
+.barreHautArticle {padding:0px 0px 5px 0px; margin-bottom:4px; border-bottom:1px solid #808080; width:100%; }
+.listArticles { margin-top:0px; margin-bottom:10px; border:1px solid #666666;  background-color:#FFFFFF;}
+.resumeArticle { background-color:#F9F8FA; border-top:1px solid #F4F4F4;}
+
+.titreArticle{text-decoration:none;}
+.titreArticle:hover {text-decoration:none;}
+
+#articleSeul {} /*style d'un article lors de l'affichage de l'article ou de ses commentaires/trackbacks*/
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+.hitcitation {font-style:italic;text-align:justify;padding:5px 20px;background-color:#eee;}
+.hitencart {border:1px solid black;text-align:justify;font-weight:bold;margin:5px 0px;padding:5px 5px;}
+.hitimportant {font-weight:bold;color:red;font-weight:bold;font-size:120%;}
+.hitperso1 {font-style:italic;}
+.hitperso2 {font-weight:bold;}
+
+/*--------------------Commentaires---------------------------- */
+.h2commentMessage {color:#3366CC;}
+.comment    {  }
+.comment hr {  }
+.linkcomment {font-size:130%; color:#0099FF;}
+
+.commentMessage  { padding:5px; border:1px dotted #999999;background:#F8F8F8; margin:0px;}
+.commentOption   {text-align:right;font-size:85%;color:#808080; margin-bottom:10px;}
+
+#formComment label { width:70px; }
+#formComment input { }
+#formComment textarea{ }
+
+
+/*-------------------trackback----------------------------------*/
+#addTrackback { border:1px dotted #999999; padding:5px;}
+.affTrackback { padding:5px; border:1px dotted #999999;  margin-bottom:10px;}
+.affTrackback h2 {}
+.linkTrackback {font-size:130%; }
+.h2Trackback {color:#3366CC;}
+
+/*-------------------Recommander--------------------------------*/
+#divRecommander {}
+#divRecommander span {font-size:larger;}
+#divRecommander legend {font-size:larger;}
+#divRecommander fieldset {padding:3px; margin:5px;}
+
+/*-----------------Newsletter-----------------------------------*/
+#divNewsletter h2 {text-align:center; font-size:12pt;}
+
+
+/*-------------- Calendrier -----------------------------------*/
+.calendarTop1 	{  font-family: Verdana, Arial, Helvetica; font-size: 10px; font-style: normal; color:#5675A4; font-weight: bold;  background-color:#FFFFFF} /*entete*/
+.calendarToday1 {  font-family: Verdana, Arial, Helvetica; font-size: 10px; font-weight: bold; color:#FFFFFF; background-color:#A2B4CE;} /* Aujourd'hui */
+.calendarDays1 	{  width:50px; height:15px; font-family:Verdana, Arial, Helvetica; font-size: 10px; font-style: normal; color:#000000; background-color: #FFFFFF; text-align:center;}
+.calendarHeader1{  font-family: Verdana, Arial, Helvetica; font-size: 10px; background-color:#5675A4; color:#FFFFFF;} /* lettre de la semaine */
+.calendarTable1 {  background-color:#F4F4F4;border:0px solid #5675A4} /* contour du calendrier */
+
+/*------------------------Divers-----------------------------*/
+.cleaner {clear:both;}
+
+/*-------------------------------Accueil album------------------------*/
+
+#centreAccAlbum{}
+.AccAlbum{ text-align:center;}
+.thumbAccAlbum { display:inline; margin:5px;}
+.thumbAccAlbumimg { padding:5px 0px;}
+
+
+/*-----------------------Album photo--------------------------*/
+#bodyAlbum{ background-color:#FFFFFF;}
+.topAlbum{}
+
+#generalAbum{width:100%;}
+
+.h2Album { text-align:center; font-size:12pt; }
+
+		/*en tete de l'album placee en haut de la fenetre, meme que celle du blog*/
+#enteteAlbum{ width:100%; border-bottom:1px solid #222222;  font-size:130%;}
+#enteteAlbum a {}
+#enteteAlbum a:hover {}
+
+
+.nomPhotoAlbum { font-size:large;}
+
+.lienAlbum {text-decoration:none;}
+.lienAlbum:hover{text-decoration:underline;}
+       /*navigation rapide precedent suivant retour*/
+.quickNavAlbum{margin:0px; padding:0px; border:1px groove #666666; width:100%; text-align:center;}
+.quickNavAlbum a {text-decoration:none;}
+.quickNavAlbum a:hover {text-decoration:underline;}
+.precAlbum{ float:left; text-decoration:none; position:relative; padding:0px; margin:0px;}
+.retourAlbum{ position:relative;  text-decoration:none; padding:0px; margin:0px auto; width:6em;}
+.suivAlbum{ float:right;  text-decoration:none; position:relative; padding:0px; margin:0px;}
+
+      /*miniatures de l'album*/
+#centrethumbsAlbum{ }
+.thumbsAlbum {padding:2px; width:550px; margin-right:auto; margin-left:auto;}
+.thumbAlbum { display:inline; margin:3px;}
+.thumbAlbum img {}
+
+          /*miniature de la photo courante*/
+.thumbCouranteAlbum { display:inline; margin:3 px;}/*miniature de la photo courante*/
+.thumbCouranteAlbum  img { }
+
+.topLienAlbum{text-decoration:none;}
+.topLienAlbum:hover{}
+
+#photo{ text-align:center; }
+#photo img {margin: 0px auto; }
+.nomPhotoAlbum{  text-align:center;}
+
+#piedAlbum{ width:100%; text-align:center; margin-top:5px;}

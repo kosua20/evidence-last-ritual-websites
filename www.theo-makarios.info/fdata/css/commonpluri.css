@@ -1,0 +1,10 @@
+/* CSS Document */
+.line{height:10px;}
+#leftnav,#rightnav {overflow:hidden;}
+#Presentation h2 {font-size:160%; text-decoration:none; font-weight:bold;}
+#Presentation .box-titre {margin:3px; display:none;}
+#Concours h2 {margin-bottom:5px;}
+#Concours .box-content {overflow:auto; padding: 3px 0px 3px 10px;}
+
+/* css scroller pub */
+

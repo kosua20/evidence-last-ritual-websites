@@ -1,0 +1,30 @@
+/*general*/
+.clear {clear:both;}
+
+/*structure*/
+.ligne {float:left;width:100%;}
+.box {}
+
+#general {margin:0px auto;}
+#ligne0 {padding:0px; margin:0px;}
+#ligne1 {padding:0px;}
+#ligne2 {}
+.ligne img {border:0px none;}
+#box-0-0 {}
+#box-1-0 {}
+#box-2-0 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

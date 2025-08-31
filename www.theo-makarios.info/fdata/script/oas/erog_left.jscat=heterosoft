@@ -1,0 +1,23 @@
+// Lien th pub <-> easy site id
+var easySiteId = {
+	'heterosoft': 32676, // love
+	'heterohard': 7489, // sexy
+	'gaysoft': 32677, // gay
+	'gayhard': 32677 // gay
+};
+
+// cat doit etre definie avant l'appel du script et correspondre a une th pub
+// supportee. Sinon, on prend heterosoft.
+if (easySiteId[cat] == undefined) {
+	var cat = 'heterosoft'; // par defaut.
+}
+
+document.write(
+	'<scr'+'ipt type="text/javascript"'
+		+ ' src="http://www.easy-dating.org/js/AC_RunActiveContent.js">'
+		+ '</script>'
+		+ '<scr'+'ipt type="text/javascript"'
+		+ ' src="http://www.easy-dating.org/_SCRIPT/slideshowflash.php?'
+		+ 'siteid=' + easySiteId[cat] + '&title=1"'
+		+ ' charset="utf-8"></sc'+'ript>'
+);

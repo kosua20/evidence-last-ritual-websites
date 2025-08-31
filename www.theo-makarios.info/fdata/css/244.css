@@ -1,0 +1,256 @@
+/*fichier de structure général externe*/
+@import url("/fdata/css/commonstruct2.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/***************************************/
+/*fichier de design general externe*/
+@import url("/fdata/css/commonpluri.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/*---------------- elements principaux ---------------*/
+
+/*---------------- les styles ci-dessous affectes l'ensemble des éléments de la page n'ayant pas de style propre ou hérité --------------*/
+body {margin:0px; padding:0px; background-image:url(/modele/244/pics/mosaique.png); color:#CC0000; font-family:Verdana, Helvetica,Arial,sans-serif; font-size:x-small;}
+h1 {color:#9A1034;}/*titre des pages*/
+h2 {color:#9A1034;}
+h3 {color:#9A1034;;}
+a {text-decoration:underline; color:#CC0000; font-size:100%;}/* liens des pages */
+a:hover {text-decoration:none; color:#CC0000;}/* liens survoles*/
+legend {color:#FFF; padding-left:5px; padding-right:5px;}
+li {list-style-type:none; color:#525050;}/*listes non ordonnees*/
+img {border:0px none;}
+/* images */
+input {border:solid 1px #222; font-size:100%; background-color:#FFF; color:#525050; margin:1px;}/* boutons, champs texte */
+/* --------------- Structure -------------------- */
+/* les styles ci dessous definissent l'aspect du blog quelque soit la structure (2-3 colonnes...)*/
+#centrePage {width:100%;}/*div contenant la page sert à centrer le blog*/
+#global {margin-left:auto; margin-right:auto; position:relative; background:#FFF url(/modele/244/pics/fond.png) repeat-y 0 50%; color:#525050;}/*colonne principale, contient toutes les colonnes du blog*/
+#global a{color:#525050;}
+#main {background-color:#FFF;}/*colonne principale contenant les articles*/
+#content {overflow:hidden;}/*contenu de la colonne main*/
+#rightnav {}/*colonne de droite*/
+#leftnav {}/*colonne de gauche*/
+
+/********************************************************************************************************/
+/*                GESTION DU POSITIONNEMENT SELON LES DIFFERENTES STRUCTURES                            */
+/*------------------------------------------------------------------------------------------------------*/
+/*/
+!\ Attention la modification des informations ci-dessous peut entrainer la déformation de votre blog */
+/********************************************************************************************************/
+
+#global {width:800px; padding:0px 3px;}
+
+/*definie la taille du blog*/
+
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne à droite~~~~~~~~~~*/
+#deuxColDroite #main {position:relative; float:left; overflow:hidden; width:595px;}/*colonne principale*/
+#deuxColDroite #rightnav {position:relative; float:right; margin-bottom:5px; width:195px;}/*colonne de droite*/
+
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+#deuxColGauche #main {position:relative; float:right; overflow:hidden; width:595px;}/*colonne principale*/
+#deuxColGauche #leftnav {position:relative; float:left; margin-bottom:5px; width:195px;}/*colonne de gauche*/
+
+/*~~~~~~~~~~ structure 1colonne à droite + 1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+#troisCol #main {position:relative; float:left; overflow:hidden; width:400px; margin-left:5px;}/*colonne principale*/
+#troisCol #rightnav {position:relative; float:right; margin-bottom:5px; width:195px;}/*colonne de droite*/
+#troisCol #leftnav {position:relative; float:left; margin-bottom:5px; width:195px;}/*colonne de gauche*/
+
+/**************************************************************************************************************/
+
+#header {text-align:center; margin-bottom:5px; position:relative; font-size:17px;}/*div contenant l'entete du blog*/
+#top {background:#FFF url(/modele/244/pics/haut.png) no-repeat top; border:none; height:auto!important; height:102px; min-height:102px; text-align:left; font-size:20px; color:#FFF; padding:40px 0px 0px 15px;font-size:17px;}/*entete du blog*/
+#top h1 { margin:0px; font-family:"Times New Roman", Times, serif;}/*titre du blog /!\ modifiable*/
+.topLien {text-decoration:none;  color:#FFF!important;}/*lien de l'entête vers la home du blog /!\ modifiable*/
+.topLien:hover {text-decoration:underline; color:#FFF;}/*lien de l'entete vers la home du blog survolé /!\ modifiable*/
+
+/* ---------------------Bas de page----------------*/
+#footer {margin-top:15px; position:relative; background-color:#FFF; color:#525050; text-align:center;}/*pied de page du blog*/
+#footer p {margin:0px; padding:10px; color:#525050;}/*paragraphes du pied de page*/
+.basLien {text-decoration:underline; color:#525050;}
+.basLien:hover {text-decoration:underline;}
+
+/* ---------- Recherche ----------------------- */
+#WForm {margin:0px; border:0px none; padding:10px;}
+#WForm input {font-size:100%; text-align:center;}
+#WForm input:hover {background-color:#FFF;}
+.RNum {font-weight:bold;}/*numero du resultat*/
+.RDesc {padding:10px;}/*resume du resultat (premieres lignes de l'article)*/
+.ROut {font-style:italic;}/*domaine auquel appartient le resultat*/
+.RSize {color:#BFBFBF;}
+a.RTitle {text-decoration:none;}/*titre du resultat*/
+a.RTitle:hover {text-decoration:none;}/*titre du resultat survole*/
+#GGResults {text-align:left; margin:0px;}/*nombre de resultats de la recherche*/
+.Result1 {padding:4px; background-color:#BDCCA3; color:#FFF;}/*resultat style 1*/
+.Result2 {padding:4px; background-color:#98AE6D; color:#FFF;}/*resultat style 2*/
+
+/*------------------- Articles ----------------------------------*/
+.article {background-color:#FFF; margin:5px;}/*style general d'un article (entete texte et pied)*/
+.article p {}/*tous les paragraphes composant un article*/
+.contenuArticle { margin-bottom:17px;}/*style du texte d'un article*/
+.Date {margin-left:5px; font-weight:normal; color:#928D63;}/*style de la date affichee dans l'entete de l'article*/
+.Option {width:100%; text-align:right; font-size:90%; margin:5px 5px 40px 0px; padding-top:20px; background:#FFF url(/modele/244/pics/separation.png) no-repeat top;}/*style du pied de l'article (publie par, categorie, commentaire,recommander)*/
+/*affichage des pictos*/
+.spanlienrecom,spanliencom,spanaddcomment{float:left;}
+.lienCom{padding-left:19px; background:#FFF url(/modele/244/pics/icon-comm.png) no-repeat left;}
+.lienTrack{padding-left:19px; background:#FFF url(/modele/244/pics/icon-track.png) no-repeat left;}
+.lienRecom{padding-left:19px; background:#FFF url(/modele/244/pics/icon-recom.png) no-repeat left;}
+.linkcomment0{padding-left:19px; background: url(/modele/244/pics/ico-comm-rapide.png) no-repeat left;}
+.barreHautArticle {width:100%;}/*entete du blog contient la date*/
+.categorieArticle { color:#525050;}/*categorie de l'article*/
+.categorieArticle a {text-transform:lowercase;}/*lien sur la categorie de larticle*/
+.categorieArticle a:hover {text-transform:lowercase; }/*lien survole sur la categorie de larticle*/
+.titreArticle {text-decoration:none; color:#9A1034!important; font-size:18px; font-family:"Times New Roman", Times, serif;}/*lien sur le titre de l'article*/
+.divTitreArticle {background:#FFF url(/modele/244/pics/liseret.png) no-repeat left; padding-bottom:9px;}
+#articleSeul {padding-left:15px;}/*style d'un article lors de l'affichage de l'article avec commentaires/trackbacks*/
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+.hitcitation {font-style:italic;text-align:justify;padding:5px 20px;background-color:#eee;}
+.hitencart {border:1px solid black;text-align:justify;font-weight:bold;margin:5px 0px;padding:5px 5px;}
+.hitimportant {font-weight:bold;color:red;font-weight:bold;font-size:120%;}
+.hitperso1 {font-style:italic;}
+.hitperso2 {font-weight:bold;}
+
+/*--------------------Liste des articles-------------------------*/
+
+.listArticles {margin-top:0px; margin-bottom:10px; border:0px none;}/*style d'un article*/
+.resumeArticle {}/*style du resume d'un article*/
+
+/*--------------------Commentaires---------------------------- */
+
+.h2commentMessage {margin:0px 5px 0px 13px; color:#928D63; font-family:"Times New Roman", Times, serif; font-size:13px;}
+.comment {}
+.comment hr {}
+.linkcomment {font-size:100%; margin-left:12px;}/*lien d'ajout d'un commentaire*/
+.commentMessage {padding:2px; border:1px dotted #CC0000; margin:12px; background-color:#7A7656; color:#FFF;}/*texte d'un commentaire*/
+.commentOption {text-align:right; font-size:90%; color:#525050; margin-bottom:10px; font-weight:bold; margin:0px 0px 0px 15px; text-align:left}/*infos sur le commentaire auteur site...*/
+.reponseMessage {border:1px dotted #CC0000; text-align:right; background:#9D9A7E url(/modele/244/pics/flech.gif) no-repeat 2% 50%;}
+
+/*---------------formulaire de saisie d'un commentaire--------------*/
+
+#formComment {background-color:#FFF; color:#525050; border:1px solid #FFF;}
+#formComment h2 {color:#9A1034; font-family:"Times New Roman", Times, serif; font-size:13px;}
+#formComment label {width:70px;}/*texte associé aux champs de sasie*/
+#formComment input {background-color:#FFF; border:1px solid #222;}/* boutons, champs texte */
+#formComment textarea {background-color:#FFF; border:1px solid #222; color:#525050; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}/*zone de saisie de texte*/
+
+/*-------------------trackback----------------------------------*/
+
+#addTrackback {border:1px solid #CC0000; background-color:#D8D5C0; padding:5px; margin:12px; color:#FFF;}
+#addTrackback h2 {font-size:10px; color:#FFF;}/* cadre donnant l'adresse de trackback*/
+.affTrackback {padding:2px; background-color:#A7A490; border:1px solid #CC0000; margin:12px; color:#FFF;}
+.affTrackback a {color:#CC0000;}
+.affTrackback a:hover {color:#CC0000;}
+.affTrackback h2 {color:#004D74;}
+.linkTrackback {font-size:100%;}/*lien vers la fenetre d'ajout de trackback */
+.h2Trackback {margin:20px 0px 0px 13px; font-size:10px;}
+.nocomm {margin-left:12px; color:#525050;}
+
+/*-----------------fenetre d'ajout d'un trackback---------------------*/
+
+#divTrackBack {background-color:#FFF; border:1px solid #FFF; color:#505252;}
+#divTrackBack h2 {font-size:13px; font-family:"Times New Roman", Times, serif; color:#9A1034;}/*style general*/
+#divTrackBack input {background-color:#FFF; border:1px solid #222;}/*champs de texte bouton*/
+#divTrackBack textarea {background-color:#FFF; border:1px solid #222; font-family:Verdana, Arial, Helvetica, sans-serif; color:#505252;}/*zone de saisie de texte*/
+
+/*-------------------fenetre de recommandation---------------------------*/
+
+#divRecommander {background-color:#FFF; color:#525050; text-align:left;}/*style general*/
+#divRecommander span {font-size:larger; color:#99FF66;}
+#divRecommander h2 {font-size:13px; font-family:"Times New Roman", Times, serif; color:#9A1034;}/*style general*/
+#divRecommander input {background-color:#FFF; border:1px solid #222;}/*champs de texte bouton*/
+#divRecommander textarea {background-color:#FFF; border:1px solid #222; color:#525050; font-family:Verdana, Helvetica,Arial,sans-serif; font-size:10px;}/*zone de saisie de texte*/
+
+
+
+/*-----------------------Pagination-------------------------*/
+.pagination {}
+.pagination a {}/*Liens*/
+.pagination b {}/*Page courante*/
+
+
+
+/* ------------------- Box -------------------- */
+/*definie le style des modules*/
+.box {background-color:#FFF; position:relative; border:none; margin:0px 0px 10px 0px; padding:0px;}
+.box-titre {position:relative; padding:0px; }
+.box-titre h2 {padding:8px 0px 0px 12px; font-family:"Times New Roman", Times, serif; font-size:13px; color:#9A1034; background:url(/modele/244/pics/pict-menu.png) no-repeat left; height:28px; margin:0px; text-align:left;}/*div contenant le titre*/
+.box-content { padding:0px 2px 0px 5px;}/*contenu du module*/
+.box-content p {}/*paragraphe*/
+.box-content ul {margin:5px 0px; padding:0px; list-style-type:none;}/*liste*/
+.box-content li {list-style-type:none; margin:5px 0px; padding:0px;}/*element d'une liste*/
+/*--Presentation----*/
+#Presentation span {margin:3px 2px;}
+#Presentation .box-titre {margin:3px; display:none;}
+#Presentation strong {font-weight:bold; font-size:110%;}
+
+/* ---------------------Calendrier--------------------------------- */
+#Calendrier .box-content{padding:0px; margin:0px}
+.calendarTop1 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight:normal; background-color:transparent; text-align:left; color:#928D63}/*entete*/
+.calendarToday1 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight:bold; color:#9A1034;}/* Aujourd'hui */
+.calendarDays1 {width:50px; height:15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; font-style:normal; text-align:center; color:#525050;}/* lettre du mois */
+.calendarHeader1 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#FFF; background-color:#928D63;}/* lettre de la semaine */
+.calendarTable1 {border:0px none;}/* contour du calendrier */
+
+/*-----------------Newsletter-----------------------------------*/
+#divNewsletter h2 {text-align:center; font-size:13px; font-family:"Times New Roman", Times, serif;}/*titre de la page*/
+#divNewsletter input {border:1px solid #98AE6D; border:1px solid #222;}/*champs de texte checkbox*/
+#divNewsletter .newsletter li {}/*texte des checbox*/
+#divNewsletter {background-color:#FFF; border:1px solid #FFF;}
+/*-----------module recherche ---------------*/
+#Recherche {padding:0px;}
+#Recherche form{padding:0px; margin:0px;}
+/*-----------------Newsletter-----------------------------------*/
+#Newsletter {padding:0px;}
+#Newsletter form{padding:0px; margin:0px; }
+
+
+/*------------------------Divers-----------------------------*/
+#reglementBlog h1{font-family:"Times New Roman", Times, serif; font-size:13px; color:#9A1034;}
+.cleaner {clear:both;}
+
+/*-----------------------elements commun a l'accueil et aux pages d'un album------------------------------*/
+
+#bodyAlbum {}/*style general de la page de l'album*/
+#generalAlbum {width:100%; width:800px; padding:0px 3px; margin:auto; background:#FFF url(/modele/244/pics/fond.png) repeat-y 0 50%;}/*div contenant tout l'album peut etre utilise à la place de bodyAlbum*/
+#topAlbum #top {}
+#topAlbum {}/*entete de l'album contient l'entete du blog*/
+#enteteAlbum {width:100%; font-size:100%; color:#928D63; background-color:#FFF; border-top:1px solid #A9A480; border-bottom:1px solid #A9A480;}/*ligne sous l'entete du blog contient les liens vers les albums*/
+#enteteAlbum a {text-decoration:underline;}
+#enteteAlbum a:hover {text-decoration:underline; }
+.lienAlbum {text-decoration:none; color:#CC0000;}
+.lienAlbum:hover {text-decoration:underline; color:#CC0000;}
+#piedAlbum {width:100%; text-align:center; margin-top:5px; color:#525050; background-color:#FFF;}/*pied de page de l'album*/
+#piedAlbum a {}
+#piedAlbum a:hover {}
+.h2Album {text-align:center; font-weight:bold; color:#CC0000; font-size:17px; font-family:"Times New Roman", Times, serif;}/*titre de l'album/la photo*/
+.topLienAlbum {text-decoration:none; color:#FFF;}/*lien vers un album*/
+.topLienAlbum:hover {color:#FFF; text-decoration:underline;}/*lien survole*/
+
+/*-------------------------------Accueil album------------------------*/
+
+#centreAccAlbum {}/*contient les thumbnails de l'accueil de l'album (non utilise)*/
+.AccAlbum {text-align:center; background-color:#FFF;}/*contient les thumbnails de l'accueil de l'album*/
+.thumbAccAlbum {display:inline; margin:5px;}/*div contenant une miniature*/
+.thumbAccAlbumimg {border:2px solid #CC0000;}/*miniature*/
+
+/*-----------------------Album photo--------------------------*/
+
+.nomPhotoAlbum {font-weight:bold; text-align:center; color:#CC0000;}/*nom de la photo affichée*/
+.quickNavAlbum {margin:0px; padding:0px; width:100%; text-align:center;}/*liens de navigation rapide (precedent suivant retour)*/
+.quickNavAlbum a {text-decoration:none; color:#CC0000;}/*liens de la navigation rapide*/
+.quickNavAlbum a:hover {text-decoration:underline; color:#CC0000;}/*liens survole de navigation rapide*/
+.precAlbum {float:left; text-decoration:none; position:relative; padding:0px; margin:0px;}/*liens et titre photo precedente*/
+.suivAlbum {float:right; text-decoration:none; position:relative; padding:0px; margin:0px;}/*liens et titre photo suivante*/
+.retourAlbum {position:relative; text-decoration:none; padding:0px; margin:0px auto; width:6em; color:#FFF;}/*liens de retour album photo*/
+#centrethumbsAlbum {}/*contient les miniatures de l'accueil de l'album (non utilise)*/
+.thumbsAlbum {padding:2px; text-align:center; margin-right:auto; margin-left:auto; background-color:#FFF;}/*miniatures de l'album contient toutes les miniautures*/
+.thumbAlbum {display:inline; margin:3px;}/*div contenant une miniature*/
+.thumbAlbum img {border:2px solid #CC0000;}/*miniature*/
+.thumbCouranteAlbum {display:inline; margin:3px;}/*div contenant la miniature de la photo courante*/
+.thumbCouranteAlbum  img {border:3px dashed #CC0000;}/*miniature de la photo courante*/
+#photo {text-align:center; background-color:#FFF;}/*div contenant la photo courante*/
+#photo img {margin: 2px auto; border:2px solid #CC0000;}/*photo courante*/
+#descrAlbum {text-align:center; font-size:10px; color:#CC0000; background-color:#FFF; margin-top:10px;}
+
+/*-----------clic droit---------------------**/
+#menuClicDroit {position:absolute; top:0px; left:0px; z-index:1000; visibility:hidden; background-color:#FFF; border:1px solid #ADA782; padding:3px;}
+#menuClicDroit li {list-style-type:none; margin:0px; padding:0px}
+#menuClicDroit ul {margin:0px; padding:0px}
+#menuClicDroit span {display:block; margin-top:5px; margin-bottom:1px;}

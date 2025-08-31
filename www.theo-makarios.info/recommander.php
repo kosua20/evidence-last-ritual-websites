@@ -8,10 +8,10 @@
   <meta name="robots" content="index,follow" />
   <meta http-equiv="language" content="fr" />
   <link rel="alternate" type="application/rdf+xml" title="Recommander à un ami RSS" href="http://www.theo-makarios.info/index.rdf" />
-  <link rel="stylesheet" type="text/css" href="http://fdata.over-blog.com/css/common.css" />
-  <link rel="stylesheet" href="http://fdata.over-blog.com/css/standard.css">
-    <link rel="stylesheet" type="text/css" href="http://fdata.over-blog.com/0/04/08/20/css/custom.css" />
-<script src="http://fdata.over-blog.com/script/form-inc.js" type="text/javascript"></script></head>		<body>
+  <link rel="stylesheet" type="text/css" href="/fdata/css/common.css" />
+  <link rel="stylesheet" href="/fdata/css/standard.css">
+    <link rel="stylesheet" type="text/css" href="/fdata/0/04/08/20/css/custom.css" />
+<script src="/fdata/script/form-inc.js" type="text/javascript"></script></head>		<body>
 			<div id="miniGlobal">
 				<div id="divRecommander">
 	<span></span>

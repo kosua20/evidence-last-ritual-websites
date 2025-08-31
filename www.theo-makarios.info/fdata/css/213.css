@@ -1,0 +1,307 @@
+/*fichier de structure général externe*/
+@import url("/fdata/css/commonstruct2.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/***************************************/
+/*---------------- elements principaux ---------------*/
+/*---------------- les styles ci-dessous affectes l'ensemble des éléments de la page n'ayant pas de style propre ou hérité --------------*/
+body {margin:0px; padding:0px; background-color:#BBCCAA; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:x-small;}
+h1 {color: #FFFFFF; font-size: 20px;}
+/*titre des pages*/
+h2 {color: #FFFFFF; font-size: 15px;}
+h3 {color: #FFFFFF; font-size: 12px;}
+a {text-decoration:underline; color:#FFFFFF; font-size:110%;}
+/* liens des pages */
+a:hover {text-decoration:none; color:#FFFFFF;}
+/* liens survoles*/
+legend {color:#000000; padding-left:5px; padding-right:5px;}
+li {list-style-type:none;}
+/*listes non ordonnees*/
+img {border:0px none;}
+/* images */
+input {border:solid 1px #99BB55; font-size:100%; background-color:#FFFFFF; color:#000000;}
+/* boutons, champs texte */
+/* --------------- Structure -------------------- */
+/* les styles ci dessous definissent l'aspect du blog quelque soit la structure (2-3 colonnes...)*/
+#centrePage {width:100%;}
+/*div contenant la page sert à centrer le blog*/
+#global {margin-left:auto; margin-right:auto; position:relative;}
+/*colonne principale, contient toutes les colonnes du blog*/
+#main {margin-bottom:5px; color:#B9EECC; background-color:#446666;}
+/*colonne principale contenant les articles*/
+#content {overflow:hidden; margin:0px;}
+/*contenu de la colonne main*/
+#rightnav {background-color:#FFFFFF; border:1px solid #AABBAA;}
+/*colonne de droite*/
+#leftnav {background-color:#FFFFFF; border:1px solid #AABBAA;}
+/*colonne de gauche*/
+/********************************************************************************************************/
+/*                GESTION DU POSITIONNEMENT SELON LES DIFFERENTES STRUCTURES                            */
+/*------------------------------------------------------------------------------------------------------*/
+/*/
+!\ Attention la modification des informations ci-dessous peut entrainer la déformation de votre blog */
+/********************************************************************************************************/
+#global {width:800px;}
+/*definie la taille du blog*/
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne à droite~~~~~~~~~~*/
+#deuxColDroite #main {position:relative; float:left; overflow:hidden; width:595px;}
+/*colonne principale*/
+#deuxColDroite #rightnav {position:relative; float:right; margin-bottom:5px; width:195px;}
+/*colonne de droite*/
+/*~~~~~~~~~~ structure 1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+#deuxColGauche #main {position:relative; float:right; overflow:hidden; width:595px;}
+/*colonne principale*/
+#deuxColGauche #leftnav {position:relative; float:left; margin-bottom:5px; width:195px;}
+/*colonne de gauche*/
+/*~~~~~~~~~~ structure 1colonne à droite + 1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+#troisCol #main {position:relative; float:left; overflow:hidden; width:401px; margin-left:2px; margin-right:2px;}
+/*colonne principale*/
+#troisCol #rightnav {position:relative; float:right; margin-bottom:5px; width:195px;}
+/*colonne de droite*/
+#troisCol #leftnav {position:relative; float:left; margin-bottom:5px; width:195px;}
+/*colonne de gauche*/
+/**************************************************************************************************************/
+/* ------------------- Box -------------------- */
+/*definie le style des modules*/
+.box {background-color:transparent; position:relative; margin:0px; padding:0px; margin-bottom:10px;}
+.box a {color:#447755;}
+.box a:hover {color:#B7DB70;}
+.box h2 {color:#556666; margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:0px;}
+/*titre de la boite*/
+.box-titre {position:relative; padding:0px; text-align:center;}
+/*div contenant le titre*/
+.box-content {overflow:auto; padding:2px 5px; color:#446666;}
+/*contenu du module*/
+.box-content p {margin:5px 0px 5px 15px; padding:0px;}
+/*paragraphe*/
+.box-content ul {margin:5px 0px 5px 15px; padding:0px;}
+/*liste*/
+.box-content li {list-style:square; color:#446666; margin:5px; padding:0px;}
+/*element d'une liste*/
+/* ------------------entete ---------------------*/
+#header {text-align:center; margin-bottom:5px; position:relative;}
+/*div contenant l'entete du blog*/
+#top {padding:5px; color:#FFFFFF; background-color:#446666; border:1px solid #446666;}
+/*entete du blog*/
+#top h1 {padding:0px; margin:0px; color:#FFFFFF;}
+/*titre du blog /!\ modifiable*/
+.topLien {text-decoration:none; color:#FFFFFF;}
+/*lien de l'entête vers la home du blog /!\ modifiable*/
+.topLien:hover {text-decoration:underline; color:#FFFFFF;}
+/*lien de l'entete vers la home du blog survolé /!\ modifiable*/
+/* ---------------------Bas de page----------------*/
+#footer {margin-top:10px; position:relative; color:#FFFFFF; background-color:#446666;}
+/*pied de page du blog*/
+#footer p {margin:0px; padding: 10px;}
+/*paragraphes du pied de page*/
+.basLien {text-decoration:underline; color:#FFFFFF;}
+.basLien:hover {text-decoration:underline; color:#FFFFFF;}
+/* ---------- Recherche ----------------------- */
+#Recherche {padding:0px;}
+#WForm {margin:0px; border:0px none; padding:10px;}
+#WForm input {font-size:100%; text-align:center;}
+#WForm input:hover {background-color:#FFFFFF;}
+.RNum {font-weight:bold;}
+/*numero du resultat*/
+.RDesc {padding:10px;}
+/*resume du resultat (premieres lignes de l'article)*/
+.ROut {font-style:italic; color:#000000;}
+/*domaine auquel appartient le resultat*/
+.RSize {color:#BFBFBF;}
+a.RTitle {text-decoration:none;}
+/*titre du resultat*/
+a.RTitle:hover {text-decoration:none;}
+/*titre du resultat survole*/
+#GGResults {text-align:left; margin:0px; color:#000000;}
+/*nombre de resultats de la recherche*/
+.Result1 {padding:4px; background-color:#557777; color:#FFFFFF;}
+/*resultat style 1*/
+.Result2 {padding:4px; background-color:#BBCCAA; color:#557777;}
+/*resultat style 2*/
+/*------------------- Articles ----------------------------------*/
+.article {margin-top:0px; padding:0px; margin-bottom:5px;}
+/*style general d'un article (entete texte et pied)*/
+.article p {padding:0px 0px 5px 5px ; margin:0px;}
+/*tous les paragraphes composant un article*/
+.contenuArticle {margin:1px;}
+/*style du texte d'un article*/
+.Date {margin-right:10px;}
+/*style de la date affichee dans l'entete de l'article*/
+.Option { margin:auto 1px; text-align:right; font-size:90%; border:1px dotted #99CC33;color:#9ECCB1; background-color:#557777; padding:2px; float:left;}
+.optionLink{padding:3px 0px; }
+.optionInfo{padding:3px 0px;}
+/*style du pied de l'article (publie par, categorie, commentaire,recommander)*/
+.Option a {text-decoration:underline; color:#FFFFFF;}
+.Option a:hover {text-decoration:none; color:#FFFFFF;}
+.barreHautArticle {padding:0px 0px 5px 0px; margin:0px; width:100%; color:#99CC33;}
+/*entete du blog contient la date*/
+.categorieArticle {}
+/*categorie de l'article*/
+.categorieArticle a {text-transform:lowercase;}
+/*lien sur la categorie de larticle*/
+.categorieArticle a:hover {text-transform:lowercase;}
+/*lien survole sur la categorie de larticle*/
+.titreArticle {text-decoration:none; color:#FFFFFF;}
+/*lien sur le titre de l'article*/
+.titreArticle:hover {text-decoration:underline; color:#FFFFFF;}
+/*lien survole sur le titre de l'article*/
+#articleSeul {}
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+.hitcitation {font-style:italic;color:#838383;text-align:justify;padding:5px 20px;margin:auto 5px;background-color:#eee;}
+.hitencart {border:1px solid black;text-align:justify;font-weight:bold;margin:5px 5px;padding:5px 5px;}
+.hitimportant {font-weight:bold;color:#031D9E;font-weight:bold;font-size:120%;}
+.hitperso1 {font-style:italic;}
+.hitperso2 {font-weight:bold;}
+
+/*style d'un article lors de l'affichage de l'article avec commentaires/trackbacks*/
+/*--------------------Liste des articles-------------------------*/
+.listArticles {margin-top:0px; margin-bottom:10px; border:0px none;}
+/*style d'un article*/
+.resumeArticle {}
+/*style du resume d'un article*/
+/*--------------------Commentaires---------------------------- */
+.h2commentMessage {color:#FFFFFF;}
+.comment {}
+.comment hr {}
+.linkcomment {font-size:130%;}
+/*lien d'ajout d'un commentaire*/
+.commentMessage {padding:5px; border:1px dotted #446666; ; margin:0px; background-color:#557777;}
+/*texte d'un commentaire*/
+.commentOption {text-align:right; font-size:90%; color:#FFFFFF; margin-bottom:10px;}
+/*infos sur le commentaire auteur site...*/
+.reponseMessage {text-align:right; background-color: #75a4a4}
+/*---------------formulaire de saisie d'un commentaire--------------*/
+#formComment {background-color:#FFFFFF; border:1px dotted #446666;}
+#formComment h2 {color:#446666;}
+#formComment label {width:70px;}
+/*texte associé aux champs de sasie*/
+#formComment input {background-color:transparent; border:1px solid #000000;}
+/* boutons, champs texte */
+#formComment textarea {background-color:transparent; border:1px solid #000000; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:small;}
+/*zone de saisie de texte*/
+/*-------------------trackback----------------------------------*/
+#addTrackback {border:1px dotted #446666; padding:5px; background-color:#557777;}
+/* cadre donnant l'adresse de trackback*/
+.affTrackback {padding:5px; background-color:#557777; margin-bottom:10px; border:1px dotted #446666;}
+/**/
+.affTrackback h2 {color:#446666;}
+/**/
+.linkTrackback {font-size:130%;}
+/*lien vers la fenetre d'ajout de trackback */
+.h2Trackback {color:#FFF;}
+/**/
+/*-----------------fenetre d'ajout d'un trackback---------------------*/
+#divTrackBack {background-color:#FFFFFF; border:1px dotted #446666;}
+/*style general*/
+#divTrackBack input {background-color:transparent; border:1px solid #000000;}
+/*champs de texte bouton*/
+#divTrackBack textarea {background-color:transparent; border:1px solid #000000; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:small;}
+/*zone de saisie de texte*/
+#divTrackBack h2 {color:#446666;}
+/*-------------------fenetre de recommandation---------------------------*/
+#divRecommander {}
+/*style general*/
+#divRecommander h2 {color:#446666;}
+#divRecommander span {font-size:larger; color:#FFCCCC;}
+#divRecommander legend {font-size:larger; color:#000000;}
+/*texte du cadre*/
+#divRecommander fieldset {padding:3px; margin:5px; background-color:#FFFFFF;}
+/*conteneur des champs*/
+#divRecommander input {background-color:transparent; border:1px solid #000000;}
+/*champs de texte bouton*/
+#divRecommander textarea {background-color:transparent; border:1px solid #000000; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:small;}
+/*zone de saisie de texte*/
+/*-----------------Newsletter-----------------------------------*/
+#divNewsletter h2 {text-align:center; font-size:12pt; color:#446666;}
+/*titre de la page*/
+#divNewsletter input {background-color:transparent; border:1px solid #000000;}
+/*champs de texte checkbox*/
+#divNewsletter .newsletter {}
+/*texte des checbox*/
+#divNewsletter {background-color:#FFFFFF; border:1px dotted #446666;}
+#divNewsletter a {color:#000;}
+/* ---------------------Calendrier--------------------------------- */
+.calendarTop1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color:#556666; font-weight: bold; background-color:transparent;}
+/*entete*/
+.calendarToday1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color:#BBCCAA;}
+/* Aujourd'hui */
+.calendarDays1 {width:50px; height:15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color:#666; text-align:center;}
+.calendarHeader1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#556666;}
+/* lettre de la semaine */
+.calendarTable1 {border:0px none;}
+/* contour du calendrier */
+/*-----------------------Pagination-------------------------*/
+.pagination {color:#000000;}
+.pagination a {}
+/*Liens*/
+.pagination b {}
+/*Page courante*/
+/*------------------------Divers-----------------------------*/
+.cleaner {clear:both;}
+/*-----------------------elements commun a l'accueil et aux pages d'un album------------------------------*/
+#bodyAlbum {background-color:#FFFFFF;}
+/*style general de la page de l'album*/
+#generalAbum {width:100%;}
+/*div contenant tout l'album peut etre utilise à la place de bodyAlbum*/
+.topAlbum {}
+/*entete de l'album contient l'entete du blog*/
+#enteteAlbum {width:100%; font-size:130%; color:#FFFFFF; background-color:#BBCCAA;}
+/*ligne sous l'entete du blog contient les liens vers les albums*/
+#enteteAlbum a {text-decoration:none;}
+#enteteAlbum a:hover {text-decoration:underline;}
+.lienAlbum {text-decoration:none;}
+.lienAlbum:hover {text-decoration:underline;}
+#piedAlbum {width:100%; text-align:center; margin-top:5px; color:#FFFFFF; background-color:#BBCCAA;}
+/*pied de page de l'album*/
+.h2Album {text-align:center; font-size:12pt; color:#99BB55;}
+/*titre de l'album/la photo*/
+.topLienAlbum {text-decoration:none; color:#FFFFFF;}
+/*lien vers un album*/
+.topLienAlbum:hover {}
+/*lien survole*/
+/*-------------------------------Accueil album------------------------*/
+#centreAccAlbum {color:#000;}
+/*contient les thumbnails de l'accueil de l'album (non utilise)*/
+.AccAlbum {text-align:center;}
+/*contient les thumbnails de l'accueil de l'album*/
+.thumbAccAlbum {display:inline; margin:5px;}
+/*div contenant une miniature*/
+.thumbAccAlbumimg {margin:5px 0px; border:1px solid #000;}
+/*miniature*/
+/*-----------------------Album photo--------------------------*/
+.nomPhotoAlbum {font-size:large; color:#000000; text-align:center;}
+/*nom de la photo affichée*/
+.quickNavAlbum {margin:0px; padding:0px; border:1px solid #EEEEEE; width:100%; text-align:center;}
+/*liens de navigation rapide (precedent suivant retour)*/
+.quickNavAlbum a {text-decoration:none; color:#000000;}
+/*liens de la navigation rapide*/
+.quickNavAlbum a:hover {text-decoration:underline; color:#000000;}
+/*liens survole de navigation rapide*/
+.precAlbum {float:left; text-decoration:none; position:relative; padding:0px; margin:0px;}
+/*liens et titre photo precedente*/
+.suivAlbum {float:right; text-decoration:none; position:relative; padding:0px; margin:0px;}
+/*liens et titre photo suivante*/
+.retourAlbum {position:relative; text-decoration:none; padding:0px; margin:0px auto; width:6em;}
+/*liens de retour album photo*/
+#centrethumbsAlbum {background-color:#FFFFFF;}
+/*contient les miniatures de l'accueil de l'album (non utilise)*/
+.thumbsAlbum {padding:2px; width:99%; text-align:center; margin-right:auto; margin-left:auto;}
+/*miniatures de l'album contient toutes les miniautures*/
+.thumbAlbum {display:inline; margin:3px;}
+/*div contenant une miniature*/
+.thumbAlbum img {border:1px solid #000;}
+/*miniature*/
+.thumbCouranteAlbum {display:inline; margin:3px;}
+/*div contenant la miniature de la photo courante*/
+.thumbCouranteAlbum  img {border:3px dashed #000000;}
+/*miniature de la photo courante*/
+#photo {text-align:center;}
+/*div contenant la photo courante*/
+#photo img {margin: 2px auto; border:1px solid #000000;}
+/*photo courante*/
+#descrAlbum {text-align:center; font-size:larger;}
+#menuClicDroit {position:absolute; top:0px; left:0px; z-index:1000; visibility:hidden; background-color:#FFFFFF; border:1px solid #74858C; padding:3px;}
+#menuClicDroit a {color:#446666;}
+#menuClicDroit li {list-style-type:none; margin:0px; padding:0px}
+#menuClicDroit ul {margin:0px; padding:0px}
+#menuClicDroit span {display:block; margin-top:5px; margin-bottom:1px;}

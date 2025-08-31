@@ -1,0 +1,228 @@
+/*fichier de structure général externe*/
+@import url("/fdata/css/commonstruct2.css");/*ne pas enlever cette ligne qui permet l'evolution des css personnalisés*/
+/***************************************/
+/*---------------- elements principaux ---------------*/
+body{margin:0px; padding:0px; background-color:#74858C; font-family: Verdana, Helvetica, Arial, sans-serif; font-size:x-small;}
+h1      { color: #5B6B7C; font-size: 20px; } /*titre des pages*/
+h2      { color: #5B6B7C; font-size: 15px; }
+h3      { color: #5B6B7C; font-size: 12px; }
+a 	    { text-decoration:underline; color:#5B6B7C; font-size:110%; } /* lien */
+a:hover { text-decoration:none; color:#5B6B7C}
+legend  { color:#5675A4; padding-left:5px; padding-right:5px;}
+li      { list-style-type:none; }
+img     { border:0px solid #FFFFFF;  } /* image */
+input   { border:solid 1px #D8D7D7; font-size:100%; background-color:#FFFFFF; color:#5675A4; } /* bouton */
+
+
+
+/* --------------- Structure -------------------- */
+#centrePage { width:100%;}
+/*div contenant la page*/
+#global { margin-left:auto; margin-right:auto; position:relative;}
+/*colonne principale*/
+#main { margin-bottom:5px; background-color:#FFFFFF;  }
+/*contenu de la page*/
+#content { overflow:hidden; margin:0px;}
+/*colonne de droite*/
+#rightnav { }
+/*colonne de gauche*/
+#leftnav { }
+/********************************************************************************************************/
+/*                GESTION DU POSITIONNEMENT SELON LES DIFFERENTES STRUCTURES                            */
+/*------------------------------------------------------------------------------------------------------*/
+/*/!\ Attention la modification des informations ci-dessous peut entrainer la déformation de votre blog */
+/********************************************************************************************************/
+
+#global{width:900px;}
+
+
+/*~~~~~~~~~~1 colonne principale + 1 colonne à droite~~~~~~~~~~*/
+	/*colonne principale*/
+	#deuxColDroite #main{  position:relative; float:left; overflow:hidden; width:680px;  }
+	/*colonne de droite*/
+	#deuxColDroite #rightnav { position:relative; float:right; margin-bottom:5px; width:210px;}
+
+/*~~~~~~~~~~1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+	/*colonne principale*/
+	#deuxColGauche #main{  position:relative; float:right; overflow:hidden; width:680px;  }
+	/*colonne de gauche*/
+	#deuxColGauche #leftnav { position:relative; float:left; margin-bottom:5px;  width:210px;}
+
+/*~~~~~~~~~~1colonne à droite + 1 colonne principale + 1 colonne à gauche~~~~~~~~~~*/
+	/*colonne principale*/
+	#troisCol #main{  position:relative; float:left; overflow:hidden; width:468px; margin-left:5px;}
+	/*colonne de droite*/
+	#troisCol #rightnav { position:relative; float:right; margin-bottom:5px; width:210px;}
+	/*colonne de gauche*/
+	#troisCol #leftnav { position:relative; float:left; margin-bottom:5px;  width:210px;}
+/**************************************************************************************************************/
+
+
+
+/* ------------------- Box -------------------- */
+.box { background-color:#FFFFFF; border:1px solid #000000; position:relative; margin:0px; padding:0px; margin-bottom:10px; }
+.box h2  	     { background-color:#999999;  color:#FFFFFF; margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:0px; }
+.box-titre	     { position:relative; margin-right:10px; margin-left:10px; background-color:#CCCC99;  border-width:0px 0px 0px 0px; border-color:#000000; border-style:solid;  padding:0px; text-align:center; }
+.box-content     { overflow:auto; padding:0px 10px 15px 5px; }
+.box-content p   { margin:5px 0px 5px 15px; padding:0px; }
+.box-content ul  { margin:5px 0px 5px 15px; padding:0px; }
+.box-content li  { list-style:square; color:#b6b6b6; margin:5px; padding:0px; }
+
+
+/* ------------------entete ---------------------*/
+#header { text-align:center; border:1px solid #666666; margin-bottom:5px; position:relative;}
+#top    { padding:5px; background-color:#FDEBC1; color:#FFFFFF;border-bottom: 1px solid gray; }
+#top h1 { padding:0px; margin:0px; color:#FFFFFF;}
+
+.topLien{text-decoration:none;}
+.topLien:hover {text-decoration:underline;}
+
+
+
+/* ---------------------Bas de page----------------*/
+#footer { margin-top:10px; background-color:#FFFFFF; position:relative; border:1px solid #000000;}
+#footer p { margin:0px; padding: 10px;  }
+
+.basLien{ text-decoration:underline;}
+.basLien:hover { text-decoration:underline; }
+
+/* ---------- Recherche ----------------------- */
+#Recherche   { padding:0px; }
+#WForm       { margin:0px; border:solid 1px #D8D7D7; padding:10px; background: #F3F7FC; }
+#WForm input { border:solid 1px #D8D7D7; font-size:100%; background:#f4f4f4; color:#5675A4; text-align:center;}
+#WForm input:hover { border:solid 1px #5675A4; background:#fff; }
+
+.RNum  { font-weight:bold; }
+.RDesc { padding:10px; }
+.ROut  { font-style:italic; color:#A0B8CB; }
+.RSize { color:#BFBFBF; }
+
+a.RTitle       { text-decoration:none; color:#00275E; }
+a.RTitle:hover { text-decoration:none; color:#834141; }
+
+#GGResults { text-align:left; margin:0px; color:#000000; }
+.Result1   { padding:4px; background:#F7FAFD; }
+.Result2   { padding:4px; background:#FBFBFB; }
+
+
+
+/*------------------- Articles ----------------------------------*/
+.article    { margin-top:0px; padding:0px; background-color:#F9F8FA; border:1px solid #666666; margin-bottom:5px; }
+.article p  { padding:0px 0px 5px 5px ;margin:0px; }
+.Date 	{margin-right:10px;}
+.categorieArticle {} /*categorie de l'article*/
+.categorieArticle a {text-transform:lowercase;}
+.barreHautArticle {padding:0px 0px 5px 0px; margin:0px; border-bottom:1px solid #808080; width:100%; background-color: #C9E3ED;}
+.Option { padding:5px 0px 0px 0px; margin:0px 0px 20px 0px; border-top:1px solid #808080; width:100%; text-align:right; font-size:85%; color:#808080}
+.listArticles { margin-top:0px; margin-bottom:10px;}
+.resumeArticle {  }
+
+.titreArticle{text-decoration:none;}
+.titreArticle:hover {text-decoration:underline;}
+.GcheTexte{float:left; margin:3px;}
+.DrteTexte{float:right; margin:3px; }
+.CtreTexte{margin:3px auto; display:block;}
+.hitcitation {font-style:italic;text-align:justify;padding:5px 20px;margin:0px 5px;background-color:#eee;}
+.hitencart {border:1px solid black;text-align:justify;font-weight:bold;margin:5px 5px;padding:5px 5px;}
+.hitimportant {font-weight:bold;color:red;font-weight:bold;font-size:120%;}
+.hitperso1 {font-style:italic;}
+.hitperso2 {font-weight:bold;}
+
+#articleSeul {} /*style d'un article lors de l'affichage de l'article ou de ses commentaires/trackbacks*/
+/*--------------------Commentaires---------------------------- */
+.h2commentMessage {color:#3366CC;}
+.comment    {  }
+.comment hr {  }
+.linkcomment {font-size:130%; color:#0099FF;}
+.commentMessage  { padding:5px; border:1px dotted #999999; background-color:#FCFEFE; margin:0px;}
+.commentOption   { text-align:right; font-size:85%; color:#808080; margin-bottom:10px;}
+
+#formComment label { width:70px; }
+#formComment input {background-color:#74878D; color:#FFFFFF; border:1px solid #FFFFFF;}
+#formComment textarea{background-color:#74878D; color:#FFFFFF; border:1px solid #FFFFFF;}
+
+/*-------------------trackback----------------------------------*/
+#addTrackback { border:1px dotted #999999; background:#FFF8D7; padding:5px;} /* Trackback */
+.affTrackback { padding:5px; border:1px dotted #999999; background-color:#FCFEFE; margin-bottom:10px;}
+.affTrackback h2 {color:#FDEBC1;}
+.linkTrackback {font-size:130%; color:#0099FF;}
+.h2Trackback {color:#3366CC;}
+
+/*-------------------Recommander--------------------------------*/
+#divRecommander {}
+#divRecommander span {font-size:larger; color:#FFCCCC;}
+#divRecommander legend {font-size:larger;}
+#divRecommander fieldset {padding:3px; margin:5px; background:#F9F8FA;}
+
+/*-----------------Newsletter-----------------------------------*/
+#divNewsletter h2 {text-align:center; font-size:12pt;}
+
+
+/* ---------------------Calendrier--------------------------------- */
+.calendarTop1 	{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color:#FFFFFF; font-weight: bold;  background-color:#F92E00;} /*entete*/
+.calendarToday1 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color:#FFFFFF; background-color:#F92E00;} /* Aujourd'hui */
+.calendarDays1 	{  width:50px; height:15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color:#000000; background-color: #FFFFFF; text-align:center;}
+.calendarHeader1{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color:#F92E00; color:#FFFFFF;} /* lettre de la semaine */
+.calendarTable1 {  background-color:#F4F4F4;border:0px solid #5675A4;} /* contour du calendrier */
+
+
+
+/*-----------------------Pagination-------------------------*/
+.pagination { color:#000000; }
+.pagination a {} /*Liens*/
+.pagination b{ } /*Page courante*/
+
+
+/*------------------------Divers-----------------------------*/
+.cleaner {clear:both;}
+
+/*-------------------------------Accueil album------------------------*/
+
+#centreAccAlbum{}
+.AccAlbum{ text-align:center;}
+.thumbAccAlbum { display:inline; margin:5px;}
+.thumbAccAlbumimg { padding:5px 0px;}
+
+
+/*-----------------------Album photo--------------------------*/
+#bodyAlbum{ background-color:#FFFFFF;}
+.topAlbum{}
+
+#generalAbum{width:100%;}
+
+.h2Album { text-align:center; font-size:12pt; color:#000000;}
+#enteteAlbum{ width:100%; border:1px solid #222222; background-color:#666666; font-size:130%; color:#FFCC99;}
+#enteteAlbum a {color:#FFFFFF; text-decoration:none;}
+#enteteAlbum a:hover {color:#FFFFFF; text-decoration:underline;}
+.nomPhotoAlbum { font-size:large;}
+
+.lienAlbum {text-decoration:none;}
+.lienAlbum:hover{text-decoration:underline;}
+
+.quickNavAlbum{margin:0px; padding:0px; background-color:#FFCC99; border:1px groove #666666; width:100%; text-align:center;}
+.quickNavAlbum a {text-decoration:none;}
+.quickNavAlbum a:hover {text-decoration:underline;}
+.precAlbum{ float:left; text-decoration:none; position:relative; padding:0px; margin:0px;}
+.retourAlbum{ position:relative;  text-decoration:none; padding:0px; margin:0px auto; width:6em;}
+.suivAlbum{ float:right;  text-decoration:none; position:relative; padding:0px; margin:0px;}
+
+#centrethumbsAlbum{ background-color: #666666;}
+.thumbsAlbum {background-color: #666666; padding:2px; width:99%; text-align:center; margin-right:auto; margin-left:auto;}
+.thumbAlbum { display:inline; margin:3px;}
+.thumbAlbum img { border:1px solid #FFFFFF;}
+.thumbCouranteAlbum { display:inline; margin:3px;}
+.thumbCouranteAlbum  img { border:3px dashed #FFCC99;}
+
+.topLienAlbum{text-decoration:none;}
+.topLienAlbum:hover{}
+
+#photo{ text-align:center; }
+#photo img {margin: 0px auto; border:1px solid #333333; border-bottom:0px solid #FFFFFF;}
+.nomPhotoAlbum{ color:#FFCC66; text-align:center;}
+
+#piedAlbum{ width:100%; text-align:center; margin-top:5px;}
+#descrAlbum {text-align:center; font-size:larger;}
+
+#menuClicDroit {position:absolute; top:0px; left:0px; z-index:1000; visibility:hidden; background-color:#FFFFFF; border:1px solid #74858C; padding:3px;}
+#menuClicDroit li { list-style-type:none; margin:0px; padding:0px}
+#menuClicDroit ul{margin:0px;padding:0px}
