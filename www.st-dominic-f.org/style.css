@@ -1,0 +1,155 @@
+body {
+	background: linear-gradient(#406E89, #2D4B5C);
+	background-attachment: fixed; 
+	font-family: sans-serif;
+}
+
+
+.parent { 
+	width:800px;
+	height:540px;
+	display: grid; 
+	grid-template-columns: 200px 1fr; 
+	grid-template-rows: 15px repeat(2, 40px) 30px 50px 150px 200px 15px; 
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; 
+	margin: auto;
+	margin-top: 8%;
+	background: linear-gradient(#CCE4F3, #96A2A5);
+}
+.top  { 
+	grid-area: 1 / 1 / 2 / 3; 
+	background-color: #020000;
+} 
+.contact  { 
+	grid-area: 2 / 2 / 3 / 3; 
+	background-color: #7AA6B8;
+	color:#EEE;
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 6px;
+	border-top: solid 2px;
+} 
+
+.contact > img {
+	position:relative;
+	top:8px;
+	width:30px;
+	height:25px;
+}
+
+.title  { 
+	grid-area: 3 / 2 / 4 / 3; 
+	background-color: #7AA6B8;
+	color:white;
+	padding-left: 6px;
+	padding-top: 12px;
+	font-size: 18px;
+	text-shadow: 1px 1px 5px black;
+} 
+.motto  { 
+	grid-area: 4 / 2 / 5 / 3; 
+	background-color: #7AA6B8;
+	border-top: solid 2px;
+	border-color: white;
+	color:white;
+	font-size: 11px;
+	padding-top: 6px;
+	padding-left: 6px;
+} 
+.headerpicture  { 
+	grid-area: 2 / 1 / 5 / 2; 
+	background-color: #7AA6B8;
+	border-right: solid 2px;
+	border-top: solid 2px;
+	border-color: white;
+	text-align: center;
+} 
+.headerpicture > img {
+	height: 100%;
+}
+
+.picture  { 
+	grid-area: 5 / 1 / 7 / 2; 
+	background: transparent;
+	border-right: solid 2px;
+	border-color: black;
+	text-align: center;
+	padding-top: 10px;
+} 
+
+.picture > img {
+	width: 80%;
+	border: solid 1px;
+	border-color: #5D7D84;
+	box-shadow: 1px 1px 5px black;
+}
+.menu  { 
+	grid-area: 7 / 1 / 8 / 2; 
+	background: transparent;
+	border-right: solid 2px;
+	border-color: black;
+} 
+
+.button {
+	width:90%;
+	height:20px;
+	margin: 5px auto 5px auto;
+	background-color: #DFE1E1;
+	border: solid 1px#5D7D84;
+	box-shadow: 1px 1px 5px black;
+	font-size:14px;
+}
+
+.button > a {
+	text-decoration: none;
+	color: #465F76;
+	position: relative;
+	top:-4px;
+}
+
+.button > img {
+	height:100%;
+}
+
+.button:hover {
+	position: relative;
+	top:2px; 
+	left: 2px;
+	box-shadow: none;
+}
+
+.bottom  { 
+	grid-area: 8 / 1 / 9 / 3; 
+	background-color: #000141;
+} 
+
+.titlecontent  { 
+	grid-area: 5 / 2 / 6 / 3; 
+	background: transparent;
+	text-align: right;
+	padding:15px;
+	color:darkblue;
+	font-size:20px;
+} 
+
+hr {
+	width:100%;
+	border: solid 0.5px;
+	color: black;
+}
+
+.content { 
+	grid-area: 6 / 2 / 8 / 3; 
+	background: transparent;
+	text-align: left;
+	padding: 20px 40px 20px 40px;
+	overflow: scroll;
+	font-size: 14px;
+	line-height: 1.4;
+} 
+
+h3 {
+	color: darkblue;
+}
+

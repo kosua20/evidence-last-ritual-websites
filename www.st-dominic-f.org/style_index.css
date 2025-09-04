@@ -1,0 +1,91 @@
+body {
+	background: linear-gradient(#406E89, #2D4B5C);
+	background-attachment: fixed; 
+	font-family: sans-serif;
+}
+
+
+.parent { 
+	width:800px;
+	height:140px;
+	display: grid; 
+	grid-template-columns: 200px 200px 200px 200px; 
+	grid-template-rows: 15px 40px 40px 30px 15px; 
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; 
+	margin: auto;
+	margin-top: 15%;
+	background: linear-gradient(#CCE4F3, #96A2A5);
+}
+
+.top  { 
+	grid-area: 1 / 1 / 2 / 5; 
+	background-color: #020000;
+} 
+.contact  { 
+	grid-area: 2 / 2 / 3 / 5; 
+	background-color: #7AA6B8;
+	padding-left: 6px;
+	border-top: solid 2px white;
+} 
+
+.title  { 
+	grid-area: 3 / 2 / 4 / 5; 
+	background-color: #7AA6B8;
+	color:white;
+	padding-left: 6px;
+	padding-top: 12px;
+	font-size: 18px;
+	text-shadow: 1px 1px 5px black;
+} 
+
+.button0  { 
+	grid-area: 4 / 2 / 5 / 3; 
+}
+
+.button1  { 
+	grid-area: 4 / 3 / 5 / 4; 
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+}
+
+.button2  { 
+	grid-area: 4 / 4 / 5 / 5; 
+}
+
+.button0, .button1, .button2 {
+	background-color: #7AA6B8;
+	border-top: solid 2px white;
+	border-color: white;
+	text-align:center;
+	
+	padding-top: 6px;
+	padding-left: 6px;
+} 
+
+.button0 > a, .button1 > a, .button2 > a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.headerpicture  { 
+	grid-area: 2 / 1 / 5 / 2; 
+	background-color: #7AA6B8;
+	border-right: solid 2px;
+	border-top: solid 2px;
+	border-color: white;
+	text-align: center;
+} 
+.headerpicture > img {
+	height: 100%;
+}
+
+
+.bottom  { 
+	border-top: solid 2px white;
+	grid-area: 5 / 1 / 6 / 5; 
+	background-color: #000141;
+} 
+
