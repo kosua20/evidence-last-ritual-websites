@@ -1,0 +1,92 @@
+
+body,td,th {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.container {
+	width: 1024px;
+	height:600px;
+	margin: auto;
+  	position: relative;
+} 
+
+img {
+	width:100%;
+}
+
+.video {
+	position: absolute;
+	top:178px; left:244px; height:265px; width:528px; 
+}
+
+.gallery {
+	position: absolute;
+	top:140px; left:244px; width:528px; 
+	background-color:green;
+}
+
+.gallery > img {
+	position: absolute;
+	top:0px; left:0px;
+	height:340px; 
+	width:528px; 
+}
+
+.gallery > span {
+	width:528px; 
+	position: absolute;
+	display:block;
+	margin: auto;
+	text-align: center;
+	font-family: serif;
+	top:375px;
+	font-size: 14px;
+}
+
+.button {
+	position: absolute;
+}
+
+.button > img {
+	display: none;
+}
+
+.button:hover > img {
+	display: inline;
+}
+
+.buttonBack {
+	top:472px; left:911px; height:92px; width:99px; 
+}
+.buttonContact {
+	top:492px; left:8px; height:60px; width:58px; 
+}
+.buttonPaintings {
+	top:196px; left:246px; height:198px; width:114px; 
+}
+.buttonCommercials1 {
+	top:196px; left:333px; height:245px; width:119px; 
+}
+.buttonCommercials2 {
+	top:196px; left:530px; height:250px; width:113px; 
+}
+.buttonFakes {
+	top:196px; left:430px; height:239px; width:126px; 
+}
+.buttonBio {	
+	top:194px; left:618px; height:196px; width:113px; 
+}
+.buttonNext {			
+	top:288px; left:779px; height:81px; width:67px; 
+}
+.buttonPrevious {	
+	top:295px; left:176px; height:73px; width:60px; 
+}
