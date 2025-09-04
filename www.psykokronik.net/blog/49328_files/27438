@@ -1,0 +1,616 @@
+var InfoxCtx27438 = {
+	loaded: false,
+	tID: null,
+	toElem: null,
+	adFoxClickUrl: null,
+	checkScroll: true,
+	renderCallback: null,
+	horizontalScroll: false,
+	verticalScroll: 0,
+	refreshBlock: false,
+	zeroPixel: null,
+	trackIds: null,
+	newTrackIds: null,
+	nItems: 0,
+	stopTrack: false,
+	
+	ie10Arr:  null/*IE10ARR*/,   // don't change no one symbol !!!
+
+	sendRequest : function(url, callback) {
+		var xmlhttp;
+		try {
+			xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (E) {
+				xmlhttp = false;
+			}
+		}
+		if (!xmlhttp) {
+			var XHR = window.XDomainRequest || window.XMLHttpRequest;
+			xmlhttp = new XHR();
+		}
+		if ("withCredentials" in xmlhttp) {
+			xmlhttp.withCredentials = true;
+		}
+		if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+			var myStorage = window.localStorage;
+			var uuid = myStorage.getItem('_AUID_');
+			if  (!uuid) {
+				uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+				    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+				    return v.toString(16);
+				});
+				myStorage.setItem('_AUID_', uuid);
+			}
+			if (url.indexOf('?') < 0) {
+				url += '?';
+			} else {
+				url += '&';
+			}
+			url += '_AUID_=' + uuid;
+		}
+		xmlhttp.open('GET', url, true);
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4) {
+				callback(xmlhttp);
+			}
+		};
+		xmlhttp.send();
+	},
+
+	loadJS : function(url, handler, location) {
+	    var scriptTag = document.createElement('script');
+	    scriptTag.src = url;
+	
+	    scriptTag.onload = handler;
+	    scriptTag.onerror = handler;
+	
+	    location.appendChild(scriptTag);
+	},
+	checkABlock: function(handler) {
+		if (window.rbInfoxAdBlock == false) {
+			handler(false);
+		} else {
+			this.loadJS('https://rb.infox.sg/js/ads.js', function() {
+				handler(window.rbInfoxAdBlock != false);
+			}, document.body); 
+		}
+	},
+	loadNow: function() {
+		if (this.loaded)
+			return false;
+		
+		this.loaded = true;
+    	window.removeEventListener("scroll", this);
+    	
+    	if (this.ie10Arr != null) {
+    		this.writeItems(this.ie10Arr);
+    	} else {
+    		var self = this;
+	    	self.checkABlock(function(adblock) {
+	    		if (window['infoxContextAsyncIdx']===undefined) {
+	    			window['infoxContextAsyncIdx'] = 0;
+	    		}
+	    		var asyncIdx = window['infoxContextAsyncIdx'];
+	    		window['infoxContextAsyncIdx'] += 5;
+	 			self.sendRequest('https://rb.infox.sg/json?id=27438&adblock=' + adblock + "&o=" + asyncIdx, function(req) {
+					var myArr = JSON.parse(req.responseText);
+					self.writeItems(myArr);
+	 			});
+			});
+    	}
+		return true;
+	},
+	
+	writeItems: function(arr) {
+		if (arr.length > 0) {
+			var self = this;
+			if (arr.length == 1 && arr[0].code != null) {
+				this.toElem.innerHTML = arr[0].code;
+				
+				var arr = this.toElem.getElementsByTagName('script');
+				for (var n = 0; n < arr.length; n++)
+				    eval(arr[n].innerHTML);
+			} else {
+				var html = "<style type='text/css'>    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');    	.sg_main_27438 {    		box-sizing: border-box;    		width: 100%;    		height: auto;    		margin: 16px 0;    	}    	.sg_main_27438 .sg_items {    		font-size: 0;    		letter-spacing: 0;    		margin: 0 -8px;    	}    	.sg_main_27438 .sg_row {    		display: inline-block;    		vertical-align: top;    		position: relative;    		box-sizing: border-box;    		width: calc(20% - 16px);    		height: 220px;    		margin: 8px;    		background: #222;    		overflow: hidden;    	}    	.sg_main_27438 .sg_row a {    		display: block;    		height: auto;    		width: 100%;    		text-decoration: none;    	}    	.sg_main_27438 .sg_row img {    		display: block;    		border: none;    		width: 100%;    		height: 100%;    		object-fit: cover;    		border-radius: 0;    		margin: 0;    		padding: 0;    	}    	.sg_main_27438 .sg_row .sg_a_img {    		display: block;    		width: 100%;    		position: relative;    	}    	.sg_main_27438 .sg_row a:after {    		content: '';    		display: block;    		position: absolute;    		top: 0;    		right: 0;    		left: 0;    		bottom: 0;    		width: 100%;    		height: 100%;    		/*background: linear-gradient(180deg, rgba(31, 36, 49, 0) 33%, #1F2431 100%);*/    	}    	.sg_main_27438 .sg_row .sg_a_img:after {    		content: '';    		display: block;    		position: absolute;    		top: 0;    		right: 0;    		left: 0;    		bottom: 0;    		width: 100%;    		height: 100%;    		background: linear-gradient(180deg, rgba(31, 36, 49, 0) 33%, #222 100%);    	}    	.sg_main_27438 .sg_row a .sg_text {    		position: absolute;    		bottom: 0;    		color: #fff;    		font-size: 16px;    		font-weight: 500;    		line-height: 20px;    		margin: 16px;    		font-family: Roboto, sans-serif;	    		text-align: left;    		cursor: pointer;    		box-sizing: border-box;	    		word-wrap: break-word;	    		transition: all 0.3s ease 0s;    		overflow: hidden;    		text-decoration: none;    		z-index: 1;    	}    	.sg_main_27438 .sg_header {		    	}    	.sg_main_27438 .sg_header a {    		display: block;    		margin: 10px 0 20px;    		letter-spacing: .01em;    		font: 700 20px/20px ProximaNova,Helvetica,sans-serif;    		color: #242F33;text-decoration: none;    	}    	@media (max-width: 1199px) {    		.sg_main_27438 .sg_row:nth-child(5) {    			display: none;    		}    		.sg_main_27438 .sg_row {    			width: calc(25% - 16px);    		}    	}    	@media (max-width: 639px) {    		.sg_main_27438 .sg_row:nth-child(5) {    			display: none;    		}    		.sg_main_27438 .sg_row {    			width: calc(50% - 16px);    		}    	}    </style>    <div class='sg_main_27438'>    	<div class='sg_header'>    		<a href='https://cis.infox.sg' target='_blank'>Новости партнеров</a>    	</div>		    	<div class='sg_items'>";
+				var hasScrollDiv = html.indexOf("rb27438scc") > 0;
+				if (this.horizontalScroll) {
+					if (!hasScrollDiv) {
+						html += "<style>#rb27438{overflow-x: scroll;overflow-y:hidden;width: auto;white-space:nowrap;}#rb27438>*{display: inline-block;white-space:normal;}</style><div id='rb27438' class='rb27438scc'>";
+					}
+				}
+				for (var i = 0; i < arr.length; i++) {
+					var item = arr[i];
+					html += this.buildItem(item, i);
+					this.nItems++;
+				}
+				if (this.horizontalScroll) {
+					if (!hasScrollDiv) {
+						html += "</div>";
+					}
+				} else if (hasScrollDiv) {
+					this.horizontalScroll = true;
+				}
+				html += "</div>    </div>";
+				html += "";
+				this.toElem.innerHTML = html;
+				if (this.horizontalScroll) {
+					var scont;
+					var cont = this.toElem.querySelectorAll(".rb27438scc");
+					for (var i = cont.length - 1; i >= 0; i--) {
+						scont = cont[i];
+						break;
+					}
+					scont.classList.remove("rb27438scc");
+					
+					this.trackIds = [];
+					var container = scont.closest(".wr_out");
+					var checkItems = function() {
+						var from = scont.scrollLeft;
+						if (hasScrollDiv) {
+							var wr = container.querySelector('.wr');
+							if (wr) {
+								from = wr.scrollLeft;
+							}
+							if (scont.style.left) {
+								from = from - (parseFloat(scont.style.left));
+							}
+						}
+						var to = container.clientWidth + from;
+						var childs = scont.querySelectorAll("div[rbid]");
+						var x = 0;
+						self.newTrackIds = [];
+						for (var i in childs) {
+							var child = childs[i];
+							if (typeof child.hasAttribute === 'function' && child.hasAttribute("rbid")) {
+								var style = child.currentStyle || window.getComputedStyle(child);
+								var x2 = x + child.offsetWidth;
+								if (style) {
+									x2 = x2 + parseFloat(style.marginLeft)  + parseFloat(style.marginRight);
+								}
+								if ((from <= x && to >= x) || (from > x && from <= x2 && to >= x2)) {
+									var id = child.getAttribute("rbid");
+									if (self.trackIds.indexOf(id) < 0) {
+										self.trackIds.push(id);
+										self.newTrackIds.push(id);
+									}
+								}
+								x = x2;
+							}
+						}
+						return self.newTrackIds.length > 0;
+					}
+					if (hasScrollDiv && container) {
+						var margin = 16;
+						var count_item = arr.length;
+						var width_item = scont.querySelectorAll('.itemrr')[0].offsetWidth;
+						var allWidthItem = (count_item * (width_item + margin) + margin);
+						if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+							container.classList.add('isMobile___in');						
+						}					
+						container.querySelector('.wr2').style.width = allWidthItem + 'px';    
+					
+						container.querySelector('.edge2-button-right').addEventListener('click', function(e) {
+							slide(-1);
+						});	
+						container.querySelector('.edge2-button-left').addEventListener('click', function(e) {
+							slide(1);
+						});
+						if (container.addEventListener) {
+							if ('onwheel' in document) {
+								container.addEventListener('wheel', onWheel);
+							} else if ('onmousewheel' in document) {
+								container.addEventListener('mousewheel', onWheel);
+							} else {
+								container.addEventListener('MozMousePixelScroll', onWheel);
+							}
+						} else {
+							container.attachEvent('onmousewheel', onWheel);
+						}
+						function onWheel(e) {
+							e = e || window.event;
+							var delta = e.deltaY || e.detail || e.wheelDelta;
+							if(delta > 0) {
+								slide(-1);
+							} else {
+								slide(1);
+							}
+							e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+						}
+						container.addEventListener('mouseleave', function(e) {
+							event.stopPropagation();
+							container.removeEventListener('mousemove', fsgMove);
+							container.querySelector('.wr_block').style.zIndex = '-1';
+						}, false);			
+						container.addEventListener('mousedown', function(e) {
+							event.stopPropagation();
+							firstX = e.pageX;
+							sgMove(firstX);		
+						}, false);		
+						var sgMovedLast = 0;
+						container.addEventListener('mouseup', function(e) {
+							event.stopPropagation();
+							container.removeEventListener('mousemove', fsgMove);	
+							container.querySelector('.wr_block').style.zIndex = '-1';
+							container.querySelector('.wr2.slide_con').classList.remove('wr2_transform');
+							sgMovedLast = 0;
+						}, false);	
+						function sgMove() {	
+							event.stopPropagation();
+							container.addEventListener('mousemove', fsgMove, false);
+						}	
+						container.addEventListener('mouseover', function(e) {
+							event.stopPropagation();
+							ssgMoved = parseInt(container.querySelector('.wr2.slide_con').style.left , 10);	
+							sgBW = container.clientWidth;
+							sgWindow = ((width_item + margin) * count_item) - sgBW;		
+							if(ssgMoved == 0) {
+								container.classList.add('sld_right');
+							} else if (ssgMoved != 0 && -ssgMoved < sgWindow){
+								container.classList.add('sld_right');
+								container.classList.add('sld_left');	
+							} else {
+								container.classList.add('sld_left');	
+							}		
+						}, false);	
+						container.addEventListener('mouseout', function(e) {
+							event.stopPropagation();
+							sgDelArr();
+						}, false);	
+						function sgDelArr() {
+							container.classList.remove('sld_right');
+							container.classList.remove('sld_left');	
+							return false;
+						}	
+						function fsgMove(e) {
+							container.querySelector('.wr2.slide_con').classList.remove('wr2_transform');
+							container.querySelector('.wr_block').style.zIndex = '300';	
+							sgMoved = firstX  - e.pageX;
+							sgBM = container.querySelector('.wr2.slide_con');		
+							ssgMoved = parseInt(sgBM.style.left, 10);		
+							sgBW = container.clientWidth;
+							if((sgMoved - sgMovedLast) > 0 ) {
+								sgNewPos = ssgMoved - 5;
+							} else if ((sgMoved - sgMovedLast) < 0 ) {
+								sgNewPos = ssgMoved + 5;
+							} else {
+								sgNewPos = ssgMoved;
+							}
+							sgWindow = ((width_item + margin) * count_item) - sgBW;		
+							if(sgNewPos > 0)
+								sgNewPos = 0;		
+							if(sgNewPos < -sgWindow) 
+								sgNewPos = -sgWindow;		
+							sgBM.style.left = sgNewPos + 'px';		
+							sgMovedLast = firstX  - e.pageX;
+						}
+						function slide(x) {
+							container.querySelector('.wr2.slide_con').classList.add('wr2_transform');
+							ssgMoved = parseInt(container.querySelector('.wr2.slide_con').style.left , 10);
+							sgBW = container.clientWidth;
+							countNextSlide = Math.floor((sgBW + margin) / (width_item + margin));
+							if(countNextSlide == 0)
+								countNextSlide = 1;
+							sgNewPos = ssgMoved + (x * ((width_item + margin) * countNextSlide));
+							//sgNewPos = ssgMoved - (width_item + margin);
+							sgWindow = ((width_item + margin) * count_item) - sgBW;		
+							if(sgNewPos > 0)
+								sgNewPos = 0;		
+							if(sgNewPos < -sgWindow) 
+								sgNewPos = -sgWindow;
+							container.querySelector('.wr2.slide_con').style.left = sgNewPos + 'px';
+							if (checkItems()) {
+								self.trackOnScroll();
+							}
+						}
+						container.addEventListener("touchend", function(evt) {
+							if (checkItems()) {
+								self.trackOnScroll();
+							}
+						}); 
+						
+					} else {
+						container = scont;
+					}
+					scont.addEventListener("scroll", function(evt) {
+						if (checkItems()) {
+							self.trackOnScroll();
+						}
+					}); 
+					checkItems();
+				}
+				if (this.ie10Arr == null) {
+					this.toElem.addEventListener("click", function(e) {
+						var element = self.findItem(e.target);
+						if (!element) return;
+						self.refreshElements(element.parentNode, new Array(element));
+					});
+					if (this.refreshBlock) {
+						var onchange = function() {
+							if (document.visibilityState != "hidden") {
+								var container = self.findContainer(self.toElem);
+								self.refreshElements(container, container.childNodes);
+							}
+						};
+						var hidden = "hidden";
+						// Standards:
+						if (hidden in document)
+						    document.addEventListener("visibilitychange", onchange);
+						else if ((hidden = "mozHidden") in document)
+						    document.addEventListener("mozvisibilitychange", onchange);
+						else if ((hidden = "webkitHidden") in document)
+						    document.addEventListener("webkitvisibilitychange", onchange);
+						else if ((hidden = "msHidden") in document)
+						    document.addEventListener("msvisibilitychange", onchange);
+						// IE 9 and lower:
+						else if ("onfocusin" in document)
+						    document.onfocusin = document.onfocusout = onchange;
+						// All others:
+						else
+						    window.onpageshow = window.onpagehide = window.onfocus = window.onblur = onchange;
+					}
+				}
+			}
+			if (this.checkScroll) {
+				window.addEventListener("scroll", this); 
+			}
+			if (this.zeroPixel) {
+				var img = document.createElement("img");
+				img.setAttribute("src", this.zeroPixel);
+				img.setAttribute("width", "1");
+				img.setAttribute("height", "1");
+				img.setAttribute("style", "display: none");
+				document.getElementsByTagName('body')[0].appendChild(img);
+			}
+			this.trackOnScroll();
+			if (self.renderCallback) self.renderCallback(); 
+		}
+	},
+	
+	refreshElements: function(parent, elements) {
+		var self = this;
+		var ids = "";
+		var childs = parent.childNodes;
+		for (var i in childs) {
+			var child = childs[i];
+			if (typeof child.hasAttribute === 'function' && child.hasAttribute("rbid")) {
+				if (ids.length>0) ids += ",";
+				ids += child.getAttribute("rbid");
+			}
+		}
+		self.sendRequest('https://rb.infox.sg/json?id=27438&n=' + elements.length + '&exclude=' + ids, function(req) {
+			var myArr = JSON.parse(req.responseText);
+			var ei = 0
+			for (var i in myArr) {
+				var element = null;
+				while (ei < elements.length) {
+					element = elements[ei++];
+					if (typeof element.hasAttribute === 'function' && element.hasAttribute("rbid")) {
+						break;
+					}
+				}
+				var item = self.buildItem(myArr[i], element ? element.getAttribute("rbpos") : "0");
+				if (element) {
+					element.insertAdjacentHTML('afterend', item);
+					element.parentNode.removeChild(element);
+				} else {
+					parent.append(item);
+				}
+			}
+			if (myArr.length > 0) {
+				self.trackOnScroll();
+				if (self.renderCallback) self.renderCallback(); 
+			}
+		});
+	},
+	
+	buildItem: function(item, i) {
+		var str = "<div class='sg_row'>    	<a href='{url}' target='_blank'>    		<div class='sg_a_img'><img src='{img}'></div>    		<p class='sg_text'>{title}</p>    	</a>    </div>";
+		var url = item.url;
+		if (this.adFoxClickUrl != null) {
+			url = this.adFoxClickUrl.replace("%TEASER_URL_ENC%",  encodeURIComponent(url));
+		}
+		var created = new Date(parseInt(item.created));
+		str = str.replace(/\{url\}/g, url)
+				.replace(/\{img\}/g, item.img)
+				.replace(/\{width\}/g, item.width)
+				.replace(/\{height\}/g, item.height)
+				.replace(/\{title\}/g, item.title)
+				.replace(/\{category\}/g, item.category)
+				.replace(/\{body\}/g, item.body || '')
+				.replace(/\{source\}/g, item.source || '')
+				.replace(/\{year\}/g, created.getFullYear())
+				.replace(/\{month\}/g, created.getMonth() + 1)
+				.replace(/\{day\}/g, created.getDate())
+				.replace(/\{hours\}/g, created.getHours())
+				.replace(/\{minutes\}/g, created.getMinutes())
+				.replace(/\{timestamp\}/g, item.created)
+				.replace(/\{bg_rgb\}/g, item.bg_rgb || '')
+				.replace(/\{bg_hex\}/g, item.bg_hex || '')
+				.replace(/\{text_color\}/g, item.text_color || '')
+				.replace(/\{n\}/g, i);
+		str = this.fixLinkTarget(item.linkTarget, str);
+		var idx = str.indexOf('>');
+		if (idx > 0) {
+			str = str.substr(0, idx) + " rbn='" + i + "'" + " rbid='" + item.id + "'" + str.substr(idx);
+		}
+		return str;
+	},
+	
+	findItem: function(elem) {
+		if (elem) {
+			if (typeof elem.hasAttribute === 'function' && elem.hasAttribute("rbid")) {
+				return elem;
+			}
+			if (elem.parentNode) {
+				return this.findItem(elem.parentNode);
+			}
+		}
+		return null;
+	},
+
+	findContainer: function(element) {
+		var childs = element.childNodes;
+		for (var i in childs) {
+			var child = childs[i];
+			if (typeof child.hasAttribute === 'function' && child.hasAttribute("rbid")) {
+				return element;
+			}
+			var container = this.findContainer(child);
+			if (container) {
+				return container;
+			}
+		}
+		return null;
+	},
+
+	fixLinkTarget: function(linkTarget, str) {
+		if (linkTarget != 'byDefault') {
+			str = str.replace(/target=["'][^'"]*["']/g, '');
+
+			if (linkTarget == 'blank')
+				str = str.replace(/href=/g, ' target="_blank" href=');
+		}
+		return str;
+	},
+	
+	shuffle : function(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+
+		// While there remain elements to shuffle...
+		while (0 !== currentIndex) {
+
+			// Pick a remaining element...
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+
+			// And swap it with the current element.
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+
+		return array;
+	},
+
+	positions: function() {
+    	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		var scrollHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+	    var box = this.toElem.getBoundingClientRect();
+	    var clientTop = this.toElem.clientTop || 0;
+	    var top  = box.top +  scrollTop - clientTop;
+	    var h = this.toElem.offsetHeight;
+	    
+	    return {
+	    	isLoadPosition: function() { return scrollTop + scrollHeight > top; },
+	    	isTrackPosition: function() {return scrollTop + scrollHeight > top + h / 2 && top + h > scrollTop; }
+	    }
+	},
+	
+    loadOnScroll : function() {
+    	if (this.loaded)
+    		return true;
+    	
+    	var pos = this.positions();
+		if (pos.isLoadPosition()) {
+			this.loadNow();
+			return true;
+		}
+		return false;
+	},
+	
+	trackOnScroll: function() {
+		var pos = this.positions();
+		if (pos.isTrackPosition() || !this.checkScroll) {
+			var self = this;
+			if (!this.stopTrack && ! this.tId) {
+				this.tId = setTimeout(function() {
+					if (self) {
+						if (self.loaded) {
+							window.removeEventListener("scroll", self); 
+						}
+						self.stopTrack = true;
+						self.sendRequest('https://rb.infox.sg/track' + (self.newTrackIds !== null && self.newTrackIds.length > 0 ? "?ids=" + self.newTrackIds.toString() : ""), function(req) {
+							self.stopTrack = false;
+							self.tId = null;
+						});
+						if (self.newTrackIds) {
+							self.newTrackIds = [];
+						}
+					}
+				}, 1000);
+			}
+			if (this.loaded && this.verticalScroll > this.nItems) {
+	    		var div = document.createElement('div');
+	    		this.toElem.append(div);
+	    		this.loaded = false;
+	    		this.init(div);
+			}
+		} 
+		else if (this.tId) {
+			clearTimeout(this.tId);
+			this.tId = null;
+		}
+		return;
+	},
+
+	handleEvent: function (event) { 
+		if (this.loaded) {
+			this.trackOnScroll();
+		} else {
+			this.loadOnScroll();
+		}
+	},
+	
+	init: function(toElem) {
+		this.toElem = toElem;
+		this.adFoxClickUrl = toElem.getAttribute("data-infox-teaserurl");
+		if (this.checkScroll) {
+			if (!this.loadOnScroll()) {
+				window.addEventListener("scroll", this);
+			}
+		}
+		else
+	    	this.loadNow();
+	}
+}
+var INFOX27438 = {
+	
+	renderTo : function(divId) {
+		var toElem = document.getElementById(divId);
+		if (! toElem ) 
+			return;
+		var ctx = Object.create(InfoxCtx27438);
+		ctx.init(toElem);
+	},
+
+	renderByClass : function(className) {
+		var cont = document.querySelectorAll("." + className);
+		for (var i = cont.length - 1; i >= 0; i--) {
+			if(!cont[i].innerHTML.length) {
+				toElem = cont[i];
+			}
+		}
+		if (! toElem ) return;
+		toElem.classList.remove(className);
+		var ctx = Object.create(InfoxCtx27438);
+		ctx.init(toElem);
+	},
+	
+	init : function() {
+		var blocks = window['infoxContextAsyncCallbacks27438'];
+		if (blocks) {
+			while (true) {
+				var block = blocks.pop();
+				if (block) {
+					block();
+				} else {
+					break;
+				}
+			}
+		}
+	}
+};
+INFOX27438.init();
