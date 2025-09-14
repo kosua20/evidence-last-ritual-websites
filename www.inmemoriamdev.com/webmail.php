@@ -6,6 +6,7 @@
 </head>
 <body>
 <h2 id="header">Webmail - Evidence : The Last Ritual / In Memoriam 2</h2>
+
 <?php 
 include("scriptIM2/credentials.php");
 
@@ -13,7 +14,7 @@ include("scriptIM2/credentials.php");
 $conn = new mysqli($servername, $username, $password, "last_ritual_db");
 if ($conn->connect_error) {
 
-    echo "<h3>ERROR</h3><p>We couldn't load the database associated with your username. Please check that your username is correct, and that the server/database is up and running.";
+    echo "<h3>ERROR</h3><p>We couldn't load the database associated with your username. Please check that your username is correct, and that the server/database is up and running. <a href=\"index.php\">Go back</a>";
 
 } else {
 
@@ -21,7 +22,7 @@ if ($conn->connect_error) {
     $user_lr = lastritual_encode($_POST["userid"]);
     $tablename = "messages_" . $user_lr;
 
-    echo "<form action=\"webmail.php\" method=\"post\" id=\"userreload\">User: " . $_POST["userid"] . " <input type=\"hidden\" name=\"userid\" value=\"" . $_POST["userid"] . "\"><input type=\"submit\" value=\"Refresh\"></form>";
+    echo "<form action=\"webmail.php\" method=\"post\" id=\"userreload\"><a href=\"index.php\">< Home</a>&nbsp;&nbsp;&nbsp;&nbsp;Current user: " . $_POST["userid"] . "&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"hidden\" name=\"userid\" value=\"" . $_POST["userid"] . "\"><input type=\"submit\" value=\"Refresh\"></form>";
 
     // Retrieve all past messages.
     $sql = "SELECT fromname, fromadr, subject, body, time, delai, FROM_UNIXTIME(UNIX_TIMESTAMP(time) + delai) FROM " . $tablename . " WHERE UNIX_TIMESTAMP(time) + delai <= UNIX_TIMESTAMP() ORDER BY UNIX_TIMESTAMP(time) + delai DESC";
