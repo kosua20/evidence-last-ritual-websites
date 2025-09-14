@@ -1,0 +1,9 @@
+# Evidence The Last Ritual Local Redirections
+# Server for the game
+  127.0.0.1 www.inmemoriamdev.com
+# Dedicated websites
+  127.0.0.1 www.albane.euro.st www.alcina-cooking.com www.alternatherapie.net www.argyll-housesforsale.com www.aroundlochawe.com www.byronandson.com www.calahorra.info www.caledonianhistory.com www.californianbloggers.com
+  127.0.0.1 www.carneiro-pokerclub.com www.castelodosmouros.com www.cathedrale-paris.net www.clairekettley.net www.detective-ari.com www.dichters-de.com www.hermeticum.info www.ikl-network.com www.inmemoriam-fabiopatinha.net
+  127.0.0.1 www.jacquesdemolay.info www.julie-webzine.net www.liberation-inmemoriam.fr www.losamigosdedante.org www.macbenach.net www.maisnie-champenoise.org www.meroe.info www.naadirossem.net www.nag-hammadi.com
+  127.0.0.1 www.olho-de-lisboa.info www.per-ao.com www.phoenix-investigators.org www.phoenix-killer.info www.psykokronik.net www.skl-network.com www.smokingbug.com www.snst-center.com www.st-dominic-f.org
+  127.0.0.1 www.theo-makarios.info www.umanista.net www.viagensnotempo.com www.xineph.com
