@@ -1,0 +1,43 @@
+msg0
+str = "Beware, my little friend\r";
+str += "You\'re about to enter the Phoenix\'s lair and become a chose one...\r";
+str += "But it\'s still time for you to step back... ";
+
+msg2
+str = "Congratulations my little friend,\r";
+str += "but by trying to get closer to the Truth,\r";
+str += "she burnt her wings...";
+
+msg3
+str = "That\'s very good my little friend...\r";
+str += "You might be able to save her...\r";
+str += "Very soon";
+
+msg4
+str = "Don\'t worry, she\'s still alive...\r";
+str += "Unfortunately, she is not quite about going home soon...\r";
+str += "By the way, do you even know where she comes from?";
+
+msg5
+str = "Very good my little friend... You\'re getting closer...\r";
+str += "But will you dare playing with me to save her?";
+
+msg6
+str = "As Jack would say, everything started with that super-8 film...\r";
+str += "It was but one step towards the Truth...\r";
+str += "The Phoenix\'s Sacred Mission.\r";
+str += "Fancy playing my game to discover what it is?";
+
+msg7
+str = "You\'ve managed to get into my lair\'s antechamber...\r";
+str += "Other, more difficult missions are waiting for you. \r";
+str += "Type my name on your keyboard to find out just what is involved...";
+
+msg8
+str = "I\'ve sent my Work to SKL Network, Jack\'s agency,\r";
+str += "You won\'t miss out either...\r";
+str += "\r";
+str += "See you very soon...";
+
+msg_jeu3
+str = "Try again, my little friend...";
