@@ -1,0 +1,11 @@
+body { color:rgb(0,0,0); font-family:Arial;}
+h1 { color:rgb(128,64,0); font-size:14pt; font-family:Arial;}
+h2 { color:rgb(217,108,0); font-size:12pt; font-family:Arial;}
+h3 { color:rgb(128,64,0); font-size:20pt; font-family:Arial;}
+p.namo-list { color:rgb(128,0,0); font-size:10pt; font-family:Arial;}
+p.namo-sublist { color:rgb(192,64,0); font-size:10pt; font-family:Arial;}
+th { color:rgb(0,0,0); font-family:Arial;}
+td { color:rgb(0,0,0); font-family:Arial;}
+a:link {}
+a:visited {}
+a:active {}
