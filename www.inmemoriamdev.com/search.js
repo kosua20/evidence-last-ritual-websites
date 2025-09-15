@@ -60,6 +60,11 @@ sites = [
 		description: "As a Parisian born and bred and a bit of a history freak, I've decided to devote my own personal web site to our dear old cathedral that has been firmly enthroned for centuries in the very heart of the French capital. " 
 	},
 	{ 
+		site: "cgalco.free.fr", 
+		keywords: [ "mertola", "mina", "aguas contaminadas", "aguas", "contaminadas", "sao domingos", "sao", "domingos", "mertola", "portugal", "mértola", "mine", "copper", "são" ], 
+		description: "Report about water pollution (aguas contaminadas) around Mertola, in Portugal, due to the copper mine in Sao Domingos (mina de Sao Domingos)." 
+	},
+	{ 
 		site: "www.clairekettley.net", 
 		keywords: [ "claire kettley", "scotland", "scottish identity", "kettley" ], 
 		description: "Claire Kettley, Scottish and proud of it. I belong to the Scottish nation in a way that’s different from the normal clichés. Without denying the folkloric aspects linked to beer, whisky, bagpipes and haunted castles, I find my Scottish identity through more traditional and introspective aspects. Scotland is a land rich in signs and symbols, and I try my best to draw inspiration from this, so that it really is a part of me." 
@@ -76,7 +81,7 @@ sites = [
 	},
 	{ 
 		site: "www.hermeticum.info", 
-		keywords: [ "alchemy", "substance", "hermetic" ], 
+		keywords: [ "alchemy", "substance", "hermetic", "seven principles universe", "triple veil Isis" ], 
 		description: "Alchimia est impuri separatio a substantia puriore. Alchemy is the separation of the impure from the most pure substance. est impuri separatio a substantia puriore" 
 	},
 	{ 
@@ -131,7 +136,7 @@ sites = [
 	},
 	{ 
 		site: "www.nag-hammadi.com", 
-		keywords: [ "Naghammadi", "Nag hammadi", "Nag Hammadi Library", "gnosis", "Christian tradition", "Nag Hammadi texts", "seven principles universe", "triple veil Isis" ], 
+		keywords: [ "Naghammadi", "Nag hammadi", "Nag Hammadi Library", "gnosis", "Christian tradition", "Nag Hammadi texts" ], 
 		description: "Naghammadi. The Nag Hammadi Library. Initiation into gnosis and the Christian tradition, as enlightened by the Nag Hammadi texts" 
 	},
 	{ 
@@ -158,6 +163,11 @@ sites = [
 		site: "www.psykokronik.net", 
 		keywords: [ "psykokronik", "amelie sorel", "graphic", "graphisme", "graphiste", "illustration", "illustrateur", "création", "site web", "website", "retouche photo", "arts", "montreal", "montréal" ], 
 		description: "graphisme, illustration, création site web, retouche photo par Amelie Sorel"
+	},
+	{ 
+		site: "www.salemwitchmystery.com", 
+		keywords: [ "salem", "salem trial", "salem trials", "witch", "witches", "salem mystery" ], 
+		description: "In 1692, the incoherent and indecent behavior of eight girls shocked the inhabitants of Salem, Massachusetts. Their symptoms failing to correspond to any known illness, one of the attending doctors suggested they were caused by witchcraft."
 	},
 	{ 
 		site: "www.skl-network.com", 
